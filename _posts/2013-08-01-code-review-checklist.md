@@ -8,7 +8,7 @@ title: Code Reviews, a Checklist
 This is a __work in progress__. Feel free to send me your comments/additions/objections via GitHub or Twitter.
 {: .alert}
 
-Reviewing code from fellow developers should be considered a best practice. While its main goal is to make sure a fellow developer didn't lose track of what a good software developer should do, it can also help the reviewer extend his knowledge of a project and get inspired by other's code.
+Reviewing code from fellow developers should be considered a best practice. While its main goal is to make sure your teammate didn't lose track of what a good software developer should do, it can also help the reviewer extend his knowledge of a project and get inspired by other's code.
 
 ## 5 Golden Rules
 
@@ -42,6 +42,9 @@ My team is using [GitFlow][4] on our own Git servers (i mean "no GitHub", so no 
 - Deploy on your staging environment to make sure things are ok
 - Clean up Git branches behind you
 
+        $ git branch -d branch-to-review
+        $ git push origin :branch-to-review
+
 ## A note about testing
 
 Reviewing code that doesn't include tests can be disappointing for a reviewer and adding some tests after an implementation feels like cheating.
@@ -59,7 +62,7 @@ Here is a quote from Daniel Eggert - from the excellent [objc.io][1] - that both
 
 I'll try to add some examples and additions to this page as I process code reviews in the future. 
 Again, feel free to get in touch to provide some feedback and as this page is open source and
-available on GitHub, pull requests are welcome.
+available on GitHub, pull requests are welcome. I'll review them with a great pleasure.
 
 
 [1]: http://www.objc.io/issue-1/testing-view-controllers.html
