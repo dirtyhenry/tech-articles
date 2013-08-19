@@ -14,7 +14,7 @@ Reviewing code from fellow developers should be considered a best practice. Whil
 
 Things to have in mind/check when you review code include these 5 golden rules:
 
-1. The code compiles on the reviewer's environment and tests are not broken.
+1. The code compiles on the reviewer's environment without warnings and tests are not broken.
 2. The new code implements the bug fix/feature it was supposed to.
 3. The code remains [DRY][2].
 4. Things are kept small and simple, with a clear separation of concerns: ["each class should do only one thing, and do that one thing well"][3]. If you don't get what the new code is doing, something's wrong.
@@ -31,11 +31,11 @@ My team is using [GitFlow][4] on our own Git servers (i mean "no GitHub", so no 
 
         $ git merge-base branch-to-review develop
         ee682bdaf3a578a8de647006b500c87ca72c7ffc
-    
+
     - Then, use your diff tool to visualize what changed (i personally use [Kaleidoscope][5])
-    
+
         $ git difftool ee682bdaf3a578a8de647006b500c87ca72c7ffc HEAD
-        
+
 - Give the review developer some feedback, ask questions about what is not clear
 - If necessary, fix the code by yourself if changes are fast to implement (letting the other know what you're doing) or in pair programming with the reviewee if things are heavier
 - Merge the code on the base branch
@@ -50,12 +50,12 @@ My team is using [GitFlow][4] on our own Git servers (i mean "no GitHub", so no 
 Reviewing code that doesn't include tests can be disappointing for a reviewer and adding some tests after an implementation feels like cheating.
 Here is a quote from Daniel Eggert - from the excellent [objc.io][1] - that both reviewers and reviewees should have in mind when reviewing/developing:
 
-> Tests should help us speed up development and make things more fun. 
+> Tests should help us speed up development and make things more fun.
 > `[...]`
-> Generally, if you find something difficult to test, that’s a hint that your 
-> design may be broken and that you should refactor some of it. 
+> Generally, if you find something difficult to test, that’s a hint that your
+> design may be broken and that you should refactor some of it.
 > `[...]`
-> You’ll get diminishing returns as you add more tests. First and foremost, add simple tests. 
+> You’ll get diminishing returns as you add more tests. First and foremost, add simple tests.
 > Branch into more sophisticated territory as you start to feel comfortable with it.
 
 ## Conclusion
