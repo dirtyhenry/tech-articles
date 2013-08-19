@@ -58,6 +58,13 @@ Here is a quote from Daniel Eggert - from the excellent [objc.io][1] - that both
 > You’ll get diminishing returns as you add more tests. First and foremost, add simple tests.
 > Branch into more sophisticated territory as you start to feel comfortable with it.
 
+## Links
+
+Other resources discuss the subject:
+
+* [How do you perform code reviews?][10]
+* [What to look for in a code review?][9]
+
 ## Conclusion
 
 I'll try to add some examples and additions to this page as I process code reviews in the future. 
@@ -73,3 +80,5 @@ available on GitHub][6], pull requests are welcome. I'll review them with a grea
 [6]: https://github.com/dirtyhenry/bootstragram-blog/blob/master/_posts/2013-08-01-code-review-checklist.md
 [7]: https://github.com/dirtyhenry/bootstragram-blog
 [8]: https://twitter.com/dirtyhenry/
+[9]: http://stackoverflow.com/questions/4262693/what-to-look-for-in-a-code-review
+[10]: http://stackoverflow.com/questions/310813/how-do-you-perform-code-reviews
