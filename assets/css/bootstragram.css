@@ -85,7 +85,7 @@ ul.posts li {
     padding: 30px 20px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   h1 {
     font-size: 1.5em;
   }
