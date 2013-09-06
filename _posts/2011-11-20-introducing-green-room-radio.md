@@ -28,10 +28,10 @@ Technically speaking, we created a native iOS app, running on iPad, iPhone and i
 We started from scratch, wrote the first line of code at 1.30pm and by 7pm, were ready for our demo of a functional-but-ugly app. 
 Here are some screenshots:
 
-![Screenshot of the geolocation feature](../img/screenshot-green-room-radio-1.png "Geolocation and list of tonight's concerts in the area")
+![Screenshot of the geolocation feature](../assets/img/screenshot-green-room-radio-1.png "Geolocation and list of tonight's concerts in the area")
 {: .img-polaroid}
 
-![rezertezr](../img/screenshot-green-room-radio-2.png "rezr")
+![rezertezr](../assets/img/screenshot-green-room-radio-2.png "rezr")
 {: .img-polaroid}
 
 ## What happens next?

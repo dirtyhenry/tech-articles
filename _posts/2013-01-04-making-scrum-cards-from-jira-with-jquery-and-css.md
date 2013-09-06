@@ -29,7 +29,7 @@ Head to [this GitHub repo](https://github.com/dirtyhenry/jira-to-agile-cards), c
     
 And refresh your HTML page. Tada!
 
-![The beautiful result: a scrum board with pretty yellow scrum cards](../img/scrum_board.png "The beautiful final result")
+![The beautiful result: a scrum board with pretty yellow scrum cards](../assets/img/scrum_board.png "The beautiful final result")
 
 ## Troubleshooting
 

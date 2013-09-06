@@ -6,6 +6,9 @@ javascript: tooltip.js
 
 # A same website for desktop and mobile?
 
+Update 2013: This post was first published in my previous website. It is still mostly relevent but needs updates. I'll try to update it soon.
+{: .alert .alert-info}
+
 Internet is turning mobile. So what should I do then? Make a desktop version and a mobile version of my website?
 Not really. CSS at the rescue.
 {: .lead}

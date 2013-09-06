@@ -26,7 +26,7 @@ pre {
 p {
   margin-bottom: 0.5em;
 }
-p .img-polaroid {
+p.img-polaroid {
   text-align: center;
 }
 li {
