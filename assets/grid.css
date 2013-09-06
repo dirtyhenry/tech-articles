@@ -1,0 +1,89 @@
+/** TYPO AND COLORS */
+body {
+  font: normal 100%/1.375 Lucida Grande, Calibri, sans, sans-serif;	/* 22px / 16px = 1.375 */
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 0.91667em;	/* 22px / 24px = 0.91667em */
+}
+
+ul {
+  font-size: 0.875em;		/* 14px / 16px = 0.875em */
+  line-height: 1.28571;	/* 18px / 14px = 1.28571 */
+}
+
+li {
+  margin-bottom: 0.42857em;	/* 6px / 14px = 0.42857em */
+}
+
+/** GRID AND LAYOUT */
+#page {
+  margin: 0px auto;
+  padding: 0 0.75em; /* 12px / 16px = 0,75em */
+  max-width: 62.5em; /* 1000px / 16px = 62,5em */
+  border: thin solid #ddddff;
+}
+
+h1 {
+  width: 49%; /* 490px / 1000px = 0.49 */
+  margin-top: 40px;
+  margin-left: 20.40%; /* 204 / 1000px = 20,4% */ 
+  border: thin solid #ddddff;
+}
+
+.entry .content {
+  float: right;
+  width: 79.6%; /* 796px / 1000 px */
+  border: thin solid #ddddff;
+}
+
+.entry .navigation {
+  float: left;
+  width: 18.4%; /* 184px / 1000px */
+  border: thin solid #ddddff;
+}
+
+.entry .main {
+  float: left;
+  width: 61.557%;
+  border: thin solid #ddddff;
+}
+
+.entry .meta {
+  float: right;
+  width: 35.929%;
+  border: thin solid #ddddff;
+}
+
+.entry .main img,
+.entry .main object {
+  max-width: 100%;  
+}
+
+.nettoyeur {
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .entry .main,
+  .entry .meta {
+    float: none;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .entry .content,
+  .entry .navigation {
+    float: none;
+    width: auto;
+  }
+}
