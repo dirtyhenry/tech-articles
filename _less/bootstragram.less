@@ -4,14 +4,30 @@
 
 @import "vendor/retina.less";
 
+// Fonts
+@headerfont: "source-sans-pro";
+@bodyfont: "calluna";
+
+// Colors
+@backgroundcolor: #FAFAFA;
+@bodycolor: #444;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: @headerfont, sans-serif;
+}
+
 body {
     line-height: 1.4em;
-    color: #444;
-    font-family: 'Source Sans Pro', sans-serif;
+    color: @bodycolor;
+    font-family: @bodyfont, serif;
     font-size: 1.2em;
-    background-color: #FAFAFA;
+    background-color: @backgroundcolor;
     padding-top: 60px;
     position: relative;
+    
+    .container {
+        max-width: 724px;
+    }
 }
 
 h1, h2, h3, h4, h5, footer {
@@ -37,6 +53,7 @@ li {
 }
 
 ul.posts {
+    font-family: @headerfont, sans-serif;
     list-style-type: none;
     margin-left: 0px;
     
@@ -82,5 +99,21 @@ ul.posts {
     .footer {
         margin: 30px -20px 0 -20px;
         padding: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.5em; }
+    h2 { font-size: 1.3em; }
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 0.25em;
+      padding-bottom: 0.25em;
+    }
+    body {
+        font-size: 1em;
+        .lead {
+            font-size: 1.1em;
+            line-height: 1.4em;
+        }
     }
 }

@@ -15,7 +15,7 @@ Not really. CSS at the rescue.
 
 ## Fluid Grids
 
-The first thing to do is to use {fluid grids}, which means using only relative sizes in your CSS, instead of absolute ones.
+The first thing to do is to use _fluid grids_, which means using only relative sizes in your CSS, instead of absolute ones.
 You can setup sizes relative to the default browser font size, to the parent HTML blocks, etc.
 
 With this kind of relative sizing, when the user changes the size of the browser, all the elements keep the same proportions.
@@ -23,7 +23,7 @@ With this kind of relative sizing, when the user changes the size of the browser
 ## Media Queries
 
 But what if a screen size gets to this critical point where keeping the same aspect and proportion is not relevant anymore?
-Then, you should use {media queries}.
+Then, you should use _media queries_.
 
 Here again, this is a CSS technique that you can use to reorganize the layout of your webpage upon certain conditions.
 For instance, if the width of the browser is below a certain size, you can give up a column layout and switch to a single-column 
