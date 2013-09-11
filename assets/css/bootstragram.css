@@ -10,7 +10,7 @@ h6 {
   font-family: "source-sans-pro", sans-serif;
 }
 body {
-  line-height: 1.4em;
+  line-height: 1.5em;
   color: #444444;
   font-family: "calluna", serif;
   font-size: 1.2em;
@@ -20,6 +20,10 @@ body {
 }
 body .container {
   max-width: 724px;
+}
+body .popover-content {
+  font-size: 0.9em;
+  line-height: 1.2em;
 }
 h1,
 h2,
@@ -41,7 +45,7 @@ p.img-polaroid {
   text-align: center;
 }
 li {
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 ul.posts {
   font-family: "source-sans-pro", sans-serif;
@@ -73,6 +77,11 @@ ul.posts li {
   margin-top: 30px;
   /*margin: 0 -20px;*/
 
+}
+blockquote p {
+  line-height: 1.5em;
+  font-size: 1em;
+  color: #444455;
 }
 @media (max-width: 979px) {
   body {

@@ -12,21 +12,29 @@
 @backgroundcolor: #FAFAFA;
 @bodycolor: #444;
 
+@bodyfontsize: 1.2em;
+@bodylineheight: 1.5em;
+
 h1, h2, h3, h4, h5, h6 {
   font-family: @headerfont, sans-serif;
 }
 
 body {
-    line-height: 1.4em;
+    line-height: @bodylineheight;
     color: @bodycolor;
     font-family: @bodyfont, serif;
-    font-size: 1.2em;
+    font-size: @bodyfontsize;
     background-color: @backgroundcolor;
     padding-top: 60px;
     position: relative;
     
     .container {
         max-width: 724px;
+    }
+    
+    .popover-content {
+        font-size: 0.9em;
+        line-height: 1.2em;
     }
 }
 
@@ -49,7 +57,7 @@ p {
 }
 
 li {
-    line-height: 1.4em;
+    line-height: @bodylineheight;
 }
 
 ul.posts {
@@ -87,6 +95,14 @@ ul.posts {
     padding: 30px 0;
     margin-top: 30px;
     /*margin: 0 -20px;*/
+}
+
+blockquote {
+    p {
+        line-height: @bodylineheight;
+        font-size: 1em;
+        color: #444455;
+    }
 }
 
 @media (max-width: 979px) {
