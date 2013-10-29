@@ -85,6 +85,9 @@ ul.posts small {
 ul.posts li {
   padding: 1em 0;
 }
+iframe.noborder {
+  border: none;
+}
 .alert {
   margin-top: 20px;
 }

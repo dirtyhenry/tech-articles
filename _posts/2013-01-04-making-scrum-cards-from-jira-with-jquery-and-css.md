@@ -1,46 +1,67 @@
 ---
 layout: default
-title: Making Scrum Cards from Jira with jQuery and CSS
+title: Bookmarklets for Jira OnDemand
 ---
 
-# Making Scrum Cards from Jira with jQuery and CSS
+# Bookmarklets for Jira OnDemand
 
-<p class="lead">
-  Sometimes you run out of Post-Its. Shit happens. Let's keep the task board busy anyway...
-</p>
 
-It happened to me in real-life. We just agreed on our Sprint backlog and are willing to display it proudly on our walls but... there's no Post-Its left. What are your options then?
+**Update!** The content of this post has been updated. I created bookmarklets to make things more convenient.
+{: .alert .alert-info}
 
-- you can just run to the local store... Sure but come on. This chair is comfortable.
-- you can find a plugin for your bug-tracker (let's just assume you're using Jira too, ok?) like [this one](https://marketplace.atlassian.com/plugins/com.spartez.scrumprint.scrumplugin) but what if you're using the "OnDemand" version?
 
-Well, then Jira's export functions and some basic jQuery and CSS can help.
+Sometimes you run out of Post-Its. Shit happens. 
+Let's keep the task board busy anyway...
+{: .lead}
 
-## Jira export
 
-In the "Issues" tab, select your filter, and then "Views" and "Excel (Current Fields)". Wait what?! We're going to use Excel?! Hell no. Keep calm and carry on. This kind of export is just a HTML file. Weird but kind of convenient. Rename this file with a <code>.html</code> extension, open it in a browser and a text editor: the magic is about to open.
+It happened to me in real-life. We just agreed on our Sprint backlog and are willing 
+to display it proudly on our walls but... there's no Post-Its left. 
+
+If you're using OnDemand Jira, here is an option to help you.
+
 
 ## The Magic of jQuery and CSS
 
-Head to [this GitHub repo](https://github.com/dirtyhenry/jira-to-agile-cards), copy the two files included in the same directory where you have your .html file and add the following 2 lines at the end of your Jira export:
+Here are the two bookmarklets I created for OnDemand Jira:
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="jira.js"></script>
-    
-And refresh your HTML page. Tada!
+<div>
+<iframe class="noborder" src="../assets/html/jira-bookmarklets.html" height="80"> </iframe>
+</div>
+
+**WTF?!** [What's a bookmarklet?!][2].
+{: .alert .alert-info}
+
+
+### The Post-It Bookmarklet
+
+Head on your OnDemand Jira instance, and choose a filter view. Click on the `Post-It` bookmarklet. Tada!
+
+You get a printable page that you can print, cut and paste on your task board!
 
 ![The beautiful result: a scrum board with pretty yellow scrum cards](../assets/img/scrum_board.png "The beautiful final result")
 
+
+### The Burndown Chart Bookmarklet
+
+Refresh your page to get the usual filter view and click on the `Burndown Chart` bookmarklet. Depending on your issues' statuses,
+you're informed of how much is done compared to your sprint overall point amount. (To work properly, the filter view must show the 
+optional `Story Points` column).
+
+![Screenshot of the alert you get](../assets/img/sprint-points.png)
+
+
 ## Troubleshooting
 
-If the "tada" moment is more of a "nothing happened" moment, check out your JavaScript console: it's most likely a jQuery download failure. In which case, download jQuery and change the above script to include a local version of jQuery.
-
-If it's still not working, try to get some context and yell at me [here](https://github.com/dirtyhenry/jira-to-agile-cards/issues).
+If the "tada" moment is more of a "nothing happened" moment, try to get some context and 
+yell at me [here](https://github.com/dirtyhenry/jira-to-agile-cards/issues).
 
 Full disclosure: other solutions could be:
 
 - [Agile Cards for JIRA plugin by Spartez](https://marketplace.atlassian.com/plugins/com.spartez.scrumprint.scrumplugin) but you won't be able to get it if you run the OnDemand version of Jira
-- [This Java code](http://blog.insane-development.org/?p=25) by insane-development.org
 - [This open-source Ruby gem](https://github.com/jhollingworth/jira-cards) by jhollingworth
 
 <a href="https://github.com/dirtyhenry/jira-to-agile-cards"><img style="position: fixed; top: 0; right: 0; border: 0; z-index:2000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+
+[1]: http://dirtyhenry.github.io/jira-to-agile-cards/
+[2]: https://en.wikipedia.org/wiki/Bookmarklet
