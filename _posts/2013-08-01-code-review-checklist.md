@@ -5,9 +5,6 @@ title: Code Reviews, a Checklist
 
 # Code Reviews, a Checklist
 
-This is a __work in progress__. Feel free to send me your comments/additions/objections via [GitHub][7] or [Twitter][8].
-{: .alert .alert-warning}
-
 Reviewing code from fellow developers should be considered a best practice. While its main goal is to make sure your teammate didn't lose track of what a good software developer should do, it can also help the reviewer extend his knowledge of a project and get inspired by other's code.
 
 ## 5 Golden Rules
