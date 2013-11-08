@@ -70,6 +70,10 @@ names for your different machines in your local network on this `192.168.1.1` ma
 
 In addition, you should probably assign static local IP adresses to your different machines as well.
 
+Be aware too, that you should avoid creating conflicts between the VPN network and a typical home network for instance, where
+all local IPs could start by `192.168.1.***`. Perhaps creating a VPN with IP like `192.168.11.***` for instance could be a 
+good idea.
+
 
 ### Dynamic IP
 
