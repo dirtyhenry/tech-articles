@@ -4,3 +4,4 @@ _301_management
 
 priv-*.md
 assets/img/priv-*
+.DS_Store
