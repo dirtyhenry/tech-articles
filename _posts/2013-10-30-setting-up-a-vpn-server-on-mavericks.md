@@ -12,7 +12,7 @@ to set up a VPN. That was fun and not that hard but I still ran into a couple of
 
 ## Why a VPN?
 
-In case you're still wondering what is a VPN at this point, let me explain.
+In case you're still wondering what a VPN is at this point, let me explain.
 
 ![Without a VPN](../assets/img/vpn-explain-1.png "Without a VPN")
 
