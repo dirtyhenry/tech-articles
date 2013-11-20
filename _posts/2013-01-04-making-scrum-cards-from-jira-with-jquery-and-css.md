@@ -6,7 +6,7 @@ title: Bookmarklets for Jira OnDemand
 # Bookmarklets for Jira OnDemand
 
 
-**Update!** The content of this post has been updated. I created bookmarklets to make things more convenient.
+**Update!** 2013 Nov. 20th: The bookrmarklets have been updated to support the new Jira OnDemand markup.
 {: .alert .alert-info}
 
 
