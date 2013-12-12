@@ -1,0 +1,40 @@
+---
+layout: index
+title: Bootstragram
+---
+
+<h1>Urban bike speed</h1>
+<div>
+  <form class="form-horizontal" id="bike" action="javascript:void(0);">
+    <fieldset>
+      <legend>How much time do I need to bike from A to B?</legend>
+      <div class="control-group">
+        <label>What's the distance?</label>
+        <div class="controls">
+          <input id="distance" type="text" value="3.0">
+        </div>
+      </div>
+      <div class="control-group">
+        <label>What's your average speed?</label>
+        <div class="controls">
+          <input id="speed" type="text" value="12">
+        </div>
+      </div>
+      <button id="submit" type="submit" class="btn" disabled>Compute</button>
+    </fieldset>
+  </form>
+</div>
+
+<script src="/js/vendor/jquery-1.8.3.min.js"></script>
+<script>
+$(function() {
+  $("#submit").removeAttr("disabled");
+  $("#bike").submit(function() {
+    speed = $("#speed").val();
+    distance = $("#distance").val();
+    
+    result = distance * 60 / speed;
+    alert(result);    
+  });
+});
+</script>
