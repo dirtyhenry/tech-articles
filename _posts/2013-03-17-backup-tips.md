@@ -50,17 +50,16 @@ this problem but the SuperDuper support people said it wasn't their top priority
 
 Now, I'm using [Backblaze][8]'s cloud backup solution to keep a remote backup of my HDD.
 Of course, this solution has some major drawbacks:
+
 - it's using a lot of your upload bandwidth
 - the initial backup can take several months
-- you need to hope Backblaze will still be around when your HDD fail
+- you need to hope Backblaze will still be around when your HDD fails
 - it doesn't keep an history of your files
 
-But it also ha big advantages
-- both upfront cost and long run cost are probably cheaper than investing in an external
-HDD
+But it also ha big advantages:
+
+- both upfront cost and long run cost are probably cheaper than investing in an external HDD
 - it's safer cause it's never at the same location than your primary HDD
-- you can actually use Backblaze to backup your Time Machine HDD as well (even though I'm
-not doing it so far)
 
 ## 3. Create a Media Center HDD!
 
