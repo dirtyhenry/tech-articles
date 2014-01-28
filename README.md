@@ -8,8 +8,8 @@ Work in progress... Obviously...
 
 ## Usage
 
-    jekyll --server
-    
+    jekyll serve
+
 ## Links
 
 * [jekyll][jekyll]: a blog-aware, static site generator in Ruby
