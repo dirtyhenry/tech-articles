@@ -53,9 +53,9 @@ feel free to [contact me][7].
 [1]: http://mobileappbos.eventbrite.com/
 [2]: http://wattnow.org/
 [3]: http://www.songkick.com/developer
-[4]: https://twitter.com/#!/saleandro
+[4]: https://twitter.com/saleandro
 [5]: http://bandcamp.com/developer
 [6]: http://en.wikipedia.org/wiki/Green_room
-[7]: http://twitter.com/#!/dirtyhenry
+[7]: http://twitter.com/dirtyhenry
 [8]: http://bit.ly/bostonhack
 [9]: https://www.facebook.com/media/set/?set=a.272239499489444.63625.151603081553087&amp;type=1
