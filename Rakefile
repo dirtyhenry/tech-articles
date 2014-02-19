@@ -10,4 +10,9 @@ namespace :bootstragram do
   task :open do
     sh "open http://bootstragram-blog.dev/blog/"
   end
+  
+  desc "Publish via GIT push"
+  task :publish do 
+    sh "git push deploy master"
+  end
 end
