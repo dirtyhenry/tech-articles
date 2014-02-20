@@ -1,2 +1,7 @@
+url: http://bootstragram.com
 permalink:  /:title/
 baseurl:    /blog
+sitemap:
+    exclude:
+        - "/.htaccess"
+        - "/htaccess"
