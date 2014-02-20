@@ -13,7 +13,7 @@ Programming Guides or documentation pages decoupled from code. Well guess what? 
 
 ## How do you do it then?
 
-It's pretty straightforward, you just need to create Markdown files, prefixed with `-template.md` and add a `--include` instruction
+It's pretty straightforward, you just need to create Markdown files, suffixed with `-template.md` and add a `--include` instruction
 in your appledoc call as in:
 
     appledoc ... --include *-template.md ...
