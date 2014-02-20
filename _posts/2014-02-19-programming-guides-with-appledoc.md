@@ -18,7 +18,7 @@ in your appledoc call as in:
 
     appledoc ... --include *-template.md ...
 
-Now, visit your index.html and you'll get a new links section at the bottom of the page called *Programming Guides* !
+Now, visit your index.html and you'll get a new links section at the bottom of the page called *Programming Guides*!
 
 
 ## Random Notes
