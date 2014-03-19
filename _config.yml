@@ -5,3 +5,4 @@ sitemap:
     exclude:
         - "/.htaccess"
         - "/htaccess"
+hightligher: rouge
