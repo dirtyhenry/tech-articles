@@ -27,7 +27,7 @@ question, many keywords appear to help getting our quest further: `Services`, `H
 
 ##  Let's give Services a try
 
-Ideally, I wanted to kind something similar to the [KVO][kvo] mechanism in iOS. 
+Ideally, I wanted to find something similar to the [KVO][kvo] mechanism in iOS. 
 
 I decided to give `Services` a try and developed a [POC][poc] you can find on [my bootstragram-android repository on GitHub][bootstragram-android].
 
@@ -52,34 +52,38 @@ The pitch for the POC is as silly as can be. The app will generate in the backgr
 
 When you create a `Service`, you need to declare it in your app manifest. I made mine private to my app but it's not required.
 
-    <application ...>
-        ....
-        <service 
-            android:name=".services.RandomEventsService" 
-            android:exported="false" >
-        </service>
-        ....
-    </application>
+{% highlight xml %}
+<application ...>
+    ....
+    <service 
+        android:name=".services.RandomEventsService" 
+        android:exported="false" >
+    </service>
+    ....
+</application>
+{% endhighlight %}
 
 The service itself is a subclass of [`IntentService`][intentservice] (which provides a convenient `onHandleIntent` method to override) doing very simple things:
 
-    protected void onHandleIntent(Intent intent) {
-        while (true) {
-            final RandomSingleton singleton = RandomSingleton.getInstance();
-            singleton.increment();
-            long endTime = System.currentTimeMillis() + 2 * 1000;
-            while (System.currentTimeMillis() < endTime) {
-                synchronized (this) {
-                    try {
-                        wait(endTime - System.currentTimeMillis());
-                    } catch (Exception e) {
-                        Log.e(TAG, "Couldn't sleep in peace", e);
-                    }
+{% highlight java %}
+protected void onHandleIntent(Intent intent) {
+    while (true) {
+        final RandomSingleton singleton = RandomSingleton.getInstance();
+        singleton.increment();
+        long endTime = System.currentTimeMillis() + 2 * 1000;
+        while (System.currentTimeMillis() < endTime) {
+            synchronized (this) {
+                try {
+                    wait(endTime - System.currentTimeMillis());
+                } catch (Exception e) {
+                    Log.e(TAG, "Couldn't sleep in peace", e);
                 }
-                singleton.increment();
             }
+            singleton.increment();
         }
     }
+}
+{% endhighlight %}
 
 The service just runs continously and wakes up every 2 seconds to update the `RandomSingleton` singleton object via the `increment()` method: objectives 1 and 2 are achieved.
 
@@ -87,10 +91,12 @@ Here is [the full source code][RandomEventsService].
 
 The service is started via a button in an activity:
 
-    public void onClick(View v) {
-        Intent intent = new Intent(ServiceFeedbackActivity.this, RandomEventsService.class);
-        startService(intent);
-    }
+{% highlight java %}
+public void onClick(View v) {
+  Intent intent = new Intent(ServiceFeedbackActivity.this, RandomEventsService.class);
+  startService(intent);
+}
+{% endhighlight %}
 
 
 ### UI Representation and Notifications
