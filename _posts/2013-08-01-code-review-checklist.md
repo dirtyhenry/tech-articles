@@ -61,6 +61,7 @@ Other resources discuss the subject:
 
 * [How do you perform code reviews?][10]
 * [What to look for in a code review?][9]
+* [All Code Is Bad, So Don't Stress If Yours Sucks][11] (added in May 2014)
 
 ## Conclusion
 
@@ -79,3 +80,4 @@ available on GitHub][6], pull requests are welcome. I'll review them with a grea
 [8]: https://twitter.com/dirtyhenry/
 [9]: http://stackoverflow.com/questions/4262693/what-to-look-for-in-a-code-review
 [10]: http://stackoverflow.com/questions/310813/how-do-you-perform-code-reviews
+[11]: http://lifehacker.com/all-code-is-bad-so-dont-stress-if-yours-sucks-1569821801
