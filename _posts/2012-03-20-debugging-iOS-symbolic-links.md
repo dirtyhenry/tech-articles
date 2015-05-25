@@ -21,19 +21,19 @@ another home directory every time you update your app on the App Store.
 (and now that i think of it, the simple fact that you can use absolute paths and not only paths 
 relative to your home directory in an iOS app sounds like a sandboxing bug from Apple's SDK to me).
 
-Anyway, I've created the `MFFileSystemExplorer` class in 
-[my work-in-progress *pomaceous* GitHub project][pomaceous], that will help you generate the following 
+Anyway, I've created the `BSGFileSystemExplorer` class in 
+[my work-in-progress *BSGUtilities* Pod][bsgutilities], that will help you generate the following 
 kind of output when you run it inside your app.
 
-Download `MFFileSystemExplorer` here :
+Download `BSGFileSystemExplorer` here :
 
-- [`MFFileSystemExplorer.h`][doth]
-- [`MFFileSystemExplorer.m`][dotm]
+- [`BSGFileSystemExplorer.h`][doth]
+- [`BSGFileSystemExplorer.m`][dotm]
 
 Notice the ---&gt; and -x-&gt; arrows which help you determine if items are symbolic links and whether 
 the file they target still exist or not. Please leave a message if you found this bit of code helpful!
 
-Typical use case would probably to run `[MFFileSystemExplorer exploreFileSystem];` from your 
+Typical use case would probably to run `[BSGFileSystemExplorer exploreFileSystem];` from your 
 app's delegate's `application:didFinishLaunchingWithOptions:`.
 
     |- Documents
@@ -63,6 +63,6 @@ app's delegate's `application:didFinishLaunchingWithOptions:`.
     |- tmp
 
 
-[pomaceous]: https://github.com/dirtyhenry/Pomaceous/
-[doth]: https://github.com/dirtyhenry/Pomaceous/blob/master/src/pomaceous/pomaceous/MFFileSystemExplorer.h
-[dotm]: https://github.com/dirtyhenry/Pomaceous/blob/master/src/pomaceous/pomaceous/MFFileSystemExplorer.m
+[bsgutilities]: https://github.com/dirtyhenry/Pomaceous/
+[doth]: https://github.com/Bootstragram/BSGUtilities/master/Pod/Classes/FileSystemUtils/BSGFileSystemExplorer.h
+[dotm]: https://github.com/Bootstragram/BSGUtilities/master/Pod/Classes/FileSystemUtils/BSGFileSystemExplorer.m
