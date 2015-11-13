@@ -10,9 +10,16 @@ module.exports = function(grunt) {
           {expand: true, cwd: 'bower_components/components-font-awesome/fonts/', src: ['*'], dest: 'vendor/assets/fonts/'}
         ]
       },
+      jQuery: {
+        files: 
+        [
+          {expand: true, cwd: 'bower_components/jQuery/', src: ['*.js'], dest: 'vendor/assets/js/'}
+        ]
+      },
       bootstragram: {
         files: 
         [
+          {expand: true, cwd: 'bower_components/bootstragram-web-commons/css/', src: ['*.css'], dest: 'vendor/assets/css/'},
           {expand: true, cwd: 'bower_components/bootstragram-web-commons/assets/', src: ['logo*.png'], dest: 'vendor/assets/images/'},
           {expand: true, cwd: 'bower_components/bootstragram-web-commons/js/', src: ['boot*.js'], dest: 'vendor/assets/js/'}
         ]

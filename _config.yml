@@ -1,8 +1,9 @@
 url: http://bootstragram.com
 permalink:  /:title/
-baseurl:    /blog
+baseurl:    /
 sitemap:
     exclude:
         - "/.htaccess"
         - "/htaccess"
 hightligher: rouge
+exclude: [ 'bower_components', 'node_modules', 'Gruntfile.js', 'bower.json' ]
