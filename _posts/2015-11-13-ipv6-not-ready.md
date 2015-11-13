@@ -1,11 +1,17 @@
+---
+layout: default
+title: IPv6 Ready ?
+category: blog
+---
+
 # IPv6 ready ?
 
 L'infrastructure réseau est-elle **prête pour l'IPv6 ?** La question s'est posée très simplement pour nous à *Bootstragram* au moment de chercher un hébergement pour nos serveurs. La réponse est simplement **non** !
-
+{: .lead} 
 
 ## IPv6 et Gandi VPS
 
-Ayant l'habitude de travailler avec [Gandi](http://www.gandi.net/) (noms de domaine et un serveur mi-pro / mi-perso), je suis allé voir leurs offres. Le serveur de base est à 7,96€ HT / mois[^1] en proposant seulement une IPv6. Rajouter une IPv4 au serveur représente 3,53€ HT / mois en plus, soit 44% d'augmentation !
+Ayant l'habitude de travailler avec [Gandi](http://www.gandi.net/) (noms de domaine et un serveur mi-pro / mi-perso), je suis allé voir leurs offres. Le serveur de base est à 7,96€ HT / mois[^1] en proposant seulement une IPv6. Rajouter une IPv4 au serveur représente 3,53€ HT / mois en plus, soit 44% d'augmentation&nbsp;!
 
 De là est né l'envie de tester un serveur IPv6 only et de vérifier si cela fonctionne correctement dans une infrastructure réseau à destination du grand public. Après tout pourquoi pas, on dit depuis des années qu'il faut passer à IPv6 pour palier à [l'épuisement des adresses IPv4](https://fr.wikipedia.org/wiki/%C3%89puisement_des_adresses_IPv4).
 
@@ -16,7 +22,7 @@ Nous avons donc créé un petit serveur IPv6 only pour nos tests.
 
 À la maison, mon fournisseur d’accès est Free, avec une Freebox V4 (firmware 1.5.20). La configuration par défaut de cette Freebox n'accepte pas l'IPv6, ce qui est un très mauvais démarrage pour nos tests.
 
-Il est possible d'activer le support de l'IPv6 en allant dans les réglages, mais cela implique qu'on se restreint à un publique de connaisseurs. Et puis surtout, même après activation, on se rend vite compte que ça ne fonctionne pas tout le temps.
+Il est possible d'activer le support de l'IPv6 en allant dans les réglages, mais cela implique qu'on se restreint à un public de connaisseurs. Et puis surtout, même après activation, on se rend vite compte que ça ne fonctionne pas tout le temps.
 
 Un `ssh@ipv6.de.mon.serveur.io`[^2] va tourner dans le vide sans afficher de prompt, alors que le `ssh@ipv4.de.mon.serveur.io` vers ce même serveur (qui a donc 2 IPs) va répondre tout de suite.
 
@@ -46,7 +52,7 @@ La [tentative de loi de Corinne Erhel](http://www.nextinpact.com/news/92774-fibr
 
 Et même si cette loi passe bientôt ; elle oblige les équipementiers à délivrer des terminaux compatibles IPv6 à partir du 1er janvier 2017 ; le temps que le renouvellement se propage ensuite chez les utilisateurs finaux et dans les infrastructures réseaux, il faudra compter quelques années avant d'avoir un taux de couverture IPv6 assez intéressant pour que les éditeurs passent le pas.
 
-On y est pas encore !
+On n'y est pas encore !
 
 [^1]: en se basant sur l'achat d'un pack de 2 millions de crédits chez Gandi
 [^2]: une IPv6 a cet aspect : `2001:4198:dc0:41:316:3eaf:fab8:b694`
