@@ -22,6 +22,11 @@
   font-size: 0.9em;
   line-height: 1.2em;
 }
+.legacy-footer {
+  margin-top: 3em;
+  border-top: thin solid #ddd;
+  color: #888;
+}
 pre {
   overflow: auto;
 }
