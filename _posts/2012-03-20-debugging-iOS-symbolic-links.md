@@ -2,6 +2,7 @@
 layout: default
 title: "Debugging Symbolic Links On iOS"
 javascript: tooltip.js
+category: blog
 ---
 
 # Debugging Symbolic Links On iOS

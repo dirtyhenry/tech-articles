@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Simulating protected properties and selectors in Objective-C
+category: blog
 ---
 
 # Simulating protected properties and selectors in Objective-C

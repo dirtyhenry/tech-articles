@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Code Reviews, a Checklist
+category: blog
 ---
 
 # Code Reviews, a Checklist

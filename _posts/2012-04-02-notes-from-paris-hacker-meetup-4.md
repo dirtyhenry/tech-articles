@@ -2,6 +2,7 @@
 layout: default
 title: "Notes from Paris Hacker Meetup #4"
 javascript: tooltip.js
+category: blog
 ---
 
 # Notes from Paris Hacker Meetup #4

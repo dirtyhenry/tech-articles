@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 7 tips to create a safe and consistent backup strategy as a Mac user
+category: blog
 ---
 
 # 7 tips to create a safe and consistent backup strategy as a Mac user

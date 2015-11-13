@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Setting up a VPN Server with Mac OS X Mavericks
+category: blog
 ---
 
 # Setting up a VPN Server with Mavericks

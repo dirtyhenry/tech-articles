@@ -1,6 +1,7 @@
 ---
 layout: default
 title: How to generate Programming Guides with Appledoc
+category: blog
 ---
 
 # How to generate Programming Guides with Appledoc

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Should I renew my Scrum Master certification?"
+category: blog
 ---
 
 # Should I renew my Scrum Master certification?

@@ -2,6 +2,7 @@
 layout: default
 title: "Troubleshooting a Dedibox Upgrade From Maverick to Natty (Ubuntu Server)"
 javascript: tooltip.js
+category: blog
 ---
 
 # Troubleshooting a Dedibox Upgrade From Maverick to Natty (Ubuntu Server)
