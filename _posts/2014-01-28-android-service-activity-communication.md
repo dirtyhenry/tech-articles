@@ -112,7 +112,7 @@ And that's it.
 
 ### The Result
 
-![The app updates the UI every 2s accordingly to the new singleton state](../assets/img/android-services-to-activity-communication.gif "The app updates the UI every 2s accordingly to the new singleton state")
+![The app updates the UI every 2s accordingly to the new singleton state](../../assets/images/android-services-to-activity-communication.gif "The app updates the UI every 2s accordingly to the new singleton state")
 
 ## Conclusion
 

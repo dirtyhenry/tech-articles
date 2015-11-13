@@ -1,5 +1,5 @@
 url: http://bootstragram.com
-permalink:  /:title/
+permalink:  blog/:title/
 baseurl:    /
 sitemap:
     exclude:

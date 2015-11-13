@@ -2,106 +2,62 @@
     With help from http://kaikkonendesign.fi/typography/
  */
  
-/* Color palette: http://www.colourlovers.com/palette/149132/Blue_Hippopotamus */
-
 @import "vendor/retina.less";
 
-// Color palette
-@palettedark: #454857;
-@palettedarktranslucent: rgba(69, 72, 87, 0.8);
-@paletteplain: #4F57AA;
-@palettelight: #BEE2E7;
-@palettegray: #72818B;
-@palettered: #8F002E;
-
 // Fonts
-@headerfont: "source-sans-pro";
 @bodyfont: "calluna";
 
-// Colors
-@backgroundcolor: #FAFAFA;
 @bodycolor: #444;
 
-@bodyfontsize: 1.9em;
+@bodyfontsize: 1.3em;
 @bodylineheight: 1.5em;
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: @headerfont, sans-serif;
-}
+.legacy-blog {
+  h1, h2, h3, h4, h5 {
+    font-family: 'Titillium Web', 'Titillium', sans-serif;
+  }
 
-body {
-    line-height: @bodylineheight;
-    color: @bodycolor;
-    font-family: @bodyfont, serif;
-    font-size: @bodyfontsize;
-    background-color: @backgroundcolor;
-    padding-top: 60px;
-    position: relative;
+  line-height: @bodylineheight;
+  color: @bodycolor;
+  font-family: @bodyfont, serif;
+  font-size: @bodyfontsize;
     
-    .container {
-        max-width: 724px;
-        padding: 0;
-    }
+  .container {
+    max-width: 724px;
+    padding: 0;
+  }
     
-    .popover-content {
-        font-size: 0.9em;
-        line-height: 1.2em;
-    }
-}
-
-nav {    
-    &.navbar-inverse {
-        background-color: @palettedarktranslucent;
-        color: @backgroundcolor;
-        border-bottom-color: @palettegray;
-        
-        .navbar-brand {
-            color: @backgroundcolor;        
-        }
-    }
-}
-
-h1, h2, h3, h4, h5, footer {
-    line-height: 1.1em;
-    color: #222;
-    padding: 0.6em 0;
+  .popover-content {
+    font-size: 0.9em;
+    line-height: 1.2em;
+  }
 }
 
 pre {
-    overflow: auto;
+  overflow: auto;
 }
 
 p {
-    margin-bottom: 0.5em;
-    
-    &.img-polaroid {
-        text-align: center;
-    }
-}
-
-a {
-    color: @paletteplain;
-    
-    &:hover {
-        color: @palettered;   
-        background-color: @palettelight;
-        text-decoration: none;
-    }
+  margin-bottom: 0.5em;
+  
+  &.img-polaroid {
+    text-align: center;
+  }
 }
 
 li {
-    line-height: @bodylineheight;
+  line-height: @bodylineheight;
 }
 
 img {
-    max-width: 100%; 
-    height: auto;
+  max-width: 100%; 
+  height: auto;
 }
 
 ul.posts {
-    font-family: @headerfont, sans-serif;
-    list-style-type: none;
-    margin-left: 0px;
+  font-family: 'Titillium Web', 'Titillium', sans-serif;
+  list-style-type: none;
+  margin-left: 0px;
     
     a {
         font-size: 2em;
@@ -110,7 +66,7 @@ ul.posts {
     }
     
     small {
-        color: @palettedark;
+        color: #444;
     }
     
     li {
@@ -128,24 +84,6 @@ iframe.noborder {
 
 .big-icon {
     font-size: 1.5em;
-}
-
-.footer {
-    font-size: 0.8em;
-    background-color: @palettedarktranslucent;
-    color: @backgroundcolor;
-    border-top: 1px solid @palettegray;
-    width: 100%;
-    padding: 1.5em 0;
-    margin-top: 1.5em;
-    
-    a {
-        color: @palettelight;
-        &:hover {
-            color: @palettered;
-            background-color: @palettelight;  
-        }
-    }
 }
 
 blockquote {

@@ -1,6 +1,17 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
+    less: {
+      production: {
+        options: {
+          yuicompress: true
+        },
+        files: {
+          "assets/css/bootstragram-blog.min.css": "_less/bootstragram-blog.less",
+          "assets/css/bootstragram-print.min.css": "_less/bootstragram-print.less"
+        }
+      }
+    },
     copy: {
       fontawesome: {
         files: 
@@ -54,5 +65,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-exec');
 
-  grunt.registerTask('default', [ 'copy' ]);
+  grunt.registerTask('default', [ 'copy', 'less' ]);
 };

@@ -41,23 +41,23 @@ Some stuff can help (the CSS `max-width` attribute for instance), but it's not u
 What's interesting me most here is not Internet Explorer-compatibility though, but making websites that look good on 
 iOS devices, the iPhone and the iPad. I've tried to give these techniques a try and here it is:
 
-![A grid layout](../assets/grid.png "A grid layout")
+![A grid layout](../../assets/images/grid.png "A grid layout")
 
 This is a 10-column layout of 82px each, separated by 20px gutters. With 2 outside gutters of 12px each, we get a grid defined 
 by a default width of 1024px.
 
 To setup my CSS correctly, some math are required:
 
-![Some grid math](../assets/grid-math.png "Some grid math")
+![Some grid math](../../assets/images/grid-math.png "Some grid math")
 
 Then I had all I needed to build the [CSS][1] for [this demo page][2].
 
 This demo page renders as follow on the iPhone, portrait and landscape:
 
-![Grid page rendering on an iPhone with portrait orientation](../assets/grid-portrait.jpg "Grid page rendering on an iPhone with portrait orientation")
+![Grid page rendering on an iPhone with portrait orientation](../../assets/images/grid-portrait.jpg "Grid page rendering on an iPhone with portrait orientation")
 {: .img-polaroid}
 
-![Grid page rendering on an iPhone with landscape orientation](../assets/grid-landscape.jpg "Grid page rendering on an iPhone with landscape orientation")
+![Grid page rendering on an iPhone with landscape orientation](../../assets/images/grid-landscape.jpg "Grid page rendering on an iPhone with landscape orientation")
 {: .img-polaroid}
 
 ## Conclusion
