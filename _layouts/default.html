@@ -2,17 +2,16 @@
 
 {% include navbar.html %}
 
-<div class="container">
-  {{ content }}
-    
+<div class="legacy-blog">
+  <div class="container">
+    {{ content }}
+  </div>
+
+  <div class="container legacy-footer">
+    <p>Latest update: {{ page.date | date: "%B %Y" }}</p>
+  </div>
 </div>
 
-<footer class="footer">
-  <div class="container">
-    <p>Latest update: {{ page.date | date: "%B %Y" }}</p>
-    <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
-    <p>Mickaël Floc'hlay 2013, 2014. Powered by <a href="http://jekyllrb.com/">jekyll</a>, sources available on <a href="https://github.com/dirtyhenry/bootstragram">GitHub</a>.</p>
-  </div>
-</footer>
+{% include footer-bis.html %}
 
 {% include footer.html %}

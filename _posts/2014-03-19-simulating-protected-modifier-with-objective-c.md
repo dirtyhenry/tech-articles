@@ -147,7 +147,7 @@ Please note:
 
 This is how George and Marty will introduce themselves:
 
-![Hello George and Marty](../assets/img/inheritance.png "Nasty Marty")
+![Hello George and Marty](../../assets/images/inheritance.png "Nasty Marty")
 
 You can find the full source code of this example on [my iOS Demo code][demo-ios] on GitHub.
 

@@ -39,7 +39,7 @@ Head on your OnDemand Jira instance, and choose a filter view. Click on the `Pos
 
 You get a printable page that you can print, cut and paste on your task board!
 
-![The beautiful result: a scrum board with pretty yellow scrum cards](../assets/img/scrum_board.png "The beautiful final result")
+![The beautiful result: a scrum board with pretty yellow scrum cards](../../assets/images/scrum_board.png "The beautiful final result")
 
 
 ### The Burndown Chart Bookmarklet
@@ -48,7 +48,7 @@ Refresh your page to get the usual filter view and click on the `Burndown Chart`
 you're informed of how much is done compared to your sprint overall point amount. (To work properly, the filter view must show the 
 optional `Story Points` column).
 
-![Screenshot of the alert you get](../assets/img/sprint-points.png)
+![Screenshot of the alert you get](../../assets/images/sprint-points.png)
 
 
 ## Troubleshooting
