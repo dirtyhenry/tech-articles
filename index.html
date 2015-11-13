@@ -6,10 +6,10 @@ title: Bootstragram
 <nav>
   <ul class="posts">
     {% for post in site.posts %}
-        <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <small>{{ post.date | date: "%B %Y" }}</small>
-        </li>
+    <li>
+      <a href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%B %Y" }}</small>
+    </li>
     {% endfor %}
   </ul>
 </nav>

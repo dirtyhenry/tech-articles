@@ -14,13 +14,13 @@ to set up a VPN. That was fun and not that hard but I still ran into a couple of
 
 In case you're still wondering what a VPN is at this point, let me explain.
 
-![Without a VPN](../assets/img/vpn-explain-1.png "Without a VPN")
+![Without a VPN](../../assets/images/vpn-explain-1.png "Without a VPN")
 
 The typical usage of a VPN in a professional context is to create a bridge between
 your enterprise network and the rest of the Internet. And if the bridge can be secured, 
 it's better.
 
-![With a VPN](../assets/img/vpn-explain-2.png "With a VPN")
+![With a VPN](../../assets/images/vpn-explain-2.png "With a VPN")
 
 
 ## OS X Server.app

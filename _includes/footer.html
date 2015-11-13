@@ -1,35 +1,20 @@
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <!-- BOOTSTRAP JS WITH LOCAL FALLBACK-->
-    <script> 
-    if (typeof($.fn.modal) === 'undefined') {
-      document.write('<script src="{{ site.baseurl }}/assets/js/vendor/bootstrap.min.js"><\/script>');  
-    }
-    </script>
-    <!-- BOOTSTRAP CDN FALLBACK CSS-->
-    <script>$(document).ready(function() {
-    var navPosition = $('nav').css("position"); 
-    if (navPosition != 'fixed') {
-        $("head").prepend("<link rel='stylesheet' href='{{ site.baseurl }}/assets/css/vendor/bootstrap.min.css' type='text/css' media='screen'>");
-    }});
-    </script>
-    <script src="{{ site.baseurl }}/assets/js/bootstragram.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/highlight.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/retina.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+  <script src="{{ 'vendor/assets/js/jquery.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ 'vendor/assets/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ 'vendor/assets/js/highlight.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ 'vendor/assets/js/retina.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ 'assets/js/bootstragram.js' | prepend: site.baseurl }}"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 
-    {% if page.javascript %}
-    <script src="{{ site.baseurl }}/assets/js/{{ page.javascript}}"></script>
-    {% endif %}
+  {% if page.javascript %}
+  <script src="{{ site.baseurl }}assets/js/{{ page.javascript}}"></script>
+  {% endif %}
 
-    <script>
-    var _gaq=[['_setAccount','UA-37299595-1'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
-    
-    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script>
+  var _gaq=[['_setAccount','UA-37299595-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
