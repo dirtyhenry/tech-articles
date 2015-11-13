@@ -1,5 +1,5 @@
-Bootstragram
-============
+Bootstragram Blog
+=================
 
 
 This repository contains the sources of my [Jekyll-powered][jekyll] blog that is available online at [bootstragram.com][bootstragram].
@@ -15,12 +15,13 @@ This repository only contains the data located under the `/blog/` subdirectory o
 
     jekyll serve
 
+
 ## Links
 
 * [jekyll][jekyll]: a blog-aware, static site generator in Ruby
 * [bootstrap][bootstrap]: front-end framework for faster and easier web development
 * [HTML5 Boilerplate][html5-boilerplate]: front-end template
-* [sitemap.xml generator][https://github.com/kinnetica/jekyll-plugins] by kinnetica
+* [sitemap.xml generator](https://github.com/kinnetica/jekyll-plugins) by kinnetica
 
 
 [jekyll]: http://jekyllrb.com/ "Transform your text into a monster"
