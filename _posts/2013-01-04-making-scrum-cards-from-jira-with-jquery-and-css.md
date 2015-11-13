@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Bookmarklets for Jira OnDemand
+category: blog
 ---
 
 # Bookmarklets for Jira OnDemand

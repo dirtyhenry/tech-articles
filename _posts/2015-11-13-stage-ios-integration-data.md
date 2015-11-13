@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Développeur iOS/Rails - Intégration de data dans l'app Statium
+category: jobs
 ---
 
 # Développeur iOS/Rails - Intégration de data dans l'app Statium

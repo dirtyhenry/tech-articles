@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "First Hackathon Experience: Introducing Green Room Radio"
+category: blog
 ---
 
 # First Hackathon Experience: Introducing Green Room Radio

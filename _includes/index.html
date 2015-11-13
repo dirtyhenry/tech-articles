@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="post-list">
+    <header>
+      <h1>{{ page.category | capitalize }}</h1>
+    </header>
+
+    {% assign posts=site.categories[page.category] %}                
+    {% for post in posts %}        
+    {% if page.category != 'author' or (page.category == 'author' and post.authors contains page.title) %}
+        
+    <div class='post-list__item'>
+      <h2 class="post-list__item-title"><a href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}" class="post-list__item-link">{{ post.title }}</a></h2>
+      <div class="post-list__item-metadata">
+        <div class="clearfix">
+          {% for author in post.authors %}
+          <div class="post-list__item-author">
+            <a rel="author" href="/{{ author | replace: ' ', '_' | downcase | prepend: site.baseurl }}/">{{ author }}</a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="post-list__item-preview">
+        <div class="post-list__item-cover">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-list__item-link">
+            <img src="{{ post.covercolor }}">
+          </a>
+          {% if post.cover_copyright %}
+          <p class="pull-right"><small>© {{ post.cover_copyright }}</small></p>
+          {% endif %}
+        </div>
+        <div class="post-list__item-preview">
+          <div class="post-list__item-subtitle">{{ post.subtitle }}</div>
+          <div class="post-list__item-description">{{ post.description }}</div>
+          <div class="post-list__item-readmore"><a href="{{ post.url | prepend: site.baseurl }}">{{ site.t[page.lang].readmore }}</a></div>
+        </div>
+      </div>
+    </div>
+          
+    {% endif %}
+          
+    {% endfor %}
+  </div>
+</div>

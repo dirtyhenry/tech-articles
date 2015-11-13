@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Service to Activity Communication With The Android SDK
+category: blog
 ---
 
 # Service to Activity Communication With The Android SDK

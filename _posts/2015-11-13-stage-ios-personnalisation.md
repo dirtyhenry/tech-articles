@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Développeur iOS/Rails - Personnalisation de l'app Statium
+category: jobs
 ---
 
 # Développeur iOS/Rails - Personnalisation de l'app Statium

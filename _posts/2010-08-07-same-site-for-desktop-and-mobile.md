@@ -2,6 +2,7 @@
 layout: default
 title: "A same website for desktop and mobile?"
 javascript: tooltip.js
+category: blog
 ---
 
 # A same website for desktop and mobile?
