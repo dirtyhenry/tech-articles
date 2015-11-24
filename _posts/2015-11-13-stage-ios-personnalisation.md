@@ -8,10 +8,6 @@ category: jobs
 
 
 
-{% include about.md %}
-
-
-
 ## Sujet de stage
 
 [Statium pour iOS][statium-ios] a pour objectif d'offrir des fonctionnalités de personnalisation : 
@@ -22,7 +18,7 @@ category: jobs
  
 Dans le cadre du stage, tu seras en charge de créer ces fonctionnalités de personnalisation, du développement des écrans iOS à la gestion de la synchronisation des informations utilisateurs avec un back-office, en passant par l'intégration des algorithmes de *machine learning* retenus, ainsi que les tâches et responsabilités suivantes :  
 
-1. Identification des besoins back-office
+1. Identification des besoins back-office à intégrer sur notre plateforme (Ruby on Rails)
 1. Audit des solutions de back-office couvrant les besoins back-office
 1. Participation à la définition de l'interface utilisateur et de l'expérience utilisateur sur l'application iOS
 1. Conception des écrans, des algorithmes de personnalisation et des échanges avec le back-office
@@ -35,6 +31,10 @@ Dans le cadre du stage, tu seras en charge de créer ces fonctionnalités de per
 
 
 {% include profil-stage-ios.md %}
+
+
+
+{% include about.md %}
 
 
 
