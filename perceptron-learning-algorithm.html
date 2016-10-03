@@ -1,0 +1,214 @@
+---
+layout: default
+title: The Perceptron Learning Algorithm
+---
+
+<h1>The Perceptron Learning Algorithm</h1>
+
+<canvas id="plaPlayground" width="300" height="300" style="border:1px solid #444;">
+</canvas>
+
+<script>
+var debug = false;
+
+// Create a new random point in [-1, 1]
+var newRandomPoint = function() {
+  return {
+    x1: Math.random() * 2.0 - 1.0,
+    x2: Math.random() * 2.0 - 1.0
+  };
+}
+
+// Factory of linear functions
+var targetFunctionFactory = function(a, b) {
+  return function(x) {
+    return a * x + b;
+  }
+}
+
+// Create a new data set of size N
+var newDataSet = function(N) {
+  // Pick a line
+  var targetFunctionPtA = newRandomPoint();
+  var targetFunctionPtB = newRandomPoint();
+
+  var a = (targetFunctionPtB.x2 - targetFunctionPtA.x2) / (targetFunctionPtB.x1 - targetFunctionPtA.x1);
+  var b = targetFunctionPtA.x2 - a * targetFunctionPtA.x1;
+  var targetFunction = targetFunctionFactory(a, b);
+
+  // Choose n random points
+  var samples = [];
+  var index = 0;
+
+  for (index = 0; index < N; index++) {
+    var newPoint = newRandomPoint();
+    newPoint.outcome = Math.sign(newPoint.x2 - targetFunction(newPoint.x1));
+    samples.push(newPoint);
+  }
+
+  return {
+    targetFunctionPtA: targetFunctionPtA,
+    targetFunctionPtB: targetFunctionPtB,
+    targetFunction: targetFunction,
+    samples: samples
+  }
+}
+
+var h = function(pt) {
+  return Math.sign(window.w0 * 1.0 + window.w1 * pt.x1 + window.w2 * pt.x2);
+}
+
+var newArrayOfMisPoints = function(array) {
+  return array.filter(function(pt) {
+    return h(pt) != pt.outcome;
+  });
+}
+
+var resetLearning = function() {
+  // Start solving
+  window.w0 = 0.0;
+  window.w1 = 0.0;
+  window.w2 = 0.0;
+
+  window.iterations = 0;
+}
+
+var iterateLearningStep = function(dataSet) {
+  var iterationOver = false;
+  var misPoints = newArrayOfMisPoints(dataSet.samples);
+  if (misPoints.length > 0) {
+    var misPoint = misPoints[Math.floor(Math.random(misPoints.length))];
+
+    window.w0 += misPoint.outcome * 1.0;
+    window.w1 += misPoint.outcome * misPoint.x1;
+    window.w2 += misPoint.outcome * misPoint.x2;
+    window.iterations += 1;
+
+    console.log("Iterations:", window.iterations);
+  } else {
+    console.log("Ended iterations:", window.iterations);
+    iterationOver = true;
+  }
+  drawDataSet(dataSet);
+
+  return iterationOver;
+}
+
+var drawDataSet = function(dataSet) {
+  var mathCoordToGraphCoord = function(point) {
+    return {
+      x: (point.x1 + 1.0) * width / 2, // -1.0 => 0, 1.0 => width
+      y: (1.0 - point.x2) * height / 2 // -1.0 => height, 1.0 => 0
+    }
+  }
+
+  var c = document.getElementById("plaPlayground");
+  var ctx = c.getContext("2d");
+  var width = 300;
+  var height = 300;
+
+  ctx.clearRect(0, 0, width, height);
+  ctx.strokeStyle = '#888888';
+
+  var midX = width / 2;
+  var midY = height / 2;
+
+  // Draw X Axis
+  ctx.beginPath();
+  ctx.moveTo(0, midY);
+  ctx.lineTo(width, midY);
+  ctx.stroke();
+
+  // Draw Y Axis
+  ctx.moveTo(midX, 0);
+  ctx.lineTo(midX, height);
+  ctx.stroke();
+
+  // Draw Pt A & B
+  if (debug) {
+    var graphPtA = mathCoordToGraphCoord(dataSet.targetFunctionPtA);
+    var graphPtB = mathCoordToGraphCoord(dataSet.targetFunctionPtB);
+    ctx.strokeStyle = '#000000';
+    ctx.beginPath();
+    ctx.arc(graphPtA.x, graphPtA.y, 2, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.arc(graphPtB.x, graphPtB.y, 2, 0, 2 * Math.PI);
+    ctx.stroke();
+  }
+
+  // Draw a line from A to B
+  var rightPtY = dataSet.targetFunction(1);
+  var leftPtY = dataSet.targetFunction(-1);
+  var graphRightPt = mathCoordToGraphCoord({ x1: 1, x2: rightPtY });
+  var graphLeftPt = mathCoordToGraphCoord({ x1: -1, x2: leftPtY });
+  ctx.beginPath();
+  ctx.strokeStyle = '#0000FF';
+  ctx.moveTo(graphLeftPt.x, graphLeftPt.y);
+  ctx.lineTo(graphRightPt.x, graphRightPt.y);
+  ctx.stroke();
+
+  // Draw a line from W
+  var rightPtY = - (window.w1 / window.w2) * 1 - (window.w0 / window.w2);
+  var leftPtY = - (window.w1 / window.w2) * -1 - (window.w0 / window.w2);
+  var graphRightPt = mathCoordToGraphCoord({ x1: 1, x2: rightPtY });
+  var graphLeftPt = mathCoordToGraphCoord({ x1: -1, x2: leftPtY });
+  ctx.beginPath();
+  ctx.strokeStyle = '#FFA500';
+  ctx.moveTo(graphLeftPt.x, graphLeftPt.y);
+  ctx.lineTo(graphRightPt.x, graphRightPt.y);
+  ctx.stroke();
+
+  dataSet.samples.forEach(function(newPoint) {
+    // Draw the point
+    var graphPt = mathCoordToGraphCoord(newPoint);
+    ctx.beginPath();
+    ctx.arc(graphPt.x, graphPt.y, 2, 0, 2 * Math.PI);
+
+    var hVal = h(newPoint);
+    if (hVal == 1) {
+      ctx.strokeStyle = '#00ff00';
+    } else if (hVal == -1) {
+      ctx.strokeStyle = '#ff0000';
+    } else {
+      ctx.strokeStyle = '#0000ff';
+    }
+    ctx.stroke();
+  });
+}
+
+var iterateALot = function(N) {
+  var nbIterations = 0;
+  var errors = 0;
+  var j = 0;
+  for (j = 0; j < 1000; j++) {
+    window.currentDataSet = newDataSet(N);
+    resetLearning();
+    var iterations = 0;
+    while (!iterateLearningStep(window.currentDataSet)) {
+      iterations += 1;
+    }
+    console.debug("Iterations:", iterations);
+    nbIterations += iterations;
+
+    var k = 0;
+    for (k = 0; k < 10; k++) {
+      var newPoint = newRandomPoint();
+      if (h(newPoint) != Math.sign(newPoint.x2 - window.currentDataSet.targetFunction(newPoint.x1))) {
+        errors += 1;
+      }
+    }
+  }
+  console.info("Iterations total: ", nbIterations);
+  console.info("Errors: ", errors);
+}
+
+
+window.currentDataSet = newDataSet(100);
+resetLearning();
+drawDataSet(window.currentDataSet);
+</script>
+
+<button onclick="iterateLearningStep(window.currentDataSet);">Iterate</button>
+<button onclick="iterateALot(10);">Iterate a lot 10</button>
+<button onclick="iterateALot(100);">Iterate a lot 100</button>
