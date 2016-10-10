@@ -1,7 +1,7 @@
 url: http://bootstragram.com
 permalink:  /:categories/:title/
 baseurl:    /
-destination: ~/Developer/build/bootstragram-blog-gh-pages
+destination: /Users/mick/Developer/build/bootstragram-blog-gh-pages
 sitemap:
     exclude:
         - "/.htaccess"

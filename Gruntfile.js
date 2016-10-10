@@ -14,7 +14,7 @@ module.exports = function(grunt) {
     },
     copy: {
       fontawesome: {
-        files: 
+        files:
         [
           {expand: true, cwd: 'bower_components/components-font-awesome/css/', src: ['font-awesome.css'], dest: 'vendor/assets/css/'},
           {expand: true, cwd: 'bower_components/components-font-awesome/css/', src: ['font-awesome.min.css'], dest: 'vendor/assets/css/'},
@@ -22,13 +22,13 @@ module.exports = function(grunt) {
         ]
       },
       jQuery: {
-        files: 
+        files:
         [
           {expand: true, cwd: 'bower_components/jQuery/', src: ['*.js'], dest: 'vendor/assets/js/'}
         ]
       },
       bootstragram: {
-        files: 
+        files:
         [
           {expand: true, cwd: 'bower_components/bootstragram-web-commons/css/', src: ['*.css'], dest: 'vendor/assets/css/'},
           {expand: true, cwd: 'bower_components/bootstragram-web-commons/assets/', src: ['logo*.png'], dest: 'vendor/assets/images/'},
@@ -36,14 +36,14 @@ module.exports = function(grunt) {
         ]
       },
       bigfoot: {
-        files: 
+        files:
         [
           {expand: true, cwd: 'bower_components/bigfoot/dist/', src: ['bigfoot.min.js'], dest: 'vendor/assets/js/'},
           {expand: true, cwd: 'bower_components/bigfoot/dist/', src: ['bigfoot-default.css'], dest: 'vendor/assets/css/'}
         ]
-      }, 
+      },
       d3: {
-        files: 
+        files:
         [
           {expand: true, cwd: 'bower_components/d3/', src: ['d3*.js'], dest: 'vendor/assets/js/'}
         ]

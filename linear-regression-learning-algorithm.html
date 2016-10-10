@@ -1,0 +1,248 @@
+---
+layout: default
+title: The Linear Regression Learning Algorithm
+---
+
+<h1>The Linear Regression Learning Algorithm</h1>
+
+<p>
+via <a href="https://github.com/omphalos/smr">smr</a>.
+</p>
+
+<canvas id="plaPlayground" width="300" height="300" style="border:1px solid #444;">
+</canvas>
+
+<script src="/assets/js/linearRegression.js"></script>
+<script>
+var debug = false;
+
+// Create a new random point in [-1, 1]
+var newRandomPoint = function() {
+  return {
+    x1: Math.random() * 2.0 - 1.0,
+    x2: Math.random() * 2.0 - 1.0
+  };
+}
+
+// Factory of linear functions
+var targetFunctionFactory = function(a, b) {
+  return function(x) {
+    return a * x + b;
+  }
+}
+
+// Create a new data set of size N
+var newDataSet = function(N) {
+  // Pick a line
+  var targetFunctionPtA = newRandomPoint();
+  var targetFunctionPtB = newRandomPoint();
+
+  var a = (targetFunctionPtB.x2 - targetFunctionPtA.x2) / (targetFunctionPtB.x1 - targetFunctionPtA.x1);
+  var b = targetFunctionPtA.x2 - a * targetFunctionPtA.x1;
+  var targetFunction = targetFunctionFactory(a, b);
+
+  // Choose n random points
+  var samples = [];
+  var index = 0;
+
+  for (index = 0; index < N; index++) {
+    var newPoint = newRandomPoint();
+    newPoint.outcome = Math.sign(newPoint.x2 - targetFunction(newPoint.x1));
+    samples.push(newPoint);
+  }
+
+  return {
+    targetFunctionPtA: targetFunctionPtA,
+    targetFunctionPtB: targetFunctionPtB,
+    targetFunction: targetFunction,
+    samples: samples
+  }
+}
+
+var resetLearning = function() {
+  window.resetRegression();
+}
+
+// var newArrayOfMisPoints = function(array) {
+//   return array.filter(function(pt) {
+//     return h(pt) != pt.outcome;
+//   });
+// }
+
+var iterateLearningStep = function(dataSet, redraw = true) {
+  for (index = 0; index < dataSet.samples.length; index++) {
+    regression6.push({ x: [1, dataSet.samples[index].x1, dataSet.samples[index].x2], y: [dataSet.samples[index].outcome] })
+  }
+
+  window.regCoefficients = regression.calculateCoefficients();
+  console.debug(window.regCoefficients);
+  if (redraw) {
+    drawDataSet(dataSet);
+  }
+
+  var k = 0;
+  var errors = 0;
+  for (k = 0; k < dataSet.samples.length; k++) {
+    var newPoint = dataSet.samples[k];
+    var gVal = window.regCoefficients[0][0]
+    + window.regCoefficients[1][0] * newPoint.x1
+    + window.regCoefficients[2][0] * newPoint.x2;
+    var fVal = newPoint.outcome;
+    if (Math.sign(gVal) != Math.sign(fVal)) {
+      errors += 1;
+    }
+  }
+  console.log("Errors: " + errors);
+
+  return true; // Regression doesn't need iterations
+}
+
+var drawDataSet = function(dataSet) {
+  var mathCoordToGraphCoord = function(point) {
+    return {
+      x: (point.x1 + 1.0) * width / 2, // -1.0 => 0, 1.0 => width
+      y: (1.0 - point.x2) * height / 2 // -1.0 => height, 1.0 => 0
+    }
+  }
+
+  var c = document.getElementById("plaPlayground");
+  var ctx = c.getContext("2d");
+  var width = 300;
+  var height = 300;
+
+  ctx.clearRect(0, 0, width, height);
+  ctx.strokeStyle = '#888888';
+
+  var midX = width / 2;
+  var midY = height / 2;
+
+  // Draw X Axis
+  ctx.beginPath();
+  ctx.moveTo(0, midY);
+  ctx.lineTo(width, midY);
+  ctx.stroke();
+
+  // Draw Y Axis
+  ctx.moveTo(midX, 0);
+  ctx.lineTo(midX, height);
+  ctx.stroke();
+
+  // Draw Pt A & B
+  if (debug) {
+    var graphPtA = mathCoordToGraphCoord(dataSet.targetFunctionPtA);
+    var graphPtB = mathCoordToGraphCoord(dataSet.targetFunctionPtB);
+    ctx.strokeStyle = '#000000';
+    ctx.beginPath();
+    ctx.arc(graphPtA.x, graphPtA.y, 2, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.arc(graphPtB.x, graphPtB.y, 2, 0, 2 * Math.PI);
+    ctx.stroke();
+  }
+
+  // Draw a line from A to B
+  var rightPtY = dataSet.targetFunction(1);
+  var leftPtY = dataSet.targetFunction(-1);
+  var graphRightPt = mathCoordToGraphCoord({ x1: 1, x2: rightPtY });
+  var graphLeftPt = mathCoordToGraphCoord({ x1: -1, x2: leftPtY });
+  ctx.beginPath();
+  ctx.strokeStyle = '#0000FF';
+  ctx.moveTo(graphLeftPt.x, graphLeftPt.y);
+  ctx.lineTo(graphRightPt.x, graphRightPt.y);
+  ctx.stroke();
+
+  // Draw a line from regression
+  if (window.regCoefficients !== undefined) {
+    window.regressionFunction = function(x) {
+      return (- window.regCoefficients[1][0] / window.regCoefficients[2][0]) * x - (window.regCoefficients[0][0] / window.regCoefficients[2][0]);
+    }
+    var rightPtY = regressionFunction(1);
+    var leftPtY = regressionFunction(-1);
+    var graphRightPt = mathCoordToGraphCoord({ x1: 1, x2: rightPtY });
+    var graphLeftPt = mathCoordToGraphCoord({ x1: -1, x2: leftPtY });
+    ctx.beginPath();
+    ctx.strokeStyle = '#FFA500';
+    ctx.moveTo(graphLeftPt.x, graphLeftPt.y);
+    ctx.lineTo(graphRightPt.x, graphRightPt.y);
+    ctx.stroke();
+  }
+
+  dataSet.samples.forEach(function(newPoint) {
+    // Draw the point
+    var graphPt = mathCoordToGraphCoord(newPoint);
+    ctx.beginPath();
+    ctx.arc(graphPt.x, graphPt.y, 2, 0, 2 * Math.PI);
+
+    if (window.regCoefficients !== undefined) {
+      var hVal = window.regCoefficients[0][0]
+      + window.regCoefficients[1][0] * newPoint.x1
+      + window.regCoefficients[2][0] * newPoint.x2;
+      if (hVal > 0) {
+        ctx.strokeStyle = '#00ff00';
+      } else if (hVal < 0) {
+        ctx.strokeStyle = '#ff0000';
+      } else {
+        ctx.strokeStyle = '#0000ff';
+      }
+    }
+    ctx.stroke();
+  });
+}
+
+var iterateALot = function(N) {
+  var nbIterations = 0;
+  var errors = 0;
+  var j = 0;
+
+  for (j = 0; j < 1000; j++) {
+    window.currentDataSet = newDataSet(N);
+    resetLearning();
+    var iterations = 0;
+    while (!iterateLearningStep(window.currentDataSet, false)) {
+      iterations += 1;
+    }
+
+    // var thisRoundErrors = 0;
+    // var k = 0;
+    // for (k = 0; k < N; k++) {
+    //   var newPoint = window.currentDataSet.samples[k];
+    //   var gVal = window.regCoefficients[0][0]
+    //   + window.regCoefficients[1][0] * newPoint.x1
+    //   + window.regCoefficients[2][0] * newPoint.x2;
+    //   var fVal = newPoint.outcome;
+    //   if (Math.sign(gVal) != Math.sign(fVal)) {
+    //     thisRoundErrors += 1;
+    //   }
+    // }
+
+    var thisRoundErrors = 0;
+    var l = 0;
+    for (l = 0; l < 1000; l++) {
+      var newPoint = newRandomPoint();
+
+      var gVal = window.regCoefficients[0][0]
+      + window.regCoefficients[1][0] * newPoint.x1
+      + window.regCoefficients[2][0] * newPoint.x2;
+
+      if (Math.sign(gVal) != Math.sign(newPoint.x2 - window.currentDataSet.targetFunction(newPoint.x1))) {
+        thisRoundErrors += 1;
+      }
+    }
+
+    errors += thisRoundErrors;
+    console.debug("Done... " + thisRoundErrors);
+  }
+  console.info("Runs total: ", j);
+  console.info("Errors: ", errors);
+}
+
+
+window.currentDataSet = newDataSet(100);
+resetLearning();
+drawDataSet(window.currentDataSet);
+
+
+</script>
+
+<button onclick="iterateLearningStep(window.currentDataSet);">Iterate</button>
+<button onclick="iterateALot(100);">Iterate a lot 100</button>

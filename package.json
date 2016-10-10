@@ -11,5 +11,8 @@
   },
   "engines": {
     "npm": "1.3.x"
+  },
+  "devDependencies": {
+    "smr": "^0.12.5"
   }
 }
