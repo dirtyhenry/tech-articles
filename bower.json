@@ -5,7 +5,8 @@
     "jquery": "~2.0.3",
     "components-font-awesome": "~4.2.0",
     "bootstragram-web-commons": "~1.1.0",
-    "bigfoot": "~2.1.2"
+    "bigfoot": "~2.1.2",
+    "d3": "^3.0"
   },
   "ignore": [
     "**/.*",
