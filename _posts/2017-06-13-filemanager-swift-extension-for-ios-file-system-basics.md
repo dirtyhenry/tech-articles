@@ -19,22 +19,20 @@ I felt that iOS URL/paths was very confusing:
 So I came up with this little `FileManager`'s extension that could be useful to
 many:
 
-{% highlight swift %}
-extension FileManager {
-    func homeDirectory() -> URL {
-        return URL(fileURLWithPath: NSHomeDirectory())
-    }
+    extension FileManager {
+        func homeDirectory() -> URL {
+            return URL(fileURLWithPath: NSHomeDirectory())
+        }
 
-    func homeDirectoryPath() -> String {
-        return NSHomeDirectory()
-    }
+        func homeDirectoryPath() -> String {
+            return NSHomeDirectory()
+        }
 
-    func tmpDirectory() -> URL {
-        return homeDirectory().appendingPathComponent("tmp")
-    }
+        func tmpDirectory() -> URL {
+            return homeDirectory().appendingPathComponent("tmp")
+        }
 
-    // ...
-}
-{% endhighlight %}
+        // ...
+    }
 
 [ios-file-system-basics]: https://developer.apple.com/library/content/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/FileSystemOverview/FileSystemOverview.html#//apple_ref/doc/uid/TP40010672-CH2-SW12
