@@ -9,5 +9,5 @@ sitemap:
 hightligher: rouge
 exclude: [ 'bower_components', 'node_modules', 'Gruntfile.js', 'bower.json' ]
 
-gems:
+plugins:
   - jekyll-sitemap
