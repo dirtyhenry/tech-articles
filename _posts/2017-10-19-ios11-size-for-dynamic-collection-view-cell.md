@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to log and delete keychain items from your iOS app
+title: Dynamic resizing of a UICollectionViewCell's height
 category: blog
 ---
 
