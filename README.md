@@ -1,3 +1,7 @@
+![Bootstragram Logo](vendor/assets/images/logo-pixels-1.png)
+
+[![Build Status](https://travis-ci.org/Bootstragram/bootstragram-blog.svg?style=flat-square)](https://travis-ci.org/Bootstragram/bootstragram-blog)
+
 # Bootstragram Blog
 
 This repository contains the sources of Bootstragram's [Jekyll-powered][jekyll]
