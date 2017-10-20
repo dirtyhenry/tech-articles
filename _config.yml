@@ -7,7 +7,7 @@ sitemap:
         - "/.htaccess"
         - "/htaccess"
 hightligher: rouge
-exclude: [ 'bower_components', 'node_modules', 'Gruntfile.js', 'bower.json' ]
+exclude: [ 'bower_components', 'node_modules', 'Gruntfile.js', 'bower.json', 'Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md', 'Rakefile', 'package.json' ]
 
 plugins:
   - jekyll-sitemap
