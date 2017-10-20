@@ -1,20 +1,38 @@
-Bootstragram Blog
-=================
+# Bootstragram Blog
 
+This repository contains the sources of Bootstragram's [Jekyll-powered][jekyll]
+blog that is available online at [bootstragram.com][bootstragram].
 
-This repository contains the sources of my [Jekyll-powered][jekyll] blog that is available online at [bootstragram.com][bootstragram].
+The purpose of this blog is to share some technical adventures, notes and code
+relating to iOS, Ruby on Rails, etc. that could help other people as well.
 
-The purpose of this blog is to share some technical adventures, notes and code relating to iOS, Ruby on Rails, etc. that could help other people as well.
+## Please contribute
 
-Although I chose to disable comments, I do not intend to run this blog as a traditional blog as I'd like to keep the posts up-to-date and relevant. As such, I encourage readers to send any feedback via [Github][github-issues] or [Twitter][twitter], where discussion can be engaged in a more relevant way than with blog comments. I'll update the posts accordingly, giving credit to any hacker out there willing to help.
+Although we chose to disable comments, we do not intend to run this blog as a
+traditional blog as we'd like to keep the posts up-to-date and relevant. As
+such, we encourage readers to send any feedback via [Github][github-issues] or
+[Twitter][twitter], where discussion can be engaged in a more relevant way than
+with blog comments.
 
-This repository only contains the data located under the `/blog/` subdirectory of the [bootstragram.com][bootstragram] website. Any other content found on the website is private and the license of this blog does not apply to it.
+We'll update the posts accordingly, giving credit to any dev out there willing
+to help.
 
+This repository only contains the public content of the
+[bootstragram.com][bootstragram] website. Any other content found on the website
+is private and the license of this repository does not apply to it.
 
-## Usage
+## Development
 
-    jekyll serve
+    bundle install
+    bundle exec jekyll serve
+    # Optional, for Pow users:
+    rake bootstragram:create_pow_dirs
 
+## Deployment
+
+Deployment of this site is made via Travis CI: pushing to the master branch
+triggers the build and the deployment. Thanks to oncletom.io for
+[this post](https://oncletom.io/2016/travis-ssh-deploy/) about how to achieve this.
 
 ## Links
 

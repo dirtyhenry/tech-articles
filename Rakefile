@@ -4,16 +4,11 @@ namespace :bootstragram do
     sh "open http://bootstragram-blog.dev/"
   end
 
-  desc "Publish via GIT push"
-  task :publish do
-    sh "git push deploy master"
-  end
-
-  desc "Create directories"
-  task :create_dir do
-    sh "mkdir -p ~/Developer/build/bootstragram-blog-gh-pages"
+  desc "Create directories for Pow"
+  task :create_pow_dirs do
     sh "mkdir -p ~/Developer/build/bootstragram-blog-pow"
-    sh "ln -Ffvs ~/Developer/build/bootstragram-blog-gh-pages ~/Developer/build/bootstragram-blog-pow/public"
-    sh "cd ~/.pow && ln -s ~/Developer/build/bootstragram-blog-pow bootstragram-blog"
+    sh "mkdir -p _site"
+    sh "ln -Ffvs $PWD/_site/ ~/Developer/build/bootstragram-blog-pow/public"
+    sh "ln -Ffhvs ~/Developer/build/bootstragram-blog-pow/ ~/.pow/bootstragram-blog"
   end
 end
