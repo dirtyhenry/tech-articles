@@ -1,4 +1,6 @@
 language: ruby
+rvm:
+  - 2.2.5 # Please keep in sync with the one in Gemfile
 
 install:
   - bundle install
