@@ -6,7 +6,7 @@ category: blog
 
 # Writing a Swift Pomodoro Timer Command-Line Tool
 
-I wanted to experiment on writing command line tools with Swift, I wrote a simple command-line [pomodoro][pomodoro] timer. I had to find answer to quite a number of questions to achieve this, but Internet is great at finding answers to things so here we go.
+I wanted to experiment on writing command line tools with Swift, I wrote a simple command-line [pomodoro][pomodoro] timer. I had to find answers to quite a number of questions to achieve this, but Internet is great at finding answers to things. So here we go.
 
 ## How to write a progress bar on the command line?
 
@@ -30,7 +30,7 @@ Well `print()` is the easy answer by it doesn't manage escaping characters right
 
 ## What does the results look like?
 
-Try it [here]
+Try it [here][github].
 
 ## What are the next steps?
 
@@ -43,3 +43,4 @@ Try it [here]
 [swifttalk]: https://talk.objc.io/episodes/S01E22-command-line-tools-with-swift
 [package-manager]: https://swift.org/package-manager/
 [commander]: https://github.com/kylef/Commander
+[github]: https://github.com/dirtyhenry/pomodoro-cli/tree/f82c9bf620a6ad0d976836ee6107aa9b4e9136cf
