@@ -34,9 +34,13 @@ Try it [here][github].
 
 ## What are the next steps?
 
-* Ask for the description of the task before starting the pomodoro
-* Log the pomodoro in a file for archives and time-reporting
+* Ask for the description of the task before starting the pomodoro.
+* Log the pomodoro in a file for archives and time-reporting.
 * Notify the user in the notification center or by a sound when the timer ends.
+* Integrate with other stuff [via Apple Script][applescript].
+* Use the full width of the terminal window instead of a fixed length (which should mean [reading environment variables]( https://stackoverflow.com/questions/36219597/referring-to-environment-variables-in-swift)).
+* Build for release and distribute.
+
 
 [pomodoro]: https://en.wikipedia.org/wiki/Pomodoro_Technique
 [progress-bar-SO]: https://stackoverflow.com/questions/238073/how-to-add-a-progress-bar-to-a-shell-script
@@ -44,3 +48,4 @@ Try it [here][github].
 [package-manager]: https://swift.org/package-manager/
 [commander]: https://github.com/kylef/Commander
 [github]: https://github.com/dirtyhenry/pomodoro-cli/tree/f82c9bf620a6ad0d976836ee6107aa9b4e9136cf
+[applescript]: https://developer.apple.com/documentation/foundation/nsuserapplescripttask
