@@ -1,10 +1,11 @@
 /***
     With help from http://kaikkonendesign.fi/typography/
  */
+@import url('https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro');
 .legacy-blog {
   line-height: 1.5em;
   color: #444;
-  font-family: "calluna", serif;
+  font-family: 'Lora', serif, serif;
   font-size: 1.3em;
 }
 .legacy-blog h1,
@@ -12,7 +13,7 @@
 .legacy-blog h3,
 .legacy-blog h4,
 .legacy-blog h5 {
-  font-family: 'Titillium Web', 'Titillium', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .legacy-blog .container {
   max-width: 724px;
@@ -44,7 +45,7 @@ img {
   height: auto;
 }
 ul.posts {
-  font-family: 'Titillium Web', 'Titillium', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   list-style-type: none;
   margin-left: 0px;
 }
