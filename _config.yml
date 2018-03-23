@@ -1,4 +1,4 @@
-url: http://bootstragram.com
+url: https://bootstragram.com
 permalink:  /:categories/:title/
 baseurl:    /
 destination: ./_site
