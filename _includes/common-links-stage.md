@@ -1,7 +1,0 @@
-[bootstragram]: http://bootstragram.com 'Bootstragram'
-[statium]: http://statium.io 'Statium'
-[parse]: https://developers.facebook.com/products/parse/ 'Parse - Build powerful mobile apps faster.'
-[signal-n-noise]: https://en.wikipedia.org/wiki/The_Signal_and_the_Noise 'The Signal & The Noise, by Nate Silver'
-[soccernomics]: http://www.goodreads.com/book/show/6617185-soccernomics 'Soccernomics, by Simon Kuper'
-[statium-ios]: https://itunes.apple.com/us/app/statium-calendar/id1021607999?mt=8 'Statium on iOS'
-[statium-blog]: http://blog.statium.io/ 'Statium Stories'
