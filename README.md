@@ -27,10 +27,8 @@ is private and the license of this repository does not apply to it.
 
 ## Development
 
-    bundle install
-    bundle exec jekyll serve
-    # Optional, for Pow users:
-    rake bootstragram:create_pow_dirs
+    make install
+    make run
 
 ## Deployment
 
