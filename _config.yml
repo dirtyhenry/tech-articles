@@ -8,11 +8,12 @@ sitemap:
         - "/htaccess"
 hightligher: rouge
 exclude:
-    - 'Gemfile'
-    - 'Gemfile.lock'
-    - 'LICENSE'
-    - 'README.md'
     - 'deploy_rsa.enc'
+    - 'Gemfile.lock'
+    - 'Gemfile'
+    - 'LICENSE'
+    - 'Makefile'
+    - 'README.md'
 
 
 plugins:
