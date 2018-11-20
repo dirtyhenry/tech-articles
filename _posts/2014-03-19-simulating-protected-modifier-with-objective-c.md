@@ -7,7 +7,7 @@ category: blog
 # Simulating protected properties and selectors in Objective-C
 
 There's no `protected` modifier in Objective-C. In a sense, we should be grateful that Objective-C is not Java. On the other hand, sometimes it can suck. What's the best way to deal with it? Let's simulate protection!
-{: .lead} 
+{: .lead}
 
 
 ## The problem is already asked and answered
@@ -33,7 +33,7 @@ Let's say I have a `BSDaddy` base class with only one publicly declared taskk:
 
 @end
 {% endhighlight %}
- 
+
 Now I want a `BSSon` class, inheriting from `BSDaddy`.
 
 {% highlight objc %}
@@ -75,7 +75,7 @@ Here is a basic implementation of Dad, in which we also defined stuff we want to
 
 - (NSNumber *)creditCardPinNumber;
 
-@end 
+@end
 
 @implementation BSDaddy
 
@@ -125,7 +125,7 @@ Son is a rebel and want to share everything about his dad when he introduces him
     if ([self respondsToSelector:@selector(secretSexFantasy)]) {
         myDadSecretFantasy = [self performSelector:@selector(secretSexFantasy) withObject:nil];
     }
- 
+
     if ([self respondsToSelector:@selector(creditCardPinNumber)]) {
         creditCardPinNumber = [self performSelector:@selector(creditCardPinNumber) withObject:nil];
     }
@@ -156,4 +156,4 @@ And again, if you want to address me some feedback or comments, it's via [Twitte
 
 [github]: https://github.com/dirtyhenry/bootstragram-blog/issues "Issues"
 [twitter]: http://twitter.com/dirtyhenry
-[demo-ios]: https://github.com/dirtyhenry/bootstragram-ios/tree/develop
+[demo-ios]: https://github.com/Bootstragram/bootstragram-ios

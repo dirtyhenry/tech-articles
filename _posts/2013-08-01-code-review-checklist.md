@@ -60,13 +60,11 @@ Here is a quote from Daniel Eggert - from the excellent [objc.io][1] - that both
 
 Other resources discuss the subject:
 
-* [How do you perform code reviews?][10]
-* [What to look for in a code review?][9]
 * [All Code Is Bad, So Don't Stress If Yours Sucks][11] (added in May 2014)
 
 ## Conclusion
 
-I'll try to add some examples and additions to this page as I process code reviews in the future. 
+I'll try to add some examples and additions to this page as I process code reviews in the future.
 Again, feel free to get in touch to provide some feedback and as [this page is open source and
 available on GitHub][6], pull requests are welcome. I'll review them with a great pleasure.
 
@@ -79,6 +77,4 @@ available on GitHub][6], pull requests are welcome. I'll review them with a grea
 [6]: https://github.com/dirtyhenry/bootstragram-blog/blob/master/_posts/2013-08-01-code-review-checklist.md
 [7]: https://github.com/dirtyhenry/bootstragram-blog
 [8]: https://twitter.com/dirtyhenry/
-[9]: http://stackoverflow.com/questions/4262693/what-to-look-for-in-a-code-review
-[10]: http://stackoverflow.com/questions/310813/how-do-you-perform-code-reviews
 [11]: http://lifehacker.com/all-code-is-bad-so-dont-stress-if-yours-sucks-1569821801
