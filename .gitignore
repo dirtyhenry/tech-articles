@@ -4,6 +4,3 @@ _301_management
 priv-*.md
 assets/img/priv-*
 .DS_Store
-
-bower_components
-node_modules
