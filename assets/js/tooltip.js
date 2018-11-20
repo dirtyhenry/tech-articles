@@ -3,5 +3,4 @@ $(document).ready( function() {
         'selector': '',
         'placement': 'top'
     });
-    console.log("toto");
 });

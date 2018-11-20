@@ -11,13 +11,13 @@ category: blog
 {: .alert .alert-info}
 
 
-Sometimes you run out of Post-Its. Shit happens. 
+Sometimes you run out of Post-Its. Shit happens.
 Let's keep the task board busy anyway...
 {: .lead}
 
 
-It happened to me in real-life. We just agreed on our Sprint backlog and are willing 
-to display it proudly on our walls but... there's no Post-Its left. 
+It happened to me in real-life. We just agreed on our Sprint backlog and are willing
+to display it proudly on our walls but... there's no Post-Its left.
 
 If you're using OnDemand Jira, here is an option to help you.
 
@@ -27,7 +27,7 @@ If you're using OnDemand Jira, here is an option to help you.
 Here are the two bookmarklets I created for OnDemand Jira:
 
 <div>
-<iframe class="noborder" src="../assets/html/jira-bookmarklets.html" height="80"> </iframe>
+<iframe class="noborder" src="../../assets/html/jira-bookmarklets.html" height="80"> </iframe>
 </div>
 
 **WTF?!** [What's a bookmarklet?!][2].
@@ -46,7 +46,7 @@ You get a printable page that you can print, cut and paste on your task board!
 ### The Burndown Chart Bookmarklet
 
 Refresh your page to get the usual filter view and click on the `Burndown Chart` bookmarklet. Depending on your issues' statuses,
-you're informed of how much is done compared to your sprint overall point amount. (To work properly, the filter view must show the 
+you're informed of how much is done compared to your sprint overall point amount. (To work properly, the filter view must show the
 optional `Story Points` column).
 
 ![Screenshot of the alert you get](../../assets/images/sprint-points.png)
@@ -54,7 +54,7 @@ optional `Story Points` column).
 
 ## Troubleshooting
 
-If the "tada" moment is more of a "nothing happened" moment, try to get some context and 
+If the "tada" moment is more of a "nothing happened" moment, try to get some context and
 yell at me [here](https://github.com/dirtyhenry/jira-to-agile-cards/issues).
 
 Full disclosure: other solutions could be:
