@@ -33,3 +33,6 @@ The website does not support comments, but pull requests & issues are welcome.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+[bootstragram]: https://bootstragram.com
+[jekyll]: https://jekyllrb.com "Transform your plain text into static websites and blogs."
