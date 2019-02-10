@@ -18,7 +18,7 @@ I’m French and currently based in Paris.
 To find out more about me, [my LinkedIn profile page][linkedin] or [my Twitter account][twitter].
 
 [deadrooster]:  http://www.deadrooster.org/
-[livingstones]: http://thelivingstonesipresume.com/
+[livingstones]: http://www.deadrooster.org/-The-Livingstones-I-Presume-
 [agile]:        http://agilemanifesto.org/
-[linkedin]:     http://www.linkedin.com/in/mickaelflochlay
+[linkedin]:     https://www.linkedin.com/in/mickaelflochlay/
 [twitter]:      http://twitter.com/dirtyhenry

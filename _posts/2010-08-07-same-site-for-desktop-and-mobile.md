@@ -27,7 +27,7 @@ But what if a screen size gets to this critical point where keeping the same asp
 Then, you should use _media queries_.
 
 Here again, this is a CSS technique that you can use to reorganize the layout of your webpage upon certain conditions.
-For instance, if the width of the browser is below a certain size, you can give up a column layout and switch to a single-column 
+For instance, if the width of the browser is below a certain size, you can give up a column layout and switch to a single-column
 layout where blocks are placed one upon another.
 
 ## Fluid Images
@@ -39,12 +39,12 @@ Some stuff can help (the CSS `max-width` attribute for instance), but it's not u
 
 ## What about iOS?
 
-What's interesting me most here is not Internet Explorer-compatibility though, but making websites that look good on 
+What's interesting me most here is not Internet Explorer-compatibility though, but making websites that look good on
 iOS devices, the iPhone and the iPad. I've tried to give these techniques a try and here it is:
 
 ![A grid layout](../../assets/images/grid.png "A grid layout")
 
-This is a 10-column layout of 82px each, separated by 20px gutters. With 2 outside gutters of 12px each, we get a grid defined 
+This is a 10-column layout of 82px each, separated by 20px gutters. With 2 outside gutters of 12px each, we get a grid defined
 by a default width of 1024px.
 
 To setup my CSS correctly, some math are required:
@@ -63,7 +63,7 @@ This demo page renders as follow on the iPhone, portrait and landscape:
 
 ## Conclusion
 
-<a id="update-notice" href="#" data-toggle="tooltip" title="This is pretty old and needs to be updated but you can visit the promised update here: http://mickaelflochlay.com/spip/">I'll soon adapt this website, quickly put together with ZPIP so that it uses these methods and is adapted, with a nice design, to the iPhone and the iPad. Stay tuned.</a>
+<a id="update-notice" data-toggle="tooltip" title="This is pretty old and needs to be updated but you can visit the promised update here: http://mickaelflochlay.com/spip/">I'll soon adapt this website, quickly put together with ZPIP so that it uses these methods and is adapted, with a nice design, to the iPhone and the iPad. Stay tuned.</a>
 
 ## Useful resources:
 
@@ -71,8 +71,8 @@ This demo page renders as follow on the iPhone, portrait and landscape:
 - [Responsive Web Design][4]
 - [Fluid Images][5]
 
-[1]: ../assets/grid.css
-[2]: ../assets/grid-demo.html
+[1]: ../../assets/grid.css
+[2]: ../../assets/grid-demo.html
 [3]: http://www.alistapart.com/articles/fluidgrids/
 [4]: http://www.alistapart.com/articles/responsive-web-design/
 [5]: http://unstoppablerobotninja.com/entry/fluid-images
