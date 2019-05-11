@@ -4,8 +4,6 @@ title: Code Reviews, a Checklist
 category: blog
 ---
 
-# Code Reviews, a Checklist
-
 Reviewing code from fellow developers should be considered a best practice. While its main goal is to make sure your teammate didn't lose track of what a good software developer should do, it can also help the reviewer extend his knowledge of a project and get inspired by other's code.
 
 ## 5 Golden Rules

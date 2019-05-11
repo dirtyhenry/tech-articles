@@ -4,8 +4,6 @@ title: Simulating protected properties and selectors in Objective-C
 category: blog
 ---
 
-# Simulating protected properties and selectors in Objective-C
-
 There's no `protected` modifier in Objective-C. In a sense, we should be grateful that Objective-C is not Java. On the other hand, sometimes it can suck. What's the best way to deal with it? Let's simulate protection!
 {: .lead}
 

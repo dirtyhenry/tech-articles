@@ -4,8 +4,6 @@ title: Writing a Swift Pomodoro Timer Command-Line Tool
 category: blog
 ---
 
-# Writing a Swift Pomodoro Timer Command-Line Tool
-
 I wanted to experiment on writing command line tools with Swift, I wrote a simple command-line [pomodoro][pomodoro] timer. I had to find answers to quite a number of questions to achieve this, but Internet is great at finding answers to things. So here we go.
 
 ## How to write a progress bar on the command line?

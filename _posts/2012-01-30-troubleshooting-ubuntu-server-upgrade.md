@@ -5,8 +5,6 @@ javascript: tooltip.js
 category: blog
 ---
 
-# Troubleshooting a Dedibox Upgrade From Maverick to Natty (Ubuntu Server)
-
 This last week-end, I've tried to upgrade my [Dedibox](http://www.online.net/) running Ubuntu Server
 from Maverick Meerkat (10.10) to Natty Narwhal (11.04). The install first seemed to go well:
 no error messages, pretty easy, fast and straightforward process. Then came the required reboot.

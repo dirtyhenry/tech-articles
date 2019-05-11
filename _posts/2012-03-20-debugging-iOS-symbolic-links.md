@@ -5,8 +5,6 @@ javascript: tooltip.js
 category: blog
 ---
 
-# Debugging Symbolic Links On iOS
-
 Symbolic links are one of my favorite pragmatic best practice to manage a file system. Last week,
 I had a bug to fix in an iOS app. Soon enough, symbolic links became my number one suspect for the
 case. My problem was that Organizer has a poor support of symbolic links and it's not very helpful

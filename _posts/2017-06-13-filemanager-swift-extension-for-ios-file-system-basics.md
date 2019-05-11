@@ -4,8 +4,6 @@ title: A FileManager Swift extension to manage iOS file systems basics with ease
 category: blog
 ---
 
-# A FileManager Swift extension to manage iOS file systems basics with ease
-
 I recently spent some time figuring out the best way to
 find the URL/paths of the [recommended iOS file system used directories][ios-file-system-basics].
 

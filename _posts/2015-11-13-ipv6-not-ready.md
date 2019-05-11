@@ -4,10 +4,8 @@ title: IPv6 Ready ?
 category: blog
 ---
 
-# IPv6 ready ?
-
 L'infrastructure réseau est-elle **prête pour l'IPv6 ?** La question s'est posée très simplement pour nous à *Bootstragram* au moment de chercher un hébergement pour nos serveurs. La réponse est simplement **non** !
-{: .lead} 
+{: .lead}
 
 ## IPv6 et Gandi VPS
 
