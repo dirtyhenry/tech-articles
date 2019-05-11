@@ -1,19 +1,8 @@
 ---
-published: false
+layout: default
 title: iOS et keyboardType
-author:
-  display_name: Mick
-  login: mick
-  email: dirtyhenry@gmail.com
-  url: ''
-author_login: mick
-author_email: dirtyhenry@gmail.com
-wordpress_id: 49
-date: '2011-02-03 11:01:32 +0100'
-categories: []
-tags: []
-comments: []
 ---
+
 Comme j'ai cherché une page qui ressemblerait à celle-ci et que je ne l'ai pas trouvée, voici ma compilation "à quoi ressemble tel type de clavier d'iOS selon la valeur de UIKeyboardType ?".
 
 Bien sûr, ce travail est très limité :
@@ -26,80 +15,81 @@ Mais quand même, ça peut être utile.
 (s'il existe une page similaire faisant davantage référence, n'hésitez pas à en faire part dans les commentaires)
 
 
-{{{UIKeyboardTypeDefault}}}
+## UIKeyboardTypeDefault
 
-<quote>Use the default keyboard for the current input method. Available in iOS 2.0 and later.</quote>
+> Use the default keyboard for the current input method.  
+> Available in iOS 2.0 and later.
 
-<img25>
-
-
-{{{UIKeyboardTypeASCIICapable}}}
+![UIKeyboardTypeDefault](../../assets/images/keyboard-UIKeyboardTypeDefault.png)
 
 
-<quote>Use a keyboard that displays standard ASCII characters.
-Available in iOS 2.0 and later.</quote>
-
-<img26>
+## UIKeyboardTypeASCIICapable
 
 
-{{{UIKeyboardTypeNumbersAndPunctuation}}}
+> Use a keyboard that displays standard ASCII characters.  
+> Available in iOS 2.0 and later.
+
+![UIKeyboardTypeASCIICapable](../../assets/images/keyboard-UIKeyboardTypeASCIICapable.png)
 
 
-<quote>Use the numbers and punctuation keyboard.
-Available in iOS 2.0 and later.</quote>
-
-<img27>
+## UIKeyboardTypeNumbersAndPunctuation
 
 
-{{{UIKeyboardTypeURL}}}
+> Use the numbers and punctuation keyboard.  
+> Available in iOS 2.0 and later.
+
+![UIKeyboardTypeNumbersAndPunctuation](../../assets/images/keyboard-UIKeyboardTypeNumbersAndPunctuation.png)
 
 
-<quote>Use a keyboard optimized for URL entry. This type features “.”, “/”, and “.com” prominently.
-Available in iOS 2.0 and later.</quote>
-
-<img28>
+## UIKeyboardTypeURL
 
 
-{{{UIKeyboardTypeNumberPad}}}
+> Use a keyboard optimized for URL entry. This type features “.”, “/”, and “.com” prominently.  
+> Available in iOS 2.0 and later.
+
+![UIKeyboardTypeURL](../../assets/images/keyboard-UIKeyboardTypeURL.png)
 
 
-<quote>Use a numeric keypad designed for PIN entry. This type features the numbers 0 through 9 prominently. This keyboard type does not support auto-capitalization.
-Available in iOS 2.0 and later.</quote>
-
-<img29>
+## UIKeyboardTypeNumberPad
 
 
-{{{UIKeyboardTypePhonePad}}}
+> Use a numeric keypad designed for PIN entry. This type features the numbers 0 through 9 prominently. This keyboard type does not support auto-capitalization.  
+> Available in iOS 2.0 and later.
+
+![UIKeyboardTypeNumberPad](../../assets/images/keyboard-UIKeyboardTypeNumberPad.png)
 
 
-<quote>Use a keypad designed for entering telephone numbers. This type features the numbers 0 through 9 and the “*” and “#” characters prominently. This keyboard type does not support auto-capitalization.
-Available in iOS 2.0 and later.</quote>
-
-<img30>
+## UIKeyboardTypePhonePad
 
 
-{{{UIKeyboardTypeNamePhonePad}}}
+> Use a keypad designed for entering telephone numbers. This type features the numbers 0 through 9 and the `*` and `#` characters prominently. This keyboard type does not support auto-capitalization.  
+> Available in iOS 2.0 and later.
+
+![UIKeyboardTypePhonePad](../../assets/images/keyboard-UIKeyboardTypePhonePad.png)
 
 
-<quote>Use a keypad designed for entering a person’s name or phone number. This keyboard type does not support auto-capitalization.
-Available in iOS 2.0 and later.</quote>
-
-<img31>
+## UIKeyboardTypeNamePhonePad
 
 
-{{{UIKeyboardTypeEmailAddress}}}
+> Use a keypad designed for entering a person’s name or phone number. This keyboard type does not support auto-capitalization.  
+> Available in iOS 2.0 and later.
+
+![UIKeyboardTypeNamePhonePad](../../assets/images/keyboard-UIKeyboardTypeNamePhonePad.png)
 
 
-<quote>Use a keyboard optimized for specifying email addresses. This type features the “@”, “.” and space characters prominently.
-Available in iOS 2.0 and later.</quote>
-
-<img32>
+## UIKeyboardTypeEmailAddress
 
 
-{{{UIKeyboardTypeDecimalPad}}}
+> Use a keyboard optimized for specifying email addresses. This type features the “@”, “.” and space characters prominently.  
+> Available in iOS 2.0 and later.
+
+![UIKeyboardTypeEmailAddress](../../assets/images/keyboard-UIKeyboardTypeEmailAddress.png)
 
 
-<quote>Use a keyboard with numbers and a decimal point.
-Available in iOS 4.1 and later.</quote>
+## UIKeyboardTypeDecimalPad
 
-<img33>
+
+> Use a keyboard with numbers and a decimal point.  
+> Available in iOS 4.1 and later.
+
+![UIKeyboardTypeDecimalPad](../../assets/images/keyboard-UIKeyboardTypeDecimalPad.png)
