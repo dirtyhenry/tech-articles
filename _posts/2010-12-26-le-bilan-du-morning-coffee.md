@@ -19,9 +19,9 @@ Je suis un maniaque de la typographie, de la présentation d'information et de l
 
 Chez les web-designers, la même chose existe pour la police Comic Sans. L'un d'entre eux a réalisé ce site web, tout simplement génial : [http://www.comicsanscriminal.com/](http://www.comicsanscriminal.com/)
 
-Daring Fireball parle aussi cette semaine de [la bonne manière de renseigner les balises &lt;title&gt; des sites web](http://daringfireball.net/2010/12/title_junk). Intéressant (et je suis d'accord avec lui, ce site le prouve).
+Daring Fireball parle aussi cette semaine de [la bonne manière de renseigner les balises &lt;title&gt; des sites web](https://daringfireball.net/2010/12/title_junk). Intéressant (et je suis d'accord avec lui, ce site le prouve).
 
-(via [Daring Fireball](daringfireball.net))
+(via [Daring Fireball](https://daringfireball.net))
 
 ## Animation avec Google Docs
 
@@ -33,7 +33,7 @@ Une manière d'être hyper créatif, même avec des outils sans fonctionnalités
 
 ## Mes nouveaux flux RSS
 
-Encore une fois, la visite de Daring Fireball m'a fait découvrir un nouveau site qui va enrichir mon morning coffee : [Olly Moss](http://www.moss.fm/), responsable de ce [très beau diagramme de Venn](http://www.moss.fm/post/1586929213/for-those-that-take-apathy-as-seriously-as-i-do).
+Encore une fois, la visite de Daring Fireball m'a fait découvrir un nouveau site qui va enrichir mon morning coffee : [Olly Moss](http://www.moss.fm/), responsable de ce [très beau diagramme de Venn](https://www.threadless.com/product/3052/hell_maybe/tab,walls/style,vertical-print).
 
 ## Set d'icônes gratuit
 

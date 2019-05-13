@@ -31,7 +31,7 @@ Ce n'est peut-être pas Free le fautif, c'est peut-être un élément du réseau
 
 ## IPv6 et la mobilité
 
-Notre [application *Statium*](http://www.statium.io/ios-app) est proposée sur mobile ; et pour notre [data-lab](http://blog.statium.io/) nous faisons particulièrement attention à ce qu'il soit compatible à 100% avec les smartphones.
+Notre [application *Statium*](https://statium.io/) est proposée sur mobile ; et pour notre [data-lab](http://blog.statium.io/) nous faisons particulièrement attention à ce qu'il soit compatible à 100% avec les smartphones.
 
 Donc la 2ème question qui vient à l'esprit : est-ce que le réseau 3G et 4G supporte l'IPv6 ? Là encore c'est plutôt décevant.
 

@@ -16,7 +16,7 @@ Le couple HTML5/CSS3, voire SVG ou OpenGL peuvent être des solutions acceptable
 
 Nul doute que les initiatives de développeurs ou de designers dans ce domaine seront les bienvenues.
 
-Edit: Quand je disais que c'était dans l'air du temps ces histoires : [http://daringfireball.net/2010/08/judging_flash_battle](http://daringfireball.net/2010/08/judging_flash_battle)
+Edit: Quand je disais que c'était dans l'air du temps ces histoires : [https://daringfireball.net/2010/08/judging_flash_battle](https://daringfireball.net/2010/08/judging_flash_battle)
 
 
 [flowingdata]: http://flowingdata.com/

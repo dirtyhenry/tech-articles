@@ -13,7 +13,7 @@ tags:
 
 **Grails** est un framework de développement qui permet de créer des
 applications web très rapidement. Ce produit, construit autour de Java et de
-[Groovy](http://groovy.codehaus.org/) est particulièrement performant pour
+[Groovy](http://groovy-lang.org) est particulièrement performant pour
 développer des applications qui sont très proches d'une simple manipulation
 d'un modèle de données.
 

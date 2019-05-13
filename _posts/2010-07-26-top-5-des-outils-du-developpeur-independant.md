@@ -15,7 +15,7 @@ effort. Voici mon top 5 des outils que j'utilise en tant qu'indépendant !
 
 Things est un logiciel de gestion de tâches, très simple mais très performant,
 qui repose sur la méthodologie [*GTD*][gtd] (*Getting Things Done*). Auparavant,
-j'utilisais le logiciel gratuit [iGTD][igtd], mais son développeur, Bartek, a
+j'utilisais le logiciel gratuit iGTD, mais son développeur, Bartek, a
 ensuite cessé de maintenir le logiciel pour rejoindre l'équipe de... Things.
 
 ![Things screenshot](../../assets/images/things-screenshot.png)
@@ -138,7 +138,6 @@ type Atlassian). Je n'en parle pas ici pour deux raisons :
 
 [bugzilla]: http://www.bugzilla.org/
 [gtd]: http://fr.wikipedia.org/wiki/Getting_Things_Done
-[igtd]: http://bargiel.home.pl/iGTD/
 [klok]: http://www.getklok.com/
 [svnx]: http://code.google.com/p/svnx/
 [things-dashboard]: http://culturedcode.com/status/

@@ -3,9 +3,9 @@ layout: default
 title: Conversion de fichiers .flac en .mp3
 ---
 
-Voici un très bon [tutorial](http://www.linuxtutorialblog.com/post/solution-converting-flac-to-mp3) indiquant comment convertir des fichiers `.flac` en fichiers `.mp3`.
-
-En gros, il faut avoir, en ligne de commande, les outils `lame` et `flac` et lancer dans le répertoire qui contient les fichiers `.flac` le script bash suivant :
+Pour convertir des fichiers `.flac` en `.mp3` en ligne de commande, une solution
+simple est d'avoir installé les outils `lame` et `flac` et lancer dans le
+répertoire qui contient les fichiers `.flac` le script bash suivant :
 
 ```
 for file in *.flac; do $(flac -cd "$file" | lame -h - "${file%.flac}.mp3"); done

@@ -114,7 +114,7 @@ Now I think you can feel safe about your data.
 - [Marco Ament's comments][6] are also very valuable.
 
 
-[1]: http://daringfireball.net/2010/03/ode_to_diskwarrior_superduper_dropbox
+[1]: https://daringfireball.net/2010/03/ode_to_diskwarrior_superduper_dropbox
 [2]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
 [4]: http://www.theinstructional.com/guides/encrypt-an-external-disk-or-usb-stick-with-a-password
 [5]: http://www.emptyage.com/post/28679875595/yes-i-was-hacked-hard

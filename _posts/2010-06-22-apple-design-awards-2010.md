@@ -6,12 +6,12 @@ tags:
 - Objective-C
 ---
 
-Lors de la WWDC 2010, Apple a consacré ses Apple Design Awards aux applications
-iPhone et iPad uniquement, délaissant le Mac mais promettant d'y revenir bientôt
-([Ars se chargeant de se substituer à Apple sur ce
+Lors de la WWDC 2010, Apple a consacré ses [Apple Design Awards][ada] aux
+applications iPhone et iPad uniquement, délaissant le Mac mais promettant d'y
+revenir bientôt ([Ars se chargeant de se substituer à Apple sur ce
 point](http://arstechnica.com/apple/news/2010/06/2010-ars-design-award-winners-for-mac-os-x-software.ars)).
 
-Le [palmarès](http://developer.apple.com/wwdc/ada/index.html) est le suivant :
+Le [palmarès][2010-awards] est le suivant :
 
 ## Applications iPhone
 
@@ -30,3 +30,6 @@ Le [palmarès](http://developer.apple.com/wwdc/ada/index.html) est le suivant :
 - TabToolkit, par Agile Partners
 
 Dans les prochains jours, ce blog présentera chacune de ces applications, qu'Apple présente comme celles qui définissent les standards à prendre en compte ces prochains mois.
+
+[ada]: https://developer.apple.com/design/awards/
+[2010-awards]: https://en.wikipedia.org/wiki/Apple_Design_Awards#2010
