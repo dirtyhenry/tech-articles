@@ -4,8 +4,6 @@ title: 7 tips to create a safe and consistent backup strategy as a Mac user
 category: blog
 ---
 
-# 7 tips to create a safe and consistent backup strategy as a Mac user
-
 This post is an updated version of an original post published in September 2011.
 {: .alert .alert-info}
 
@@ -116,7 +114,7 @@ Now I think you can feel safe about your data.
 - [Marco Ament's comments][6] are also very valuable.
 
 
-[1]: http://daringfireball.net/2010/03/ode_to_diskwarrior_superduper_dropbox
+[1]: https://daringfireball.net/2010/03/ode_to_diskwarrior_superduper_dropbox
 [2]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
 [4]: http://www.theinstructional.com/guides/encrypt-an-external-disk-or-usb-stick-with-a-password
 [5]: http://www.emptyage.com/post/28679875595/yes-i-was-hacked-hard

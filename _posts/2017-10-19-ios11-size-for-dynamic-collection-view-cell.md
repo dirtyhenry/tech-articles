@@ -4,8 +4,6 @@ title: Dynamic resizing of a UICollectionViewCell's height
 category: blog
 ---
 
-# Dynamic resizing of a UICollectionViewCell's height
-
 Your cell includes dynamic text and you need to size it appropriately. I feel
 like I did that 1.000.000 times so here it is: my Swift 3 definitive method
 for not repeating myself. It works well with iOS 11 and below.

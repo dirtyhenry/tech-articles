@@ -4,16 +4,14 @@ title: Service to Activity Communication With The Android SDK
 category: blog
 ---
 
-# Service to Activity Communication With The Android SDK
-
 I'm an experienced iOS developer but still consider myself a noob regarding Android development. Never mind, I still want to share 
 my latest experiment with the Android SDK: how to run a long operation in the background while still updating the UI regularly?
-{: .lead} 
+{: .lead}
 
 
 ## Where AsyncTask won't do the job...
 
-The Android SDK provides a convenient object to perform background operations that will need to provide a UI feedback: [`AsyncTask`][asynctask]. But as [Android's documentation][asynctask] says: 
+The Android SDK provides a convenient object to perform background operations that will need to provide a UI feedback: [`AsyncTask`][asynctask]. But as [Android's documentation][asynctask] says:
 
 > AsyncTasks should ideally be used for short operations (a few seconds at the most.)
 
@@ -28,7 +26,7 @@ question, many keywords appear to help getting our quest further: `Services`, `H
 
 ##  Let's give Services a try
 
-Ideally, I wanted to find something similar to the [KVO][kvo] mechanism in iOS. 
+Ideally, I wanted to find something similar to the [KVO][kvo] mechanism in iOS.
 
 I decided to give `Services` a try and developed a [POC][poc] you can find on [my bootstragram-android repository on GitHub][bootstragram-android].
 
@@ -56,8 +54,8 @@ When you create a `Service`, you need to declare it in your app manifest. I made
 {% highlight xml %}
 <application ...>
     ....
-    <service 
-        android:name=".services.RandomEventsService" 
+    <service
+        android:name=".services.RandomEventsService"
         android:exported="false" >
     </service>
     ....
@@ -117,8 +115,8 @@ And that's it.
 
 ## Conclusion
 
-After a frustrating research that had made me more confused than confident about my problem, I found out that the actual 
-implementation was pretty straightforward and easier to implement than I expected. 
+After a frustrating research that had made me more confused than confident about my problem, I found out that the actual
+implementation was pretty straightforward and easier to implement than I expected.
 
 Nevertheless, I'm still curious of feedbacks you might
 have about this code and I invite you to get in touch via [GitHub][github] or [Twitter][twitter] if you want to engage a discussion about this page

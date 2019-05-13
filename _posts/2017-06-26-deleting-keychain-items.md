@@ -4,8 +4,6 @@ title: How to log and delete keychain items from your iOS app
 category: blog
 ---
 
-# How to log and delete keychain items from your iOS app?
-
 Firebase, among other iOS libraries can install items in a device keychain and
 it can become pretty painful to test authentication without having to reinitialize
 the simulator, and it gets even more complicated on a real device.

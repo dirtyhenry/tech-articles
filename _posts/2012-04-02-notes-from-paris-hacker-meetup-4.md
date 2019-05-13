@@ -5,8 +5,6 @@ javascript: tooltip.js
 category: blog
 ---
 
-# Notes from Paris Hacker Meetup #4
-
 Here are some random notes from the [Paris Hacker Meetup #4][meetup], hosted in
 [Joshfire][joshfire]'s great hall, a couple of weeks ago.
 

@@ -4,9 +4,6 @@ title: Bookmarklets for Jira OnDemand
 category: blog
 ---
 
-# Bookmarklets for Jira OnDemand
-
-
 **Update!** 2013 Nov. 20th: The bookmarklets have been updated to support the new Jira OnDemand markup.
 {: .alert .alert-info}
 

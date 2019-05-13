@@ -4,8 +4,6 @@ title: Setting up a VPN Server with Mac OS X Mavericks
 category: blog
 ---
 
-# Setting up a VPN Server with Mavericks
-
 My company needed a way for people to access a local network server from home. The solution was
 to set up a VPN. That was fun and not that hard but I still ran into a couple of issues.
 {: .lead}

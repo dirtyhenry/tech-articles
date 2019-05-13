@@ -4,8 +4,6 @@ title: "Should I renew my Scrum Master certification?"
 category: blog
 ---
 
-# Should I renew my Scrum Master certification?
-
 My Scrum Master certification, delivered by the Scrum Alliance, is expiring next June 29th. I have two weeks left to decide if I want to renew it or not, being aware that the renewal fee is $50 a year.
 
 Right now, I don't think I want to renew it for the following reasons:
