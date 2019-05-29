@@ -1,20 +1,22 @@
 url: https://bootstragram.com
-permalink:  /:categories/:title/
-baseurl:    /
+permalink: /:categories/:title/
+baseurl: /
 destination: ./_site
 sitemap:
-    exclude:
-        - "/.htaccess"
-        - "/htaccess"
+  exclude:
+    - "/.htaccess"
+    - "/htaccess"
 hightligher: rouge
+markdown: CommonMark
 exclude:
-    - 'deploy_rsa.enc'
-    - 'Gemfile.lock'
-    - 'Gemfile'
-    - 'LICENSE'
-    - 'Makefile'
-    - 'README.md'
-
+  - "deploy_rsa.enc"
+  - "Gemfile.lock"
+  - "Gemfile"
+  - "LICENSE"
+  - "Makefile"
+  - "package.json"
+  - "README.md"
+  - "yarn.lock"
 
 plugins:
   - jekyll-sitemap
