@@ -6,8 +6,8 @@ install:
   - make install
 
 script:
-  - make lint
   - make build
+  - make lint
 
 deploy:
   provider: pages
