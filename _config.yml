@@ -18,5 +18,14 @@ exclude:
   - "README.md"
   - "yarn.lock"
 
+commonmark:
+  extensions:
+    - "table"
+  options:
+    - "SMART"
+    - "FOOTNOTES"
+    - "LIBERAL_HTML_TAG"
+    - "UNSAFE"
+
 plugins:
   - jekyll-sitemap

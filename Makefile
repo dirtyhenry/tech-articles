@@ -1,3 +1,6 @@
+clean:
+	git clean -dfX
+
 install:
 	bundle install
 	yarn install

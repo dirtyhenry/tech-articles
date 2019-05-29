@@ -1,8 +1,5 @@
 _site
-_301_management
-
-priv-*.md
-assets/img/priv-*
-.DS_Store
+.sass-cache
+.jekyll-metadata
 
 node_modules
