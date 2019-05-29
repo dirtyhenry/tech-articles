@@ -33,5 +33,8 @@ données.
 
 ## Quelques liens utiles
 
-- [Le site officiel de Grails](http://grails.org/)
-- [La documentation de référence](http://grails.org/Documentation)
+- [Le site officiel de Grails][1]
+- [La documentation de référence][2]
+
+[1]: https://grails.org
+[2]: https://grails.org/documentation.html
