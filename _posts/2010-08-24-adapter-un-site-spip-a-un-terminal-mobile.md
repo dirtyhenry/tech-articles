@@ -4,7 +4,6 @@ title: Adapter un site SPIP à un terminal mobile
 ---
 
 Le site vient d'être mis à jour et utilise un thème et un squelette ZPIP pour SPIP qui permet un rendu adapté aux dimensions de l'écran du terminal utilisé pour le consulter.
-{: .lead}
 
 J'en parlais [ici][same-website], j'ai mis à jour ce site en utilisant le triple
 principe de *fluid grids*, *fluid images* et *media queries*.

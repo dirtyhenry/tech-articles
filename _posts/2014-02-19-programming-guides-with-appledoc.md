@@ -7,7 +7,6 @@ category: blog
 [appledoc][appledoc] is a pretty awesome tool. It's a command line tool that generates a very Apple-like documentation
 for your Objective-C projects. The documentation is a little short on details and isn't clear if you can also create Apple-like
 Programming Guides or documentation pages decoupled from code. Well guess what? You can! And with [Markdown][markdown] support, which makes the whole thing even more awesome.
-{: .lead}
 
 
 ## How do you do it then?

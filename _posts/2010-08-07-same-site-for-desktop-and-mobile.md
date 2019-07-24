@@ -3,14 +3,14 @@ layout: default
 title: "A same website for desktop and mobile?"
 javascript: tooltip.js
 category: blog
+alert:
+  level: info
+  content: |
+    Update 2013: This post was first published in my previous website. It is still mostly relevent but needs updates. I'll try to update it soon.
 ---
-
-Update 2013: This post was first published in my previous website. It is still mostly relevent but needs updates. I'll try to update it soon.
-{: .alert .alert-info}
 
 Internet is turning mobile. So what should I do then? Make a desktop version and a mobile version of my website?
 Not really. CSS at the rescue.
-{: .lead}
 
 ## Fluid Grids
 
@@ -54,10 +54,8 @@ Then I had all I needed to build the [CSS][1] for [this demo page][2].
 This demo page renders as follow on the iPhone, portrait and landscape:
 
 ![Grid page rendering on an iPhone with portrait orientation](../../assets/images/grid-portrait.jpg "Grid page rendering on an iPhone with portrait orientation")
-{: .img-polaroid}
 
 ![Grid page rendering on an iPhone with landscape orientation](../../assets/images/grid-landscape.jpg "Grid page rendering on an iPhone with landscape orientation")
-{: .img-polaroid}
 
 ## Conclusion
 

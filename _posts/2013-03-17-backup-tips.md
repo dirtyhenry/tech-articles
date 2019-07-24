@@ -2,10 +2,11 @@
 layout: default
 title: 7 tips to create a safe and consistent backup strategy as a Mac user
 category: blog
+alert:
+  level: info
+  content: |
+    This post is an updated version of an original post published in September 2011.
 ---
-
-This post is an updated version of an original post published in September 2011.
-{: .alert .alert-info}
 
 I've recently found myself in a very uncomfortable situation: my backup external
 hard drive (HDD) failed! I've suddenly realized my hot tea-cup was really close
@@ -13,7 +14,6 @@ to my MacBook Pro. I drank my tea, put my laptop in a safe and started thinking
 about my backup strategy. Was it safe enough? I did a bit of research on the
 Internet and here are the results: 7 tips to create a safe and consistent backup
 strategy as a Mac user.
-{: .lead}
 
 ## 1. Start backing up with Time Machine
 

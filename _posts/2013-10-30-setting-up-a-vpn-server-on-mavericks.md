@@ -6,7 +6,6 @@ category: blog
 
 My company needed a way for people to access a local network server from home. The solution was
 to set up a VPN. That was fun and not that hard but I still ran into a couple of issues.
-{: .lead}
 
 
 ## Why a VPN?

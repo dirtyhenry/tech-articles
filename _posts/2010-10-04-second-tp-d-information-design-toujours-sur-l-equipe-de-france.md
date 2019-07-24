@@ -7,7 +7,6 @@ tags:
 ---
 
 Quelques semaines après ma première tentative d'information design, les mêmes causes impliquent les mêmes conséquences : la nouvelle sélection de Laurent Blanc me redonne de l'inspiration pour un nouveau TP !
-{: .lead}
 
 Cette fois, la lecture de l'Équipe et, plus particulièrement, celle du tableau ci-dessous m'a donné l'idée de chercher un moyen plus adapté de présenter la sélection.
 

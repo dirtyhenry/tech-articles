@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Analyse d’un tableau de bord du gouvernement des États-Unis
+alert:
+  level: info
+  content: |
+    This post was updated to fix broken links and remove obsolete contents.
 ---
 
 Le gouvernement fédéral américain a un projet original et intéressant : proposer
@@ -13,9 +17,6 @@ intéressante et propose même une proposition de tableau de bord amélioré.
 
 À noter que cette même entreprise propose un White Paper [*A Guide to Creating
 Dashboards People Love to Use*][whitepaper].
-
-This post was updated to fix broken links and remove obsolete contents.
-{: .alert .alert-info}
 
 [itdashboard]: https://itdashboard.gov/
 [analysis]: https://www.juiceanalytics.com/writing/better-federal-it-dashboard/

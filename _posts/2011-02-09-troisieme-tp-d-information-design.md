@@ -4,7 +4,6 @@ title: Troisième TP d'Information Design
 ---
 
 Quelques mois après mon dernier exercice, je profite du match France-Brésil pour un nouveau TP.
-{: .lead}
 
 [Lors de l'exercice précédent][tp2], j'avais fabriqué une infographie de l'équipe de France à la main : à partir de mes données, j'avais ouvert mon Photoshop et fait le placement des joueurs à la main.
 

@@ -30,4 +30,5 @@ commonmark:
     - "UNSAFE"
 
 plugins:
+  - jekyll-liquify
   - jekyll-sitemap

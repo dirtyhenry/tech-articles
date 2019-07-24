@@ -1,6 +1,4 @@
 language: ruby
-rvm:
-  - 2.5.1
 
 install:
   - make install
@@ -12,7 +10,6 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  keep-history: true
   local-dir: _site
   target-branch: gh-pages
   fqdn: bootstragram.com

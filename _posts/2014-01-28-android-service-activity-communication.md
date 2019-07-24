@@ -4,9 +4,8 @@ title: Service to Activity Communication With The Android SDK
 category: blog
 ---
 
-I'm an experienced iOS developer but still consider myself a noob regarding Android development. Never mind, I still want to share 
+I'm an experienced iOS developer but still consider myself a noob regarding Android development. Never mind, I still want to share
 my latest experiment with the Android SDK: how to run a long operation in the background while still updating the UI regularly?
-{: .lead}
 
 
 ## Where AsyncTask won't do the job...
