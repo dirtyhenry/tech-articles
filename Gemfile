@@ -12,5 +12,6 @@ gem 'rubocop', require: false
 
 group :jekyll_plugins do
   gem 'jekyll-commonmark'
+  gem 'jekyll-liquify'
   gem 'jekyll-sitemap'
 end
