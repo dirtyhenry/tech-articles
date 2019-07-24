@@ -4,10 +4,9 @@ title: "First Hackathon Experience: Introducing Green Room Radio"
 category: blog
 ---
 
-Yesterday, I went to my first Hackathon: the [AT&T Mobile App Hackathon in Boston][1]. 
+Yesterday, I went to my first Hackathon: the [AT&T Mobile App Hackathon in Boston][1].
 It was a very fun event (thanks to the organizers) that I recommend to every people interested
 in new technologies, being a developer or not.
-{: .lead}
 
 My team was composed of Alki (from [wattnow][2]), Ming and Charles. Here was our idea. Living in
 big cities, many gigs happen every night, mostly with local bands you're not familiar with. Exploring

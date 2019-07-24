@@ -10,7 +10,6 @@ tags:
 ---
 
 À chaque nouveau projet XCode que j'insère dans mon SVN, une tâche est toujours la même : demander à SVN d'ignorer le répertoire `build`, et mes fichiers de configuration personnels.
-{: .lead}
 
 Ces fichiers/dossiers n'ont a priori rien à faire sur un SVN, et il est confortable de demander à son client, svnX par exemple, de ne plus les afficher à tout bout de champ.
 

@@ -8,8 +8,7 @@ tags:
 
 Réaliser des produits logiciels le plus efficacement possible en tant
 qu'indépendant ne peut se faire sans quelques outils permettant de gérer son
-effort. Voici mon top 5 des outils que j'utilise en tant qu'indépendant ! {:
-.lead}
+effort. Voici mon top 5 des outils que j'utilise en tant qu'indépendant !
 
 ## 1. Things
 

@@ -3,18 +3,19 @@ layout: default
 title: "What fonts for iOS?"
 category: blog
 migrated-from: https://mickaelflochlay.com/spip/What-fonts-for-iOS
+alert:
+  level: warning
+  content: |
+    This article is embarrasingly out of date since
+    [adding a custom font to an app](https://developer.apple.com/documentation/uikit/text_display_and_fonts/adding_a_custom_font_to_your_app)
+    has been supported since iOS 3.2, and
+    [webfonts are now widely supported by browsers](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face).
 ---
-
-**Deprecated!** This article is embarrasingly out of date since
-[adding a custom font to an app](https://developer.apple.com/documentation/uikit/text_display_and_fonts/adding_a_custom_font_to_your_app)
-has been supported since iOS 3.2, and
-[webfonts are now widely supported by browsers](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face).
-{: .alert .alert-warning}
 
 Fonts are a major element of webdesign. And when you talk about webdesign
 nowadays, you can't just skip mobile devices. The problem is that iOS only comes
 with a limited numbers of fonts, and there is no way you can install new fonts
-on iOS devices. What can you do about that? {: .lead}
+on iOS devices. What can you do about that?
 
 ## Fonts that are installed on iOS devices
 

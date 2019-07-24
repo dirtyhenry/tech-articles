@@ -13,9 +13,10 @@ when you want to check symbolic links targets on a full app file system.
 I had to develop some file system inspector code to help me debug the app and this is what I want
 to share here. However, as I fixed the bug as well, I'll just issue this statement :
 
+<div class="alert alert-warning">
 Never use absolute target paths for your symbolic links as your app's file system will move it to
 another home directory every time you update your app on the App Store.
-{: .alert .alert-warning}
+</div>
 
 (and now that i think of it, the simple fact that you can use absolute paths and not only paths
 relative to your home directory in an iOS app sounds like a sandboxing bug from Apple's SDK to me).

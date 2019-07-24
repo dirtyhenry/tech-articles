@@ -5,7 +5,6 @@ category: blog
 ---
 
 There's no `protected` modifier in Objective-C. In a sense, we should be grateful that Objective-C is not Java. On the other hand, sometimes it can suck. What's the best way to deal with it? Let's simulate protection!
-{: .lead}
 
 
 ## The problem is already asked and answered

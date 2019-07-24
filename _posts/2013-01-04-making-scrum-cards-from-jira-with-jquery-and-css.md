@@ -2,16 +2,14 @@
 layout: default
 title: Bookmarklets for Jira OnDemand
 category: blog
+alert:
+  level: info
+  content: |
+    **Update!** 2013 Nov. 20th: The bookmarklets have been updated to support the new Jira OnDemand markup.
 ---
-
-**Update!** 2013 Nov. 20th: The bookmarklets have been updated to support the new Jira OnDemand markup.
-{: .alert .alert-info}
-
 
 Sometimes you run out of Post-Its. Shit happens.
 Let's keep the task board busy anyway...
-{: .lead}
-
 
 It happened to me in real-life. We just agreed on our Sprint backlog and are willing
 to display it proudly on our walls but... there's no Post-Its left.
@@ -27,9 +25,9 @@ Here are the two bookmarklets I created for OnDemand Jira:
 <iframe class="noborder" src="../../assets/html/jira-bookmarklets.html" height="80"> </iframe>
 </div>
 
-**WTF?!** [What's a bookmarklet?!][2].
-{: .alert .alert-info}
-
+<div class="alert alert-info">
+<bold>WTF?!</bold> <a href="https://en.wikipedia.org/wiki/Bookmarklet">What's a bookmarklet?!</a>.
+</div>
 
 ### The Post-It Bookmarklet
 
@@ -62,4 +60,3 @@ Full disclosure: other solutions could be:
 <a href="https://github.com/dirtyhenry/jira-to-agile-cards"><img style="position: fixed; top: 0; right: 0; border: 0; z-index:2000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
 
 [1]: http://dirtyhenry.github.io/jira-to-agile-cards/
-[2]: https://en.wikipedia.org/wiki/Bookmarklet
