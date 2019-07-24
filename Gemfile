@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 # Please keep in sync with the one in .travis.yml and .ruby-version.
-ruby '2.5.1'
+ruby '2.6.3'
 
 gem 'html-proofer'
 gem 'jekyll'
