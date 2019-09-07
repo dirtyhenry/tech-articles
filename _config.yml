@@ -2,14 +2,9 @@ url: https://bootstragram.com
 permalink: /:categories/:title/
 baseurl: /
 destination: ./_site
-sitemap:
-  exclude:
-    - "/.htaccess"
-    - "/htaccess"
 hightligher: rouge
 markdown: CommonMark
 exclude:
-  - "deploy_rsa.enc"
   - "Gemfile.lock"
   - "Gemfile"
   - "LICENSE"
