@@ -27,3 +27,7 @@ commonmark:
 plugins:
   - jekyll-liquify
   - jekyll-sitemap
+
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
