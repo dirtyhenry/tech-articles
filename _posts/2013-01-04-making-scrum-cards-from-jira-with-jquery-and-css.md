@@ -18,15 +18,10 @@ If you're using OnDemand Jira, here is an option to help you.
 
 ## The Magic of jQuery and CSS
 
-Here are the two bookmarklets I created for OnDemand Jira:
+Click [here][https://dirtyhenry.github.io/jira-to-agile-cards/] to access the
+two bookmarklets I created for OnDemand Jira.
 
-<div>
-<iframe class="noborder" src="../../assets/html/jira-bookmarklets.html" height="80"> </iframe>
-</div>
-
-<div class="alert alert-info">
-<bold>WTF?!</bold> <a href="https://en.wikipedia.org/wiki/Bookmarklet">What's a bookmarklet?!</a>.
-</div>
+⚠️ **WTF?!** [What's a bookmarklet?!](https://en.wikipedia.org/wiki/Bookmarklet)
 
 ### The Post-It Bookmarklet
 
@@ -35,7 +30,7 @@ Head on your OnDemand Jira instance, and choose a filter view. Click on the
 
 You get a printable page that you can print, cut and paste on your task board!
 
-![The beautiful result: a scrum board with pretty yellow scrum cards](../../assets/images/scrum_board.png "The beautiful final result")
+![A scrum board full of cards][2]
 
 ### The Burndown Chart Bookmarklet
 
@@ -59,6 +54,5 @@ Full disclosure: other solutions could be:
 - [This open-source Ruby gem](https://github.com/jhollingworth/jira-cards) by
   jhollingworth
 
-<a href="https://github.com/dirtyhenry/jira-to-agile-cards"><img style="position: fixed; top: 0; right: 0; border: 0; z-index:2000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
-
 [1]: http://dirtyhenry.github.io/jira-to-agile-cards/
+[2]: ../../assets/images/scrum_board.png "The beautiful final result"

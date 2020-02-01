@@ -34,9 +34,8 @@ Intéressant (et je suis d'accord avec lui, ce site le prouve).
 ## Animation avec Google Docs
 
 Une manière d'être hyper créatif, même avec des outils sans fonctionnalités
-hyper évoluées :
-
-<iframe title="YouTube video player" class="youtube-player" type="text/html" width="560" height="345" src="http://www.youtube.com/embed/bt9F7tKcZcU?rel=0" frameborder="0"></iframe>
+hyper évoluées : [une animation de 1 minute et 29 secondes faite de 450 slides
+Google Docs][1].
 
 (via
 [flowingdata](http://flowingdata.com/2010/12/22/epic-animation-in-google-docs/))
@@ -54,3 +53,7 @@ Se rendre
 [ici](http://www.smashingmagazine.com/2010/12/23/free-icon-set-for-web-developers-coded/).
 
 (via Webdesigner Depot)
+
+[1]:
+  https://youtu.be/bt9F7tKcZcU
+  "une animation de 89 secondes en 450 slides Google Docs"

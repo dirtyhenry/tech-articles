@@ -1,10 +1,6 @@
 ---
 layout: post
 title: 1er diagnostic de performance sur Windows XP
-tags:
-  - Windows
-  - Performance
-  - Dépannage
 ---
 
 Les lenteurs inexpliquées sur un ordinateur ont de quoi exaspérer les

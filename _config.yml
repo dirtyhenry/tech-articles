@@ -27,9 +27,9 @@ commonmark:
   extensions:
     - "table"
   options:
-    - "SMART"
     - "FOOTNOTES"
     - "LIBERAL_HTML_TAG"
+    - "SMART"
     - "UNSAFE"
 
 theme: kids

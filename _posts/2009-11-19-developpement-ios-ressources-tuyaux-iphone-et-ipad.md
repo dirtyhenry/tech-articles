@@ -1,13 +1,6 @@
 ---
 layout: post
 title: "Développement iOS : ressources & tuyaux (iPhone et iPad)"
-tags:
-  - Développement
-  - Framework
-  - iOS
-  - Mac OS X
-  - Applications Mobile
-  - Objective-C
 ---
 
 ## Liens utiles

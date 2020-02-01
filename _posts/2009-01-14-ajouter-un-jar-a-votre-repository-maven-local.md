@@ -5,8 +5,13 @@ title: Ajouter un JAR à votre repository Maven local
 
 ## La commande
 
-```
-mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>
+```shell
+mvn install:install-file \
+  -Dfile=<path-to-file> \
+  -DgroupId=<group-id> \
+  -DartifactId=<artifact-id> \
+  -Dversion=<version> \
+  -Dpackaging=<packaging>
 ```
 
 ## Pourquoi ?

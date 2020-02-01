@@ -1,9 +1,5 @@
 ---
 layout: post
-tags:
-  - CSS
-  - Web
-  - Webdesign
 ---
 
 After reading

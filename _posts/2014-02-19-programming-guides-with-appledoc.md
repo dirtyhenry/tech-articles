@@ -17,7 +17,12 @@ It's pretty straightforward, you just need to create Markdown files, suffixed
 with `-template.md` and add a `--include` instruction in your appledoc call as
 in:
 
-    appledoc ... --include my-first-template.md --include My\ Second-template.md ...
+```
+appledoc ... \
+  --include my-first-template.md \
+  --include My\ Second-template.md \
+  ...
+```
 
 Now, visit your index.html and you'll get a new links section at the bottom of
 the page called _Programming Guides_!

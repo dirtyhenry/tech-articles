@@ -1,9 +1,6 @@
 ---
 layout: post
-title: Second TP d’information design… toujours sur l'équipe de France
-tags:
-  - Information Design
-  - Information Architecture
+title: Second TP d’information design… toujours sur l’équipe de France
 ---
 
 Quelques semaines après ma première tentative d'information design, les mêmes
@@ -18,7 +15,7 @@ sélection.
 
 Le résultat est le suivant :
 
-![L'Equipe de France A sélectionnée par Laurent Blanc pour France-Roumanie et France-Luxembourg (qualifications Euro 2012)](../../assets/images/fff-selection-by-mick.png)
+![L'Equipe de France A sélectionnée par Laurent Blanc pour France-Roumanie et France-Luxembourg (qualifications Euro 2012)][1]
 
 L'infographie est construite de la façon suivante :
 
@@ -71,3 +68,5 @@ manquantes du tableau lors du clic ou du survol d'un nom de joueur.
 
 N'hésitez pas à me faire part de vos remarques, bonnes ou mauvaises, dans les
 commentaires.
+
+[1]: ../../assets/images/fff-selection-by-mick.png

@@ -60,16 +60,18 @@ Then I had all I needed to build the [CSS][1] for [this demo page][2].
 
 This demo page renders as follow on the iPhone, portrait and landscape:
 
-![Grid page rendering on an iPhone with portrait orientation](../../assets/images/grid-portrait.jpg "Grid page rendering on an iPhone with portrait orientation")
+![Grid page rendering on an iPhone with portrait orientation][6]
 
-![Grid page rendering on an iPhone with landscape orientation](../../assets/images/grid-landscape.jpg "Grid page rendering on an iPhone with landscape orientation")
+![Grid page rendering on an iPhone with landscape orientation][7]
 
 ## Conclusion
 
-<a id="update-notice" data-toggle="tooltip" title="This is pretty old and needs to be updated but you can visit the promised update here: http://mickaelflochlay.com/spip/">I'll
-soon adapt this website, quickly put together with ZPIP so that it uses these
-methods and is adapted, with a nice design, to the iPhone and the iPad. Stay
-tuned.</a>
+I'll soon adapt this website, quickly put together with ZPIP so that it uses
+these methods and is adapted, with a nice design, to the iPhone and the iPad.
+Stay tuned.
+
+_⚠️ Update_: This is pretty old and needs to be updated but you can visit the
+promised update here: <http://mickaelflochlay.com/spip/>
 
 ## Useful resources:
 
@@ -82,3 +84,9 @@ tuned.</a>
 [3]: http://www.alistapart.com/articles/fluidgrids/
 [4]: http://www.alistapart.com/articles/responsive-web-design/
 [5]: http://unstoppablerobotninja.com/entry/fluid-images
+[6]:
+  ../../assets/images/grid-portrait.jpg
+  "Grid page rendering on an iPhone with portrait orientation"
+[7]:
+  ../../assets/images/grid-landscape.jpg
+  "Grid page rendering on an iPhone with landscape orientation"

@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Jamais trop tard pour mettre des tags avec SVN
-tags:
-  - Dépannage
-  - Multi-plateformes
-  - Subversion / SVN
 ---
 
 Quand on livre une application logicielle, l'usage veut que l'on _tague_ le code

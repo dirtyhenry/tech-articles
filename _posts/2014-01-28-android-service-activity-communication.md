@@ -46,9 +46,9 @@ objects that can be passed with the `Intent` (ie `Extra`) have to be
 My objectives for this POC were:
 
 1. Create a background operation that will live as long as my app, no less.
-2. This operation must run continously and must update some kind of state at a
+1. This operation must run continously and must update some kind of state at a
    relatively high-frequency.
-3. The user must be able to get a UI representation of that state without being
+1. The user must be able to get a UI representation of that state without being
    blocked on one activiy in particular.
 
 Some notes about it went follow.
@@ -100,9 +100,9 @@ We still have objective 3 to achieve. To do so:
 
 1. I made my `RandomSingleton` a subclass of
    [`ContentObservable`][contentobservable]
-2. I created an activity using a subclass of
+1. I created an activity using a subclass of
    [`ContentObserver`][contentobserver], observing `RandomSingleton`
-3. Then I made `RandomSingleton` call `dispatchChange(...)` at the end of the
+1. Then I made `RandomSingleton` call `dispatchChange(...)` at the end of the
    `increment()` method
 
 And that's it.

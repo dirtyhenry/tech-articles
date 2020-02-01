@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Apple Design Awards 2010
-tags:
-  - iOS
-  - Objective-C
 ---
 
 Lors de la WWDC 2010, Apple a consacré ses [Apple Design Awards][ada] aux

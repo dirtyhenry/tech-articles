@@ -23,7 +23,9 @@ the problem. Then I've applied [these guidelines][help-2] from the Dedibox'
 rescue mode. A last step was missing (found from studying [this URL][help-3]),
 applying:
 
-    sudo grub-install
+```shell
+sudo grub-install
+```
 
 Now, everything was back to normal : the server booted correctly, Natty was up
 and running. Thanks David B. for the support! Feel free to leave a comment if

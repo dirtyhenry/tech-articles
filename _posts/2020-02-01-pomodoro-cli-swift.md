@@ -28,26 +28,26 @@ alternatives on GitHub][ghs].
 
 **But**:
 
-1.  **I made it.**
+1. **I made it.**
 
-    That works for me only but it does count;
+   That works for me only but it does count;
 
-1.  **It is made in Swift.**
+1. **It is made in Swift.**
 
-    As of today, it is the only result for [this other GitHub search][ghs2];
+   As of today, it is the only result for [this other GitHub search][ghs2];
 
-1.  **It has hooks.**
+1. **It has hooks.**
 
-    You can plus your own scripts when a pomodoro starts and when a pomodoro
-    finishes. I used them to include a cool Italian voice making the
-    announcements and it puts my display to sleep when a pomodoro is over. No
-    excuse for taking a break.
+   You can plus your own scripts when a pomodoro starts and when a pomodoro
+   finishes. I used them to include a cool Italian voice making the
+   announcements and it puts my display to sleep when a pomodoro is over. No
+   excuse for taking a break.
 
-1.  **It keeps an history.**
+1. **It keeps an history.**
 
-    Every pomodoro starts by asking a simple question: what is the intent of the
-    current pomodoro. When the pomodoro finishes, the dates and this intent are
-    logged in a YAML file so I can track back how I spent my time.
+   Every pomodoro starts by asking a simple question: what is the intent of the
+   current pomodoro. When the pomodoro finishes, the dates and this intent are
+   logged in a YAML file so I can track back how I spent my time.
 
 ## A simple use case
 

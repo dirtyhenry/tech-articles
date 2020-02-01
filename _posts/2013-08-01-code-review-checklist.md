@@ -15,12 +15,12 @@ Things to have in mind/check when you review code include these 5 golden rules:
 
 1. The code compiles on the reviewer's environment without warnings and tests
    are not broken.
-2. The new code implements the bug fix/feature it was supposed to.
-3. The code remains [DRY][2].
-4. Things are kept small and simple, with a clear separation of concerns: ["each
+1. The new code implements the bug fix/feature it was supposed to.
+1. The code remains [DRY][2].
+1. Things are kept small and simple, with a clear separation of concerns: ["each
    class should do only one thing, and do that one thing well"][3]. If you don't
    get what the new code is doing, something's wrong.
-5. The new code is tested.
+1. The new code is tested.
 
 ## How to review code?
 
@@ -33,13 +33,17 @@ My team is using [GitFlow][4] on our own Git servers (i mean "no GitHub", so no
 
   - First, get the base revision tag:
 
-    \$ git merge-base branch-to-review develop
+    ```
+    git merge-base branch-to-review develop
     ee682bdaf3a578a8de647006b500c87ca72c7ffc
+    ```
 
   - Then, use your diff tool to visualize what changed (i personally use
     [Kaleidoscope][5])
 
-    \$ git difftool ee682bdaf3a578a8de647006b500c87ca72c7ffc HEAD
+    ```
+    git difftool ee682bdaf3a578a8de647006b500c87ca72c7ffc HEAD
+    ```
 
 - Give the review developer some feedback, ask questions about what is not clear
 - If necessary, fix the code by yourself if changes are fast to implement
@@ -49,8 +53,10 @@ My team is using [GitFlow][4] on our own Git servers (i mean "no GitHub", so no
 - Deploy on your staging environment to make sure things are ok
 - Clean up Git branches behind you
 
-        $ git branch -d branch-to-review
-        $ git push origin :branch-to-review
+  ```shell
+  git branch -d branch-to-review
+  git push origin :branch-to-review
+  ```
 
 ## A note about testing
 

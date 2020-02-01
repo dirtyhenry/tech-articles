@@ -93,7 +93,8 @@ conflict with the one in `BSDaddySubclass.h`
 Son is a rebel and want to share everything about his dad when he introduces
 himself.
 
-{% highlight objc %} #import "BSSon.h" #import "BSDaddySubclass.h"
+```objc
+#import "BSSon.h" #import "BSDaddySubclass.h"
 
 @implementation BSSon
 
@@ -106,27 +107,30 @@ himself.
     NSString *myDadSecretFantasy = nil;
     NSNumber *creditCardPinNumber = nil;
     if ([self respondsToSelector:@selector(secretSexFantasy)]) {
-        myDadSecretFantasy = [self performSelector:@selector(secretSexFantasy) withObject:nil];
+        myDadSecretFantasy = [self performSelector:@selector(secretSexFantasy)
+                                   withObject:nil];
     }
 
     if ([self respondsToSelector:@selector(creditCardPinNumber)]) {
-        creditCardPinNumber = [self performSelector:@selector(creditCardPinNumber) withObject:nil];
+        creditCardPinNumber = [self performSelector:@selector(creditCardPinNumber)
+                                    withObject:nil];
     }
 
 #pragma clang diagnostic pop
 
     return [NSString stringWithFormat:@"Hi! I'm Marty. My dad says: “%@”. He'll be mad cause I'm making public that we live in %@ and his health insurance ID is %@. He'll be even madder after I tell you his secret sex fantasy is %@, and that his credit card PIN number is %@.", [super introduction], self.protectedAddress, [self healthInsuranceId], myDadSecretFantasy, creditCardPinNumber];
 
-} {% endhighlight %}
+}
+```
 
 Please note:
 
 1. `BSDaddySubclass.h` is imported.
-2. The properties and tasks declared in `BSDad.m` can't be used: you will get a
+1. The properties and tasks declared in `BSDad.m` can't be used: you will get a
    compilation error if you try
-3. The properties and tasks declared in `BSDadSubclass.h` CAN be used normally
+1. The properties and tasks declared in `BSDadSubclass.h` CAN be used normally
    without the need of an extra `@synthesize` or `@dynamic` for properties.
-4. Most importantly, please note that this is just _simulated protection_, which
+1. Most importantly, please note that this is just _simulated protection_, which
    relies on a **convention**! If another class decides to import
    `BSDadSubclass.h`, nothing will prevent it to do so and use the protected
    methods as public ones. You just need to _establish the convention that this
@@ -135,7 +139,7 @@ Please note:
    private method exists, you can still call it. That's the power of Objective-C
    and remember what Uncle Ben said: “With great power comes great
    responsability”!
-5. Optional: notice also the several `#pragma` that will prevent you to get
+1. Optional: notice also the several `#pragma` that will prevent you to get
    warnings when trying to perform private selectors in your code. If you need
    them, you should be aware maybe you're doing something nasty.
 

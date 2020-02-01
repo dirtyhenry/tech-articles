@@ -1,12 +1,6 @@
 ---
 layout: post
 title: Ignorer des fichiers d'un projet XCode dans SVN
-tags:
-  - Dépannage
-  - Mac OS X
-  - Subversion / SVN
-  - Objective-C
-  - Conseil
 ---
 
 À chaque nouveau projet XCode que j'insère dans mon SVN, une tâche est toujours
