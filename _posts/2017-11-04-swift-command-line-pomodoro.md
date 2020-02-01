@@ -44,8 +44,8 @@ Try it [here][github].
 
 ## What are the next steps?
 
-- Ask for the description of the task before starting the pomodoro;
-- Log the pomodoro in a file for archives and time-reporting;
+- ✔︎ ~~Ask for the description of the task before starting the pomodoro~~;
+- ✔︎ ~~Log the pomodoro in a file for archives and time-reporting~~;
 - ✔︎ ~~Notify the user in the notification center or by a sound when the timer
   ends.~~;
 - ✔︎ ~~Integrate with other stuff via **Shell** scripts.~~;
