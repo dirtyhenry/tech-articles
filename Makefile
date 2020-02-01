@@ -16,4 +16,5 @@ run:
 
 lint:
 	bundle exec rubocop
+	# bundle exec mdl .
 	htmlproofer --assume-extension --http-status-ignore "999" --check_img_http ./_site
