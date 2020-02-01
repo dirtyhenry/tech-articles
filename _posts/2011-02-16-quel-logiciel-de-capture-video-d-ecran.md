@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Quel logiciel de capture vidéo d'écran ?
 ---
 

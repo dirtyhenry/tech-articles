@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Conversion de fichiers .flac en .mp3
 ---
 

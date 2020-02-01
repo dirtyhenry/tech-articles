@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Notes from Paris Hacker Meetup #4"
 javascript: tooltip.js
 category: blog

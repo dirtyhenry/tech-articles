@@ -1,3 +1,7 @@
+title: Bootstragram
+repository:
+  url: https://github.com/bootstragram/bootstragram-blog
+  name: bootstragram/bootstragram-blog
 url: https://bootstragram.com
 permalink: /:categories/:title/
 baseurl: /
@@ -14,15 +18,25 @@ exclude:
   - "yarn.lock"
 collections:
   - devtools_bookmarks
+header_pages:
+  - about.md
+footer_pages:
+  - archives.md
 
 commonmark:
   extensions:
     - "table"
   options:
-    - "SMART"
     - "FOOTNOTES"
     - "LIBERAL_HTML_TAG"
+    - "SMART"
     - "UNSAFE"
+
+theme: kids
+
+kids:
+  archives_path: 'archives/'
+  home_posts: 5
 
 plugins:
   - jekyll-liquify

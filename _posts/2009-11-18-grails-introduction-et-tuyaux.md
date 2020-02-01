@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Grails : introduction et tuyaux"
 tags:
   - Multi-plateformes
@@ -19,17 +19,24 @@ données.
 
 ## Rappels des commandes de base
 
-| **Commande**     | **Description**                              |
-| ---------------- | -------------------------------------------- |
-| `grails help`    | Obtenir de l'aide sur Grails                 |
-| `grails run-app` | Fait tourner l'application Grails dans Jetty |
+- `grails help`
+
+  Obtenir de l'aide sur Grails
+
+- `grails run-app`
+
+  Fait tourner l'application Grails dans Jetty
 
 ## Plugins indispensables
 
-| **Plugin**    | **Description**                                                                     |
-| ------------- | ----------------------------------------------------------------------------------- |
-| `acegi`       | Authentification et contrôles d'accès                                               |
-| `image-tools` | Chargement, sauvegarde et manipulation d'images (crop, mask, création de thumbnail) |
+- `acegi`
+
+  Authentification et contrôles d'accès
+
+- `image-tools`
+
+  Chargement, sauvegarde et manipulation d'images (crop, mask, création de
+  thumbnail)
 
 ## Quelques liens utiles
 

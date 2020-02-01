@@ -7,6 +7,7 @@ ruby '2.6.3'
 
 gem 'html-proofer'
 gem 'jekyll'
+gem 'kids'
 gem 'mdl'
 gem 'rouge'
 gem 'rubocop', require: false

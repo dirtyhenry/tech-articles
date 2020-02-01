@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Un même graphe pour le bureau et le mobile ?
 ---
 
@@ -14,9 +14,9 @@ outils les plus utiles, tant pour la collecte des données, que pour la
 réalisation visuelle ou leur animation][tools].
 
 Ce recensement donne des pistes sur des outils très utiles (dont le bluffant
-[processing][processing]) mais il y a un hic majeur : aucun de ces
-outils permet une visualisation _contemporaine_ polyvalente pour le bureau et le
-mobile, c'est-à-dire quelque chose de joli et si possible interactif ou animé.
+[processing][processing]) mais il y a un hic majeur : aucun de ces outils permet
+une visualisation _contemporaine_ polyvalente pour le bureau et le mobile,
+c'est-à-dire quelque chose de joli et si possible interactif ou animé.
 
 Dans ce domaine, le point bloquant le plus important (et celui qui est mal parti
 pour être résolu) est le conflit entre Apple et Adobe au sujet de Flash. Safari
@@ -41,3 +41,4 @@ Edit: Quand je disais que c'était dans l'air du temps ces histoires :
 [processing]: https://processing.org/
 [tools]:
   http://flowingdata.com/2008/10/20/40-essential-tools-and-resources-to-visualize-data/
+  "40 tools to visualize data"
