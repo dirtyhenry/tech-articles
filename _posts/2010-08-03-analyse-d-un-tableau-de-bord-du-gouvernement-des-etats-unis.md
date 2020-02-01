@@ -15,8 +15,8 @@ Encore plus intéressant, des gens de Juice Analytics ont qualifié ce tableau d
 bord et [livrent leur analyse sur leur site web][analysis]. Celle-ci est très
 intéressante et propose même une proposition de tableau de bord amélioré.
 
-À noter que cette même entreprise propose un White Paper [*A Guide to Creating
-Dashboards People Love to Use*][whitepaper].
+À noter que cette même entreprise propose un White Paper [_A Guide to Creating
+Dashboards People Love to Use_][whitepaper].
 
 [itdashboard]: https://itdashboard.gov/
 [analysis]: https://www.juiceanalytics.com/writing/better-federal-it-dashboard/

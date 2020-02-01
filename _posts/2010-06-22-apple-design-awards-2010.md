@@ -2,14 +2,14 @@
 layout: default
 title: Apple Design Awards 2010
 tags:
-- iOS
-- Objective-C
+  - iOS
+  - Objective-C
 ---
 
 Lors de la WWDC 2010, Apple a consacré ses [Apple Design Awards][ada] aux
 applications iPhone et iPad uniquement, délaissant le Mac mais promettant d'y
-revenir bientôt ([Ars se chargeant de se substituer à Apple sur ce
-point](http://arstechnica.com/apple/news/2010/06/2010-ars-design-award-winners-for-mac-os-x-software.ars)).
+revenir bientôt
+([Ars se chargeant de se substituer à Apple sur ce point](http://arstechnica.com/apple/news/2010/06/2010-ars-design-award-winners-for-mac-os-x-software.ars)).
 
 Le [palmarès][2010-awards] est le suivant :
 
@@ -29,7 +29,9 @@ Le [palmarès][2010-awards] est le suivant :
 - Star Walk - Interactive Astronomy Guide, par Vito Technology Inc.
 - TabToolkit, par Agile Partners
 
-Dans les prochains jours, ce blog présentera chacune de ces applications, qu'Apple présente comme celles qui définissent les standards à prendre en compte ces prochains mois.
+Dans les prochains jours, ce blog présentera chacune de ces applications,
+qu'Apple présente comme celles qui définissent les standards à prendre en compte
+ces prochains mois.
 
 [ada]: https://developer.apple.com/design/awards/
 [2010-awards]: https://en.wikipedia.org/wiki/Apple_Design_Awards#2010

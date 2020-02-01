@@ -4,7 +4,7 @@ title: Premiers pas en design de l'information
 ---
 
 Le design de l'information (ou plus naturellement, même quand on est français,
-*information design*) est « l’art et la science de la préparation de
+_information design_) est « l’art et la science de la préparation de
 l’information afin qu'elle puisse être utilisée par les êtres humains avec
 efficience et efficacité » (citation de [Wikipedia][wikipedia]).
 
@@ -33,13 +33,13 @@ finalement assez honorable :
 ![Diagramme de Venn de la 1ère sélection post-mondial 2010](../../assets/images/fff-venn-diagram.png)
 
 N'hésitez pas à me faire part de vos commentaires et si l'information design
-vous intéresse, je vous recommande le site suivant : [flowingdata.com][flowingdata]
+vous intéresse, je vous recommande le site suivant :
+[flowingdata.com][flowingdata]
 
 Commentaire de Greek Goddess:
 
-> Nice implementation of the Venn diagram. Maybe I’ll send this to my boss
-> and see what he thinks. Why is Gourcuff suspended???
-
+> Nice implementation of the Venn diagram. Maybe I’ll send this to my boss and
+> see what he thinks. Why is Gourcuff suspended???
 
 [flowingdata]: http://flowingdata.com/
 [wikipedia]: http://fr.wikipedia.org/wiki/Design_de_l%27information

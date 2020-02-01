@@ -14,9 +14,9 @@ outils les plus utiles, tant pour la collecte des données, que pour la
 réalisation visuelle ou leur animation][tools].
 
 Ce recensement donne des pistes sur des outils très utiles (dont le bluffant
-[processing][processing]) mais il y a un hic majeur : aucun de ces
-outils permet une visualisation _contemporaine_ polyvalente pour le bureau et le
-mobile, c'est-à-dire quelque chose de joli et si possible interactif ou animé.
+[processing][processing]) mais il y a un hic majeur : aucun de ces outils permet
+une visualisation _contemporaine_ polyvalente pour le bureau et le mobile,
+c'est-à-dire quelque chose de joli et si possible interactif ou animé.
 
 Dans ce domaine, le point bloquant le plus important (et celui qui est mal parti
 pour être résolu) est le conflit entre Apple et Adobe au sujet de Flash. Safari
