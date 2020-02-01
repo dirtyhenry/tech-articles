@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Adapter un site SPIP à un terminal mobile
 ---
 

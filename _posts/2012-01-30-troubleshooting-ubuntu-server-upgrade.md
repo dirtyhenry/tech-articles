@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:
   "Troubleshooting a Dedibox Upgrade From Maverick to Natty (Ubuntu Server)"
 javascript: tooltip.js

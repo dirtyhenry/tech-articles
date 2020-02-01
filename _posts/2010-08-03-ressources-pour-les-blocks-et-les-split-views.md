@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ressources pour les blocks et les split views
 ---
 

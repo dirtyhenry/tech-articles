@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Jamais trop tard pour mettre des tags avec SVN
 tags:
   - Dépannage

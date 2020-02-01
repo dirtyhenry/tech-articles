@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: WWDC 2019, A Basic Wish List
 category: blog
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Analyse d’un tableau de bord du gouvernement des États-Unis
 alert:
   level: info

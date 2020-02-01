@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 7 tips to create a safe and consistent backup strategy as a Mac user
 category: blog
 alert:

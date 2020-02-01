@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Bookmarklets for Jira OnDemand
 category: blog
 alert:

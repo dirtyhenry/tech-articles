@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: À quoi servent les "#pragma mark" dans les samples de code Objective-C ?
 tags:
   - Développement

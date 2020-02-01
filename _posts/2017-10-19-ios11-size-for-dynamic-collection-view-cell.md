@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Dynamic resizing of a UICollectionViewCell's height
 category: blog
 ---

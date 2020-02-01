@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: OmniGraffe
 tags:
   - Mac OS X

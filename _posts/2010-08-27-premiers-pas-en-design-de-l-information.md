@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Premiers pas en design de l'information
 ---
 

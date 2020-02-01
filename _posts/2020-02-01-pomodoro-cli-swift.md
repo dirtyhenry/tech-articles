@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Pomodoro CLI 1.0.0 Released 🎉
 category: blog
 ---

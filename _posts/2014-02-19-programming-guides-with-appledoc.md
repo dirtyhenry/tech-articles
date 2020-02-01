@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: How to generate Programming Guides with Appledoc
 category: blog
 ---

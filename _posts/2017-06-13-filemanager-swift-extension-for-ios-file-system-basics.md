@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A FileManager Swift extension to manage iOS file systems basics with ease
 category: blog
 ---

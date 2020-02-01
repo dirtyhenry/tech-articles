@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Ignorer des fichiers d'un projet XCode dans SVN
 tags:
   - Dépannage

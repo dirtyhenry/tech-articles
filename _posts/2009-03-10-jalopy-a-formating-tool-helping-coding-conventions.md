@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Jalopy: a formating tool helping coding conventions"
 ---
 

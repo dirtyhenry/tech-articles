@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Excel : exportation d’un graphe sous forme d’image"
 ---
 

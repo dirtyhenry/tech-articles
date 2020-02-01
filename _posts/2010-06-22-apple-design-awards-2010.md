@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Apple Design Awards 2010
 tags:
   - iOS

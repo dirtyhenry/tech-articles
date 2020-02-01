@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: How to log and delete keychain items from your iOS app
 category: blog
 ---

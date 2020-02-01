@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Code Reviews, a Checklist
 category: blog
 ---

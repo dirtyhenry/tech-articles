@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Expression régulière matchant les URL par John Gruber
 ---
 

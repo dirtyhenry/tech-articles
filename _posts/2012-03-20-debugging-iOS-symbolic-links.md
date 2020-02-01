@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Debugging Symbolic Links On iOS"
 javascript: tooltip.js
 category: blog

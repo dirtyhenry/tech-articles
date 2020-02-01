@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Le bilan du Morning Coffee
 ---
 

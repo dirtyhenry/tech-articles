@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: IPv6 Ready ?
 category: blog
 ---

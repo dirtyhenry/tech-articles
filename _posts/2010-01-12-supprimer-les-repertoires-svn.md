@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Supprimer les répertoires SVN
 tags:
   - Dépannage

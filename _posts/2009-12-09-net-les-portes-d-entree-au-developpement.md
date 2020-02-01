@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: ".NET : les portes d’entrée au développement"
 tags:
   - Windows

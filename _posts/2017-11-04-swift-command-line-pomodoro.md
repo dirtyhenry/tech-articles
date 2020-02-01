@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Writing a Swift Pomodoro Timer Command-Line Tool
 category: blog
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "First Hackathon Experience: Introducing Green Room Radio"
 category: blog
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "A same website for desktop and mobile?"
 javascript: tooltip.js
 category: blog

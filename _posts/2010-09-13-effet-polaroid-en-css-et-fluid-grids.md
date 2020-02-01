@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Effet Polaroid en CSS et Fluid Grids
 ---
 

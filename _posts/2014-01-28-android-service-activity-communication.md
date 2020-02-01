@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Service to Activity Communication With The Android SDK
 category: blog
 ---

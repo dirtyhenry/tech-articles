@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Un même graphe pour le bureau et le mobile ?
 ---
 

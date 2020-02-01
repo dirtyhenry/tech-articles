@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Second TP d’information design… toujours sur l'équipe de France
 tags:
   - Information Design

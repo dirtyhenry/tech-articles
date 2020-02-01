@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Should I renew my Scrum Master certification?"
 category: blog
 ---

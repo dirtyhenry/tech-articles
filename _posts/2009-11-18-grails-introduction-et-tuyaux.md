@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Grails : introduction et tuyaux"
 tags:
   - Multi-plateformes

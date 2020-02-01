@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "What fonts for iOS?"
 category: blog
 migrated-from: https://mickaelflochlay.com/spip/What-fonts-for-iOS

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Quatrième TP d’Information Design
 ---
 

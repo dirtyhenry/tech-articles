@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Troisième TP d'Information Design
 ---
 

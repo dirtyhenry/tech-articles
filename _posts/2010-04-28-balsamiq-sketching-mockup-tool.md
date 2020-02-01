@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Balsamiq Sketching/Mockup Tool
 tags:
   - Multi-plateformes
