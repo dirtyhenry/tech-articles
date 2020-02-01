@@ -4,21 +4,22 @@ title: Pomodoro CLI 1.0.0 Released 🎉
 category: blog
 ---
 
-A little more than two years after work started on this, I'm happy to annouce
-that `pomodoro-cli` 1.0.0 has been released today. I finally felt enough
-features were here to decide a tag was needed.
+A little more than two years after [work started on this][3], I'm happy to
+annouce that [`pomodoro-cli` 1.0.0][4] has been released today. I finally felt
+enough features were here to decide a tag was needed.
 
-## Where is this?
+## How Can I Install It?
 
 I still need to work on the distribution via Homebrew but the code and
-installation steps can be found on [the project website][1] or [GitHub][2].
+installation steps can be found on [the project website][1] or [its GitHub
+repository][2].
 
 ## What on Earth Is Pomodoro?
 
 It's a time management technique that was created by Francesco Cirillo. He wrote
-[a book][pb] and [a website][pw] about it, so I'll just say it's about splitting
-up your work into time-boxed focus time on one objective. Pretty damn efficient
-when you can affort to stick to it I must say.
+[a book][pb] and [a website][pw] about it. To summarize, it's all about
+splitting up your work into time-boxed full-focused 25-minutes window on 1
+objective. Pretty damn efficient when you can afford to stick to it I must say.
 
 ## Why the Hell Did You Do That?
 
@@ -26,11 +27,11 @@ Sure, whether you're talking CLI apps or whatever apps, there is nothing
 revolutionary with this tool. As a matter of fact, There is [a crazy amount of
 alternatives on GitHub][ghs].
 
-**But**:
+But!
 
 1. **I made it.**
 
-   That works for me only but it does count;
+   This argument might only work for me, but it does count;
 
 1. **It is made in Swift.**
 
@@ -38,10 +39,10 @@ alternatives on GitHub][ghs].
 
 1. **It has hooks.**
 
-   You can plus your own scripts when a pomodoro starts and when a pomodoro
-   finishes. I used them to include a cool Italian voice making the
-   announcements and it puts my display to sleep when a pomodoro is over. No
-   excuse for taking a break.
+   You can plug your own scripts when a pomodoro starts and when a pomodoro
+   finishes. I used them to include a cool Italian voice making announcements
+   and they put my display to sleep when a pomodoro is over. No excuse for not
+   taking a break.
 
 1. **It keeps an history.**
 
@@ -60,8 +61,7 @@ the journal:
   - message: Write a blog post about Pomodoro 1.0.0
 ```
 
-(OK, I cheated, I added this journal entry after the Pomodoro finished, so yes,
-I spent a little more time than 1 Pomodoro working on this post. Sue me!)
+What do you think? How do you like them tomatoes? 🍅
 
 [1]: https://dirtyhenry.github.io/pomodoro-cli/ "Jazzy docs for Pomodoro CLI"
 [2]:
@@ -77,3 +77,6 @@ I spent a little more time than 1 Pomodoro working on this post. Sue me!)
 [ghs2]:
   https://github.com/search?q=pomodoro+cli+language%3ASwift
   "GitHub search results for Pomodoro, CLI AND Swift"
+[4]: https://github.com/dirtyhenry/pomodoro-cli/releases
+
+[3]: {% post_url 2017-11-04-swift-command-line-pomodoro %}
