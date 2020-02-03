@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Service to Activity Communication With The Android SDK
-category: blog
+categories: [android]
 ---
 
 I'm an experienced iOS developer but still consider myself a noob regarding

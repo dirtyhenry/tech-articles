@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Top 5 des outils du développeur indépendant
-tags:
-  - iOS
-  - Mac OS X
+categories: [oped, bookmark]
 ---
 
 Réaliser des produits logiciels le plus efficacement possible en tant

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Le bilan du Morning Coffee
+categories: [random]
 ---
 
 ## Incident

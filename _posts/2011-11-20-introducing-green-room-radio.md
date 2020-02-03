@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Hackathon Experience: Introducing Green Room Radio"
-category: blog
+categories: [product]
 ---
 
 Yesterday, I went to my first Hackathon: the [AT&T Mobile App Hackathon in

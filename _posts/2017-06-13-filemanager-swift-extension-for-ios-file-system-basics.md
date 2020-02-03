@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A FileManager Swift extension to manage iOS file systems basics with ease
-category: blog
+categories: [ios, swift]
 ---
 
 I recently spent some time figuring out the best way to find the URL/paths of

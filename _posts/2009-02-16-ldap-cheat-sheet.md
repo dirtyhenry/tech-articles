@@ -1,6 +1,7 @@
 ---
 layout: post
 title: LDAP Cheat Sheet
+categories: [devops, ldap]
 ---
 
 _Lightweight Directory Access Protocol_ est un protocole de gestion d'annuaires.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jalopy: a formating tool helping coding conventions"
+categories: [java, jalopy]
 ---
 
 There's a lot to say about coding conventions. Jalopy is a nice Java formatting

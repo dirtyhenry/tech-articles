@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using Subversion with Mac OS X
+categories: [svn]
 ---
 
 - To create a repository: `svnadmin create ~/Documents/MySVN`.

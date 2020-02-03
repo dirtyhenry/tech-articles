@@ -6,6 +6,7 @@ alert:
   level: info
   content: |
     Update 2013: This post was first published in my previous website. It is still mostly relevent but needs updates. I'll try to update it soon.
+categories: [web]
 ---
 
 Internet is turning mobile. So what should I do then? Make a desktop version and

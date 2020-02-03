@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Un même graphe pour le bureau et le mobile ?
+categories: [data]
 ---
 
 L’_information design_ est une tendance majeure du web (cf.

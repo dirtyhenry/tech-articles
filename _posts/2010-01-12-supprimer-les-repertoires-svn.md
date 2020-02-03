@@ -1,10 +1,7 @@
 ---
 layout: post
 title: Supprimer les répertoires SVN
-tags:
-  - Dépannage
-  - Multi-plateformes
-  - Subversion / SVN
+categories: [svn]
 ---
 
 Petit tuto très pratique trouvé

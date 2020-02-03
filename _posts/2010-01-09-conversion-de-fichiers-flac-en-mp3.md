@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Conversion de fichiers .flac en .mp3
+categories: [shell]
 ---
 
 Pour convertir des fichiers `.flac` en `.mp3` en ligne de commande, une solution

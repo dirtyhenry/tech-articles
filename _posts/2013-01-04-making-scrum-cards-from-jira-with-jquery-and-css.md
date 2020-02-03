@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Bookmarklets for Jira OnDemand
-category: blog
 alert:
   level: info
   content: |
     **Update!** 2013 Nov. 20th: The bookmarklets have been updated to support the new Jira OnDemand markup.
+categories: [tools, product]
 ---
 
 Sometimes you run out of Post-Its. Shit happens. Let's keep the task board busy

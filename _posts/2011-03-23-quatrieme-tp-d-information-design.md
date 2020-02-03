@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Quatrième TP d’Information Design
+categories: [data]
 ---
 
 Les matches de l'équipe de France sont toujours l'occasion de m'entraîner à

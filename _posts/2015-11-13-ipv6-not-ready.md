@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IPv6 Ready ?
-category: blog
+categories: [devops]
 ---
 
 L'infrastructure réseau est-elle **prête pour l'IPv6 ?** La question s'est posée
