@@ -10,7 +10,7 @@ before_install:
   - bundle config set deployment 'true'
 
 install:
-  - make install
+  - make install-deploy
 
 script:
   - make build

@@ -1,8 +1,10 @@
 clean:
 	git clean -dfX
 
-install:
+install-deploy:
 	bundle install
+
+install: install-deploy
 	yarn install
 
 update:
