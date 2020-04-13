@@ -7,4 +7,5 @@ $accent-inverted: #fff;
 $accent-inverted-active: #ccc;
 
 // Import partials.
-@import "kids/base", "kids/layout", "kids/links", "kids/typography";
+@import "kids/base", "kids/images", "kids/layout", "kids/links",
+  "kids/typography";
