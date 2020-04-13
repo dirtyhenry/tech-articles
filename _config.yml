@@ -24,24 +24,23 @@ footer_pages:
   - archives.md
 
 commonmark:
-  extensions:
-    - "table"
   options:
-    - "FOOTNOTES"
-    - "LIBERAL_HTML_TAG"
-    - "SMART"
-    - "UNSAFE"
-
+    # Use smart punctuation (curly quotes, etc.).
+    - SMART
+    # Parse footnotes.
+    - FOOTNOTES
+    # Allow raw HTML (required for jekyll-assets to work properly).
+    - UNSAFE
+  extensions:
+    - strikethrough
+    - autolink
+    - table
 theme: kids
 
 kids:
-  archives_path: 'archives/'
+  archives_path: "archives/"
   home_posts: 5
 
 plugins:
   - jekyll-liquify
   - jekyll-sitemap
-
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table"]

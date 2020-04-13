@@ -30,7 +30,7 @@ Le résultat me fait un peu rougir - le diagramme était bien plus beau dans ma
 tête - mais après tout, c'était une première fois et je pense qu'il est
 finalement assez honorable :
 
-![Diagramme de Venn de la 1ère sélection post-mondial 2010](../../assets/images/fff-venn-diagram.png)
+{% asset fff-venn-diagram.png alt="Diagramme de Venn de la 1ère sélection post-mondial 2010" %}
 
 N'hésitez pas à me faire part de vos commentaires et si l'information design
 vous intéresse, je vous recommande le site suivant :

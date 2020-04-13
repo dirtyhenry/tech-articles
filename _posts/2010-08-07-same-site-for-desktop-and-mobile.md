@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "A same website for desktop and mobile?"
-javascript: tooltip.js
+title: A same website for desktop and mobile?
 category: blog
 alert:
   level: info
@@ -46,7 +45,7 @@ What's interesting me most here is not Internet Explorer-compatibility though,
 but making websites that look good on iOS devices, the iPhone and the iPad. I've
 tried to give these techniques a try and here it is:
 
-![A grid layout](../../assets/images/grid.png "A grid layout")
+{% asset grid.png alt="A grid layout" %}
 
 This is a 10-column layout of 82px each, separated by 20px gutters. With 2
 outside gutters of 12px each, we get a grid defined by a default width of
@@ -54,24 +53,21 @@ outside gutters of 12px each, we get a grid defined by a default width of
 
 To setup my CSS correctly, some math are required:
 
-![Some grid math](../../assets/images/grid-math.png "Some grid math")
+{% asset grid-math.png alt"Some grid math" %}
 
 Then I had all I needed to build the [CSS][1] for [this demo page][2].
 
 This demo page renders as follow on the iPhone, portrait and landscape:
 
-![Grid page rendering on an iPhone with portrait orientation][6]
+{% asset grid-portrait.jpg alt="Grid page rendering on an iPhone with portrait orientation" %}
 
-![Grid page rendering on an iPhone with landscape orientation][7]
+{% asset grid-landscape.jpg alt="Grid page rendering on an iPhone with landscape orientation" %}
 
 ## Conclusion
 
 I'll soon adapt this website, quickly put together with ZPIP so that it uses
 these methods and is adapted, with a nice design, to the iPhone and the iPad.
 Stay tuned.
-
-_⚠️ Update_: This is pretty old and needs to be updated but you can visit the
-promised update here: <http://mickaelflochlay.com/spip/>
 
 ## Useful resources:
 
@@ -84,9 +80,3 @@ promised update here: <http://mickaelflochlay.com/spip/>
 [3]: http://www.alistapart.com/articles/fluidgrids/
 [4]: http://www.alistapart.com/articles/responsive-web-design/
 [5]: http://unstoppablerobotninja.com/entry/fluid-images
-[6]:
-  ../../assets/images/grid-portrait.jpg
-  "Grid page rendering on an iPhone with portrait orientation"
-[7]:
-  ../../assets/images/grid-landscape.jpg
-  "Grid page rendering on an iPhone with landscape orientation"

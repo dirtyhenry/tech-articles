@@ -5,9 +5,9 @@ title: iOS et keyboardType
 
 Comme j'ai cherché une page qui ressemblerait à celle-ci et que je ne l'ai pas
 trouvée, voici ma compilation "à quoi ressemble tel type de clavier d'iOS selon
-la valeur de UIKeyboardType ?".
+la valeur de UIKeyboardType ?".
 
-Bien sûr, ce travail est très limité :
+Bien sûr, ce travail est très limité :
 
 - je montre seulement les touches accessibles via la vue principale du clavier
 - je montre seulement la version iPhone en orientation portrait
@@ -23,21 +23,21 @@ faire part dans les commentaires)
 > Use the default keyboard for the current input method.  
 > Available in iOS 2.0 and later.
 
-![UIKeyboardTypeDefault](../../assets/images/keyboard-UIKeyboardTypeDefault.png)
+{% asset keyboard-UIKeyboardTypeDefault.png alt="UIKeyboardTypeDefault" %}
 
 ## UIKeyboardTypeASCIICapable
 
 > Use a keyboard that displays standard ASCII characters.  
 > Available in iOS 2.0 and later.
 
-![UIKeyboardTypeASCIICapable](../../assets/images/keyboard-UIKeyboardTypeASCIICapable.png)
+{% asset keyboard-UIKeyboardTypeASCIICapable.png alt="UIKeyboardTypeASCIICapable" %}
 
 ## UIKeyboardTypeNumbersAndPunctuation
 
 > Use the numbers and punctuation keyboard.  
 > Available in iOS 2.0 and later.
 
-![UIKeyboardTypeNumbersAndPunctuation](../../assets/images/keyboard-UIKeyboardTypeNumbersAndPunctuation.png)
+{% asset keyboard-UIKeyboardTypeNumbersAndPunctuation.png alt="UIKeyboardTypeNumbersAndPunctuation" %}
 
 ## UIKeyboardTypeURL
 
@@ -45,7 +45,7 @@ faire part dans les commentaires)
 > “.com” prominently.  
 > Available in iOS 2.0 and later.
 
-![UIKeyboardTypeURL](../../assets/images/keyboard-UIKeyboardTypeURL.png)
+{% asset keyboard-UIKeyboardTypeURL.png alt="UIKeyboardTypeURL" %}
 
 ## UIKeyboardTypeNumberPad
 
@@ -54,7 +54,7 @@ faire part dans les commentaires)
 > auto-capitalization.  
 > Available in iOS 2.0 and later.
 
-![UIKeyboardTypeNumberPad](../../assets/images/keyboard-UIKeyboardTypeNumberPad.png)
+{% asset keyboard-UIKeyboardTypeNumberPad.png alt="UIKeyboardTypeNumberPad" %}
 
 ## UIKeyboardTypePhonePad
 
@@ -63,7 +63,7 @@ faire part dans les commentaires)
 > type does not support auto-capitalization.  
 > Available in iOS 2.0 and later.
 
-![UIKeyboardTypePhonePad](../../assets/images/keyboard-UIKeyboardTypePhonePad.png)
+{% asset keyboard-UIKeyboardTypePhonePad.png alt="UIKeyboardTypePhonePad" %}
 
 ## UIKeyboardTypeNamePhonePad
 

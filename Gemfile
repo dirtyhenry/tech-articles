@@ -7,12 +7,17 @@ ruby '2.6.3'
 
 gem 'html-proofer'
 gem 'jekyll'
-gem 'kids'
+gem 'kids',
+    git: 'https://github.com/dirtyhenry/kids.git',
+    branch: 'master'
 gem 'mdl'
 gem 'rouge'
 gem 'rubocop', require: false
 
 group :jekyll_plugins do
+  gem 'jekyll-assets',
+      git: 'https://github.com/envygeeks/jekyll-assets',
+      branch: 'master'
   gem 'jekyll-commonmark'
   gem 'jekyll-liquify'
   gem 'jekyll-sitemap'
