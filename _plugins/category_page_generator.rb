@@ -29,6 +29,7 @@ module Jekyll
 
   # A Page subclass used in the `CategoryPageGenerator`
   class CategoryPage < Page
+    # rubocop:disable Lint/MissingSuper
     def initialize(site, base, dir, category)
       @site = site
       @base = base
@@ -42,5 +43,6 @@ module Jekyll
       category_title_prefix = site.config['category_title_prefix'] || 'Category: '
       data['title'] = "#{category_title_prefix}#{category}"
     end
+    # rubocop:enable Lint/MissingSuper
   end
 end

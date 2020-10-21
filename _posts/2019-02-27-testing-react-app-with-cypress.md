@@ -68,7 +68,7 @@ Here is a line-by-line explanation of how it works:
 
 1. Get the DOM element with our usual `getByTest` and _alias_ for further
    reference;
-2. Use Cypress' native `get` with the alias, assert/wait that the button is
+1. Use Cypress' native `get` with the alias, assert/wait that the button is
    enabled, and then click on it.
 
 The difference between `getByText` and `get` is that `getByText` asserts

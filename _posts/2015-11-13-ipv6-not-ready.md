@@ -91,8 +91,8 @@ On n'y est pas encore !
 [^2]: une IPv6 a cet aspect : `2001:4198:dc0:41:316:3eaf:fab8:b694`
 [^3]:
 
-  une URL avec une IPv6 a cet aspect :
-  `http://[2001:4198:dc0:41:316:3eaf:fab8:b694]`
+une URL avec une IPv6 a cet aspect :
+`http://[2001:4198:dc0:41:316:3eaf:fab8:b694]`
 
 [statium-app]:
   https://itunes.apple.com/app/apple-store/id1021607999?pt=117714734&ct=blog&mt=8
