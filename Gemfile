@@ -22,6 +22,7 @@ group :jekyll_plugins do
       git: 'https://github.com/envygeeks/jekyll-assets',
       branch: 'master'
   gem 'jekyll-commonmark'
+  gem 'jekyll-feed'
   gem 'jekyll-liquify'
   gem 'jekyll-sitemap'
 end

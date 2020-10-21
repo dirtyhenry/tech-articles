@@ -199,6 +199,7 @@ DEPENDENCIES
   jekyll
   jekyll-assets!
   jekyll-commonmark
+  jekyll-feed
   jekyll-liquify
   jekyll-sitemap
   kids!

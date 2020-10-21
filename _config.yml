@@ -37,10 +37,15 @@ commonmark:
     - table
 theme: kids
 
+feed:
+  categories:
+    - ios
+
 kids:
   archives_path: "archives/"
   home_posts: 5
 
 plugins:
+  - jekyll-feed
   - jekyll-liquify
   - jekyll-sitemap
