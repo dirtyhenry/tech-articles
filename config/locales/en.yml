@@ -1,0 +1,31 @@
+---
+en:
+  common:
+    next: next
+    previous: previous
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      long: "%B %d, %Y"
+      short: "%b %d"
+    month_names:
+      -
+      - January
+      - February
+      - March
+      - April
+      - May
+      - June
+      - July
+      - August
+      - September
+      - October
+      - November
+      - December
+    order:
+      - :year
+      - :month
+      - :day
+  time:
+    formats:
+      default_date: "%B %d, %Y"

@@ -1,11 +1,24 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
+$background-color: #fff;
 $text-color: #333;
+
+$background-color-dark: #333;
+$text-color-dark: #fff;
+
+$text-color-subdued: #666;
+$text-color-subdued-dark: #aaa;
+
 $accent-color: #d64;
+$accent-color-dark: #e86;
+
 $accent-inverted: #fff;
+$accent-inverted-dark: #333;
+
 $accent-inverted-active: #ccc;
+$accent-inverted-active-dark: #666;
 
 // Import partials.
-@import "kids/base", "kids/images", "kids/layout", "kids/links",
-  "kids/typography";
+@import "kids/base", "kids/images", "kids/index", "kids/layout", "kids/links",
+  "kids/related_pages", "kids/typography";

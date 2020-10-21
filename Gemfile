@@ -5,6 +5,9 @@ source 'https://rubygems.org'
 # Please keep in sync with the one in .travis.yml and .ruby-version.
 ruby '2.6.3'
 
+gem 'buckygem',
+    git: 'https://github.com/dirtyhenry/buckygem.git',
+    branch: 'master'
 gem 'html-proofer'
 gem 'jekyll'
 gem 'kids',
