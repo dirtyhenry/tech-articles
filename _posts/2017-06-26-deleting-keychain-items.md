@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to log and delete keychain items from your iOS app
-category: blog
+categories: [ios, swift]
 ---
 
 ## How Keychain Items Can Slow Down Debugging

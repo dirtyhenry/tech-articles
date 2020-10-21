@@ -6,6 +6,7 @@ alert:
   level: info
   content: |
     This post is an updated version of an original post published in September 2011.
+categories: [oped]
 ---
 
 I've recently found myself in a very uncomfortable situation: my backup external

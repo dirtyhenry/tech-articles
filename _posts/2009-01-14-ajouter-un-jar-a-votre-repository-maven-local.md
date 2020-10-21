@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ajouter un JAR à votre repository Maven local
+categories: [java, maven]
 ---
 
 ## La commande

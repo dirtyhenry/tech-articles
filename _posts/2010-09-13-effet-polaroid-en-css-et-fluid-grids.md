@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Effet Polaroid en CSS et Fluid Grids
+categories: [web]
 ---
 
 À la suite de la lecture de

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Excel : exportation d’un graphe sous forme d’image"
+categories: [windows, excel]
 ---
 
 ## Comment

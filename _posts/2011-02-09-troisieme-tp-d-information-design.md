@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Troisième TP d'Information Design
+categories: [data]
 ---
 
 Quelques mois après mon dernier exercice, je profite du match France-Brésil pour

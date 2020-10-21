@@ -1,8 +1,7 @@
 ---
 layout: post
 title: OmniGraffe
-tags:
-  - Mac OS X
+categories: [bookmark]
 ---
 
 OmniGraffle est un outil de génération de diagrammes et de graphiques pour Mac.

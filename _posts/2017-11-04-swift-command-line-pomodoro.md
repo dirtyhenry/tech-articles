@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing a Swift Pomodoro Timer Command-Line Tool
-category: blog
+categories: [swift, product]
 ---
 
 I wanted to experiment on writing command line tools with Swift, I wrote a

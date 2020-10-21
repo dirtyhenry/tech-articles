@@ -1,14 +1,7 @@
 ---
 layout: post
 title: "Grails : introduction et tuyaux"
-tags:
-  - Multi-plateformes
-  - Développement
-  - Applications Web
-  - Grails
-  - Java
-  - Groovy
-  - Framework
+categories: [java, grails]
 ---
 
 **Grails** est un framework de développement qui permet de créer des

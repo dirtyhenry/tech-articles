@@ -3,7 +3,7 @@ layout: post
 title:
   "Troubleshooting a Dedibox Upgrade From Maverick to Natty (Ubuntu Server)"
 javascript: tooltip.js
-category: blog
+categories: [devops]
 ---
 
 This last week-end, I've tried to upgrade my [Dedibox][1] running Ubuntu Server

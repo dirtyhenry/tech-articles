@@ -3,7 +3,7 @@ repository:
   url: https://github.com/bootstragram/bootstragram-blog
   name: bootstragram/bootstragram-blog
 url: https://bootstragram.com
-permalink: /:categories/:title/
+permalink: /blog/:title/
 baseurl: /
 destination: ./_site
 hightligher: rouge
@@ -37,10 +37,15 @@ commonmark:
     - table
 theme: kids
 
+feed:
+  categories:
+    - ios
+
 kids:
   archives_path: "archives/"
   home_posts: 5
 
 plugins:
+  - jekyll-feed
   - jekyll-liquify
   - jekyll-sitemap

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Debugging Symbolic Links On iOS"
-javascript: tooltip.js
-category: blog
+categories: [ios]
 ---
 
 Symbolic links are one of my favorite pragmatic best practice to manage a file

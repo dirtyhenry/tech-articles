@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to generate Programming Guides with Appledoc
-category: blog
+categories: [ios]
 ---
 
 [appledoc][appledoc] is a pretty awesome tool. It's a command line tool that
