@@ -44,6 +44,12 @@ feed:
 kids:
   archives_path: "archives/"
   home_posts: 5
+  header_pages:
+    - categories.md
+    - about.md
+  footer_pages:
+    - archives.md
+    - bookmarks.md
 
 plugins:
   - jekyll-feed

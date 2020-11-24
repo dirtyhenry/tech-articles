@@ -9,6 +9,6 @@ title: Development Tools Bookmarks
 
 {{ bookmark.content | markdownify }}
 
-[Link]({{bookmark.url}})
+[Link]({{bookmark.target_url}})
 
 {% endfor %}

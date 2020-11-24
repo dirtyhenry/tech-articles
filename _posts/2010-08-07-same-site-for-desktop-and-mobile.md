@@ -54,7 +54,7 @@ outside gutters of 12px each, we get a grid defined by a default width of
 
 To setup my CSS correctly, some math are required:
 
-{% asset grid-math.png alt"Some grid math" %}
+{% asset grid-math.png alt="Some grid math" %}
 
 Then I had all I needed to build the [CSS][1] for [this demo page][2].
 

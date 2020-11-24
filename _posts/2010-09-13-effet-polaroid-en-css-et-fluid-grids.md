@@ -53,8 +53,7 @@ screen.scss, on obtient facilement des grilles à 3, 4 ou 6 colonnes.
 
 ## Le résultat à l’œuvre
 
-J'ai utilisé la feuille CSS générée par Compass sur
-[ce post](http://www.deadrooster.org/Compile-MP3-du-NET-01) du site
+J'ai utilisé la feuille CSS générée par Compass sur [ce post][1] du site
 deadrooster.org. Attention, si vous observez le fichier CSS utilisé, vous aurez
 toujours des valeurs absolues, mais le fichier CSS en entier a été généré
 automatiquement par Compass à partir du source Sass avec variables.
@@ -73,5 +72,7 @@ J'ai partagé le portage Sass dans un nouveau projet Google Code :
 [MF-CSS](http://code.google.com/p/mfcss/) sous licence GPL. Toute participation
 pour améliorer l'effet Polaroïd, tant d'un point de vue rendu visuel que d'un
 point de vue richesse fonctionnelle et confort d'utilisation est la bienvenue.
+
+[1]: https://deadrooster.org/compile-mp3-du-net-01/
 
 [fluidgrid]: {% post_url 2010-08-07-same-site-for-desktop-and-mobile %}

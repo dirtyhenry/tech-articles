@@ -23,7 +23,7 @@ categories: [ios]
 
 ## Outils autour d’Objective-C
 
-- [Doxygen](http://www.doxygen.nl) : système de documentation pour Objective-C
-- Il n'existe pas encore d'outils très fiable concernant les solutions
-  d'intégration continue pour XCode/Objective-C. Un article en parle
-  [ici](http://www.gqadonis.com/?p=83).
+- [Doxygen](https://www.doxygen.nl) : système de documentation pour Objective-C
+- ~~Il n'existe pas encore d'outils très fiable concernant les solutions
+  d'intégration continue pour XCode/Objective-C. Un article en parle ici~~
+  (edit: this is _so_ obsolete).

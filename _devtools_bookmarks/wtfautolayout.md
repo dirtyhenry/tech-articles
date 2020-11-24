@@ -1,6 +1,6 @@
 ---
 name: Why The Failure, Auto Layout?
-url: https://www.wtfautolayout.com/
+target_url: https://www.wtfautolayout.com/
 ---
 
 A deciphering tool for Auto Layout error logs.

@@ -18,7 +18,7 @@ If you're using OnDemand Jira, here is an option to help you.
 
 ## The Magic of jQuery and CSS
 
-Click [here][https://dirtyhenry.github.io/jira-to-agile-cards/] to access the
+Click [here](https://dirtyhenry.github.io/jira-to-agile-cards/) to access the
 two bookmarklets I created for OnDemand Jira.
 
 ⚠️ **WTF?!** [What's a bookmarklet?!](https://en.wikipedia.org/wiki/Bookmarklet)
