@@ -52,7 +52,7 @@ to try this app, have some feedback to share, or a name suggestion, feel free to
 
 ### More links about the event
 
-- [Recap post from Alex Donn][8]
+- ~~Recap post from Alex Donn~~ (edit: 💀 link)
 - [Facebook photo bucket][9]
 
 [1]: http://mobileappbos.eventbrite.com/
@@ -62,6 +62,5 @@ to try this app, have some feedback to share, or a name suggestion, feel free to
 [5]: http://bandcamp.com/developer
 [6]: http://en.wikipedia.org/wiki/Green_room
 [7]: http://twitter.com/dirtyhenry
-[8]: http://bit.ly/bostonhack
 [9]:
   https://www.facebook.com/media/set/?set=a.272239499489444.63625.151603081553087&type=1

@@ -51,5 +51,5 @@ Random list of things mentioned during the event :
 [nitot]: http://twitter.com/#!/nitot
 [b2g]: http://www.mozilla.org/en-US/b2g/
 [bartz]: https://twitter.com/#!/michelbartz
-[ebook]: http://sachagreif.com/ebook/
+[ebook]: https://sachagreif.com
 [tau]: https://tauday.com

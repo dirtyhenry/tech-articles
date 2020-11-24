@@ -1,6 +1,6 @@
 ---
 name: Speculid
-url: https://github.com/brightdigit/Speculid
+target_url: https://github.com/brightdigit/Speculid
 ---
 
 Speculid links a single graphic file to an Image Set or App Icon and

@@ -1,6 +1,6 @@
 ---
 name: App Store Disconnect
-url: https://appstoredisconnect.com
+target_url: https://appstoredisconnect.com
 ---
 
 A collection of bug and bug status of the App Store.
