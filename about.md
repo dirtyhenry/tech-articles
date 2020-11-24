@@ -19,7 +19,7 @@ I’m French and currently based in Paris.
 To find out more about me, [my LinkedIn profile page][linkedin] or [my Twitter
 account][twitter].
 
-[deadrooster]: https://www.deadrooster.org/
+[deadrooster]: https://deadrooster.org/
 [livingstones]: https://thelivingstonesipresume.bandcamp.com
 [agile]: http://agilemanifesto.org/
 [linkedin]: https://www.linkedin.com/in/mickaelflochlay/
