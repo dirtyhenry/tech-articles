@@ -3,6 +3,10 @@ repository:
   url: https://github.com/bootstragram/bootstragram-blog
   name: bootstragram/bootstragram-blog
 url: https://bootstragram.com
+description: >-
+  Notes for myself and fellow programmers, 
+  with a focus on iOS, Swift and web frontend development. 
+  Since 2009.
 permalink: /blog/:title/
 baseurl: /
 destination: ./_site
