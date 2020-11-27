@@ -20,3 +20,6 @@ lint:
 	bundle exec rubocop
 	bundle exec mdl _posts/
 	bundle exec htmlproofer --assume-extension --http-status-ignore "999" --check_img_http ./_site
+
+lintfix:
+	yarn prettier -w _posts/
