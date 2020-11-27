@@ -1,22 +1,17 @@
 ---
 layout: post
-title: "Excel : exportation d’un graphe sous forme d’image"
+title: "Excel: exporting a chart as a PNG image"
 categories: [windows, excel]
 ---
 
-## Comment
-
-C'est facile à faire, à partir de cette macro qui export le fichier, au format
-PNG, dans `d:/temp` !
-
-## La macro
+This Excel macro will help you export a chart to a PNG file to `d:/temp`:
 
 ```
-Sub exportGraphiquePng()
-Dim NomGraph As String
-Dim Fich As String
-NomGraph = ActiveChart.Name
-Fich = "d:/temp/"
-ActiveChart.Export Filename:=Fich &amp; NomGraph &amp; ".png", FilterName:="PNG"
+Sub exportChartAsPNG()
+Dim ChartName As String
+Dim File As String
+ChartName = ActiveChart.Name
+File = "d:/temp/"
+ActiveChart.Export Filename:=File &amp; ChartName &amp; ".png", FilterName:="PNG"
 End Sub
 ```

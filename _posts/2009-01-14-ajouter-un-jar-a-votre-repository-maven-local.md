@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Ajouter un JAR à votre repository Maven local
+title: How to Add a JAR to a Local Maven Repository?
 categories: [java, maven]
 ---
 
-## La commande
+## The command
 
 ```shell
 mvn install:install-file \
@@ -15,12 +15,13 @@ mvn install:install-file \
   -Dpackaging=<packaging>
 ```
 
-## Pourquoi ?
+## Why we need it
 
-Tous les JAR ne sont pas disponibles sur les repositories Maven par défaut. Et
-c'est bien normal : certaines ne sont pas publiques ! Néanmoins, si un JAR est
-nécessaire pour compiler votre projet, il est nécessaire d'insérer ce JAR dans
-votre repository local. Inutile de le faire à la main, cette commande le fait
-pour vous.
+Not every JAR is available on Maven repositories by default. That makes sense
+since not every JAR is made to be public. However, is a JAR is required to
+compile your project, it might be necessary to add this JAR to your local
+repository.
 
-[Source](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html)
+More details can be found on this [Guide to installing 3rd party JARs][1].
+
+[1]: https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html

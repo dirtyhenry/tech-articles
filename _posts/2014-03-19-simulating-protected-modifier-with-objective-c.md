@@ -22,68 +22,79 @@ herself in classes such as
 
 ## A Concrete Example
 
-### The public...
+### The public…
 
 Let's say I have a `BSDaddy` base class with only one publicly declared taskk:
 
-{% highlight objc %} @interface BSDaddy : NSObject
-
-- (NSString \*)introduction;
-
-@end {% endhighlight %}
+```objc
+@interface BSDaddy : NSObject
+- (NSString *)introduction;
+@end
+```
 
 Now I want a `BSSon` class, inheriting from `BSDaddy`.
 
-{% highlight objc %} #import "BSDaddy.h"
+```objc
+#import "BSDaddy.h"
 
 @interface BSSon : BSDaddy
 
-@end {% endhighlight %}
+@end
+```
 
-### ... the protected...
+### … the protected…
 
 Let's say, Dad has information it should share with his son, like an address for
 instance. Let's create a new file `BSDaddySubclass.h` in which we declared this
 kind of stuff.
 
-{% highlight objc %} @interface BSDaddy ()
+```objc
+@interface BSDaddy ()
 
-@property(nonatomic, strong) NSString \*protectedAddress;
+@property(nonatomic, strong) NSString *protectedAddress;
 
-- (NSString \*)healthInsuranceId;
+- (NSString *)healthInsuranceId;
 
-@end {% endhighlight %}
+@end
+```
 
-Please not that I'm using `()` instead of something more precise like
-`(subclass)` cause otherwise, the properties are not auto-synthetized.
+Please note that I'm using `()` instead of something more precise like
+`(subclass)` as, otherwise, the properties are not auto-synthetized.
 
-### ... and the private
+### … and the private
 
 Here is a basic implementation of Dad, in which we also defined stuff we want to
 keep private from Son.
 
-{% highlight objc %} #import "BSDaddy.h" #import "BSDaddySubclass.h"
+```objc
+#import "BSDaddy.h"
+#import "BSDaddySubclass.h"
 
 @interface BSDaddy ()
 
-@property(weak, nonatomic) NSString \*secretSexFantasy;
+@property(weak, nonatomic) NSString *secretSexFantasy;
 
-- (NSNumber \*)creditCardPinNumber;
+- (NSNumber *)creditCardPinNumber;
 
 @end
 
 @implementation BSDaddy
 
-- (id)init { self = [super init]; if (self) { self.protectedAddress = @"Hill
-  Valley"; self.secretSexFantasy = @"being disguised as an alien"; } return
-  self; }
+- (id)init {
+   self = [super init];
+   if (self) {
+      self.protectedAddress = @"Hill Valley";
+      self.secretSexFantasy = @"being disguised as an alien";
+   }
+   return self;
+}
 
-- (NSString \*)introduction { return @"Hi! My name is George McFly!"; }
+- (NSString *)introduction { return @"Hi! My name is George McFly!"; }
 
-- (NSString \*)healthInsuranceId { return @"123456789"; }
+- (NSString *)healthInsuranceId { return @"123456789"; }
 
-- (NSNumber \*)creditCardPinNumber { return [NSNumber numberWithInteger:1234]; }
-  {% endhighlight %}
+- (NSNumber *)creditCardPinNumber { return [NSNumber numberWithInteger:1234]; }
+```
 
 Please note that we reuse `()` for the new interface declaration, it will not
 conflict with the one in `BSDaddySubclass.h`
@@ -94,32 +105,34 @@ Son is a rebel and want to share everything about his dad when he introduces
 himself.
 
 ```objc
-#import "BSSon.h" #import "BSDaddySubclass.h"
+#import "BSSon.h"
+#import "BSDaddySubclass.h"
 
 @implementation BSSon
 
-- (NSString _)introduction { // Property 'secretSexFantasy' not found on object
-  of type 'BSSon _' //NSString \*myDadSecretFantasy = self.secretSexFantasy;
+- (NSString *)introduction {
+   // Property 'secretSexFantasy' not found on object of type 'BSSon *'
+   // NSString *myDadSecretFantasy = self.secretSexFantasy;
 
-#pragma clang diagnostic push #pragma clang diagnostic ignored
-"-Wundeclared-selector"
+   #pragma clang diagnostic push
+   #pragma clang diagnostic ignored "-Wundeclared-selector"
 
-    NSString *myDadSecretFantasy = nil;
-    NSNumber *creditCardPinNumber = nil;
-    if ([self respondsToSelector:@selector(secretSexFantasy)]) {
-        myDadSecretFantasy = [self performSelector:@selector(secretSexFantasy)
+   NSString *myDadSecretFantasy = nil;
+   NSNumber *creditCardPinNumber = nil;
+
+   if ([self respondsToSelector:@selector(secretSexFantasy)]) {
+      myDadSecretFantasy = [self performSelector:@selector(secretSexFantasy)
                                    withObject:nil];
-    }
+   }
 
-    if ([self respondsToSelector:@selector(creditCardPinNumber)]) {
-        creditCardPinNumber = [self performSelector:@selector(creditCardPinNumber)
+   if ([self respondsToSelector:@selector(creditCardPinNumber)]) {
+      creditCardPinNumber = [self performSelector:@selector(creditCardPinNumber)
                                     withObject:nil];
-    }
+   }
 
-#pragma clang diagnostic pop
+   #pragma clang diagnostic pop
 
-    return [NSString stringWithFormat:@"Hi! I'm Marty. My dad says: “%@”. He'll be mad cause I'm making public that we live in %@ and his health insurance ID is %@. He'll be even madder after I tell you his secret sex fantasy is %@, and that his credit card PIN number is %@.", [super introduction], self.protectedAddress, [self healthInsuranceId], myDadSecretFantasy, creditCardPinNumber];
-
+   return [NSString stringWithFormat:@"Hi! I'm Marty. My dad says: “%@”. He'll be mad cause I'm making public that we live in %@ and his health insurance ID is %@. He'll be even madder after I tell you his secret sex fantasy is %@, and that his credit card PIN number is %@.", [super introduction], self.protectedAddress, [self healthInsuranceId], myDadSecretFantasy, creditCardPinNumber];
 }
 ```
 
@@ -128,8 +141,9 @@ Please note:
 1. `BSDaddySubclass.h` is imported.
 1. The properties and tasks declared in `BSDad.m` can't be used: you will get a
    compilation error if you try
-1. The properties and tasks declared in `BSDadSubclass.h` CAN be used normally
-   without the need of an extra `@synthesize` or `@dynamic` for properties.
+1. The properties and tasks declared in `BSDadSubclass.h` **can** be used
+   normally without the need of an extra `@synthesize` or `@dynamic` for
+   properties.
 1. Most importantly, please note that this is just _simulated protection_, which
    relies on a **convention**! If another class decides to import
    `BSDadSubclass.h`, nothing will prevent it to do so and use the protected
@@ -147,7 +161,7 @@ Please note:
 
 This is how George and Marty will introduce themselves:
 
-![Hello George and Marty](../../assets/images/inheritance.png "Nasty Marty")
+{% asset inheritance.png alt="Hello George and Marty" title="Nasty Marty" %}
 
 You can find the full source code of this example on [my iOS Demo
 code][demo-ios] on GitHub.
@@ -155,6 +169,6 @@ code][demo-ios] on GitHub.
 And again, if you want to address me some feedback or comments, it's via
 [Twitter][twitter] or [GitHub][github].
 
-[github]: https://github.com/dirtyhenry/bootstragram-blog/issues "Issues"
+[github]: https://github.com/Bootstragram/bootstragram-blog/issues "Issues"
 [twitter]: http://twitter.com/dirtyhenry
 [demo-ios]: https://github.com/Bootstragram/bootstragram-ios
