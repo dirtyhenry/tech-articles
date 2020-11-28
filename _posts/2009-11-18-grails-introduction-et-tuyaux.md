@@ -2,6 +2,7 @@
 layout: post
 title: "Grails : introduction et tuyaux"
 categories: [java, grails]
+lang: fr
 ---
 
 **Grails** est un framework de développement qui permet de créer des

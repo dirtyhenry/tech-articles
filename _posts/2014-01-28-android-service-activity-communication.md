@@ -122,13 +122,6 @@ I invite you to get in touch via [GitHub][github] or [Twitter][twitter] if you
 want to engage a discussion about this page (in particular if you know a better
 way to do a Service to UI communication).
 
-Also, my [message in a bottle][tweet] is still out there:
-
-<blockquote class="twitter-tweet" lang="en">
-  <p>Is there any equivalent to NSHipster (by <a href="https://twitter.com/mattt">@mattt</a>) or objc.io (by <a href="https://twitter.com/chriseidhof">@chriseidhof</a>, <a href="https://twitter.com/danielboedewadt">@danielboedewadt</a> and <a href="https://twitter.com/floriankugler">@floriankugler</a>) for the Android world?</p>
-  &mdash; Mickaël Floc&#39;hlay (@dirtyhenry) <a href="https://twitter.com/dirtyhenry/statuses/426382723377553408">January 23, 2014</a>
-</blockquote>
-
 [asynctask]:
   http://developer.android.com/reference/android/os/AsyncTask.html
   "AsyncTask Class API Reference"
