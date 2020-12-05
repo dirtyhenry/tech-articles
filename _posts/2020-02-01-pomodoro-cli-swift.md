@@ -4,11 +4,11 @@ title: Pomodoro CLI 1.0.0 Released 🎉
 categories: [swift, product]
 ---
 
-A little more than two years after [work started on this][3], I'm happy to
+A little more than two years after [I started working on this][3], I am happy to
 annouce that [`pomodoro-cli` 1.0.0][4] has been released today. I finally felt
-enough features were here to decide a tag was needed.
+that it had enough features to decide a tag was needed.
 
-## How Can I Install It?
+## How Can You Install It?
 
 I still need to work on the distribution via Homebrew but the code and
 installation steps can be found on [the project website][1] or [its GitHub
@@ -16,10 +16,11 @@ repository][2].
 
 ## What on Earth Is Pomodoro?
 
-It's a time management technique that was created by Francesco Cirillo. He wrote
-[a book][pb] and [a website][pw] about it. To summarize, it's all about
-splitting up your work into time-boxed full-focused 25-minutes window on 1
-objective. Pretty damn efficient when you can afford to stick to it I must say.
+It is a time management technique that was created by Francesco Cirillo. He
+wrote [a book][pb] and [a website][pw] about it. To summarize, it's all about
+splitting up your work into 25-minutes chunks of time that are each full-focused
+on 1 objective. Pretty damn efficient when you can afford to stick to it I must
+say.
 
 ## Why the Hell Did You Do That?
 
@@ -55,7 +56,7 @@ But!
 This blog post was written during 1 Pomodoro. Here is the associated log from
 the journal:
 
-```yaml
+```yml
 - - startDate: 01/02/2020 21:23:10
   - endDate: 01/02/2020 21:48:10
   - message: Write a blog post about Pomodoro 1.0.0

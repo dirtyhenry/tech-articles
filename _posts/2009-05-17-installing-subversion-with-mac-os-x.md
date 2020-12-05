@@ -6,7 +6,9 @@ categories: [svn]
 
 - To create a repository:
 
-  `svnadmin create ~/Documents/MySVN`
+```bash
+svnadmin create ~/Documents/MySVN
+```
 
 - Edit the `conf/` files:
   - into `svnserve.conf`, remove comments before:
@@ -16,4 +18,6 @@ categories: [svn]
   - add a user/password into `passwd`
 - To run your SVN server, run:
 
-  `svnserve -d -r ~/Documents/MySVN`
+```bash
+svnserve -d -r ~/Documents/MySVN
+```

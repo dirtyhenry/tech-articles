@@ -25,12 +25,14 @@ working Xcode project with the [Commander][commander] dependency setup right.
 
 Basically, everything you need to type in the terminal is:
 
-    swift package init --type executable
-    # Setting up dependencies in `Package.swift`
-    swift package update
-    swift package generate-xcodeproj
-    swift build
-    .build/debug/<name-of-your-target>
+```bash
+swift package init --type executable
+# Setting up dependencies in `Package.swift`
+swift package update
+swift package generate-xcodeproj
+swift build
+.build/debug/<name-of-your-target>
+```
 
 ## How to output things to the standard output?
 

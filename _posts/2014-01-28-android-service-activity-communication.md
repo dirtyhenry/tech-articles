@@ -65,22 +65,39 @@ Play Store!
 When you create a `Service`, you need to declare it in your app manifest. I made
 mine private to my app but it's not required.
 
-{% highlight xml %} <application ...> .... <service
-        android:name=".services.RandomEventsService"
-        android:exported="false" > </service> .... </application>
-{% endhighlight %}
+```xml
+<application ...>
+  ....
+  <service android:name=".services.RandomEventsService"
+           android:exported="false" >
+  </service>
+  ....
+</application>
+```
 
 The service itself is a subclass of [`IntentService`][intentservice] (which
 provides a convenient `onHandleIntent` method to override) doing very simple
 things:
 
-{% highlight java %} protected void onHandleIntent(Intent intent) { while (true)
-{ final RandomSingleton singleton = RandomSingleton.getInstance();
-singleton.increment(); long endTime = System.currentTimeMillis() + 2 \* 1000;
-while (System.currentTimeMillis() < endTime) { synchronized (this) { try {
-wait(endTime - System.currentTimeMillis()); } catch (Exception e) { Log.e(TAG,
-"Couldn't sleep in peace", e); } } singleton.increment(); } } }
-{% endhighlight %}
+```java
+protected void onHandleIntent(Intent intent) {
+  while (true) {
+    final RandomSingleton singleton = RandomSingleton.getInstance();
+    singleton.increment();
+    long endTime = System.currentTimeMillis() + 2 * 1000;
+    while (System.currentTimeMillis() < endTime) {
+      synchronized (this) {
+        try {
+          wait(endTime - System.currentTimeMillis());
+        } catch (Exception e) {
+          Log.e(TAG, "Couldn't sleep in peace", e);
+        }
+      }
+      singleton.increment();
+    }
+  }
+}
+```
 
 The service just runs continously and wakes up every 2 seconds to update the
 `RandomSingleton` singleton object via the `increment()` method: objectives 1
@@ -90,9 +107,12 @@ Here is [the full source code][randomeventsservice].
 
 The service is started via a button in an activity:
 
-{% highlight java %} public void onClick(View v) { Intent intent = new
-Intent(ServiceFeedbackActivity.this, RandomEventsService.class);
-startService(intent); } {% endhighlight %}
+```java
+public void onClick(View v) {
+  Intent intent = new Intent(ServiceFeedbackActivity.this, RandomEventsService.class);
+  startService(intent);
+}
+```
 
 ### UI Representation and Notifications
 

@@ -12,6 +12,6 @@ Dim ChartName As String
 Dim File As String
 ChartName = ActiveChart.Name
 File = "d:/temp/"
-ActiveChart.Export Filename:=File &amp; ChartName &amp; ".png", FilterName:="PNG"
+ActiveChart.Export Filename:=File & ChartName & ".png", FilterName:="PNG"
 End Sub
 ```
