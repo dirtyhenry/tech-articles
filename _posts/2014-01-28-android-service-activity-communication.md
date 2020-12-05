@@ -143,22 +143,22 @@ want to engage a discussion about this page (in particular if you know a better
 way to do a Service to UI communication).
 
 [asynctask]:
-  http://developer.android.com/reference/android/os/AsyncTask.html
+  https://developer.android.com/reference/android/os/AsyncTask.html
   "AsyncTask Class API Reference"
 [intentservice]:
-  http://developer.android.com/reference/android/app/IntentService.html
+  https://developer.android.com/reference/android/app/IntentService.html
   "IntentService Class API Reference"
 [contentobservable]:
-  http://developer.android.com/reference/android/database/ContentObservable.html
+  https://developer.android.com/reference/android/database/ContentObservable.html
   "ContentObservable Class API Reference"
 [contentobserver]:
-  http://developer.android.com/reference/android/database/ContentObserver.html
+  https://developer.android.com/reference/android/database/ContentObserver.html
   "ContentObserver Class API Reference"
 [localbroadcastmanager]:
-  http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html
+  https://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html
   "LocalBroadcastManager Class API Reference"
 [stackoverflow]:
-  http://stackoverflow.com/search?q=android+ui+communication+background
+  https://stackoverflow.com/search?q=android+ui+communication+background
   "Search for 'Android UI Communication Background' on StackOverflow"
 [bootstragram-android]:
   https://github.com/dirtyhenry/bootstragram-android
@@ -166,8 +166,8 @@ way to do a Service to UI communication).
 [randomeventsservice]:
   https://github.com/dirtyhenry/bootstragram-android/blob/master/src/com/bootstragram/demo/services/RandomEventsService.java
   "My RandomEventsService source code"
-[poc]: http://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept"
+[poc]: https://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept"
 [github]: https://github.com/dirtyhenry/bootstragram-blog/issues "Issues"
-[twitter]: http://twitter.com/dirtyhenry
-[kvo]: http://nshipster.com/key-value-observing/
+[twitter]: https://twitter.com/dirtyhenry
+[kvo]: https://nshipster.com/key-value-observing/
 [tweet]: https://twitter.com/dirtyhenry/statuses/426382723377553408
