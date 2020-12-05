@@ -10,10 +10,13 @@ install: install-deploy
 update:
 	bundle update
 
+package-js:
+	yarn run webpack
+
 build:
 	bundle exec jekyll build
 
-run:
+run: package-js
 	bundle exec jekyll serve
 
 lint:
@@ -22,4 +25,4 @@ lint:
 	bundle exec htmlproofer --assume-extension --http-status-ignore "999" --check_img_http ./_site
 
 lintfix:
-	yarn prettier -w _posts/
+	yarn prettier -w _posts _javascript

@@ -10,7 +10,6 @@ description: >-
 permalink: /blog/:title/
 baseurl: /
 destination: ./_site
-hightligher: rouge
 markdown: CommonMark
 exclude:
   - "Gemfile.lock"
