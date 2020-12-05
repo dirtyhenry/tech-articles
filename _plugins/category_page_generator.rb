@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
 require 'i18n'
+require 'liquid'
 
-def slugify(string)
+def myslugify(string)
   I18n.available_locales = %i[en fr]
   I18n.transliterate(string)
       .downcase
@@ -22,7 +23,7 @@ module Jekyll
       dir = site.config['category_dir'] || 'categories'
       site.categories.each_key do |category|
         # Slug from https://stackoverflow.com/questions/4308377/ruby-post-title-to-slug
-        site.pages << CategoryPage.new(site, site.source, File.join(dir, slugify(category)), category)
+        site.pages << CategoryPage.new(site, site.source, File.join(dir, myslugify(category)), category)
       end
     end
   end
@@ -43,6 +44,15 @@ module Jekyll
       category_title_prefix = site.config['category_title_prefix'] || 'Category: '
       data['title'] = "#{category_title_prefix}#{category}"
     end
-    # rubocop:enable Lint/MissingSuper
+  end
+  # rubocop:enable Lint/MissingSuper
+
+  # A Liquid filter to generate the path of a category resource.
+  module CategoryLinkFilter
+    def category_link(input)
+      "/categories/#{myslugify(input)}"
+    end
   end
 end
+
+Liquid::Template.register_filter(Jekyll::CategoryLinkFilter)
