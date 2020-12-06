@@ -18,7 +18,7 @@ mvn install:install-file \
 ## Why we need it
 
 Not every JAR is available on Maven repositories by default. That makes sense
-since not every JAR is made to be public. However, is a JAR is required to
+since not every JAR is made to be public. However, if a JAR is required to
 compile your project, it might be necessary to add this JAR to your local
 repository.
 

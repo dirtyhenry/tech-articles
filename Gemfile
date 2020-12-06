@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 # Please keep in sync with the one in .travis.yml and .ruby-version.
-ruby '2.6.3'
+ruby '2.7.1'
 
 gem 'buckygem',
     git: 'https://github.com/dirtyhenry/buckygem.git',

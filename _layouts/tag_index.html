@@ -7,7 +7,8 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-{%- assign posts_by_month = site.categories[page.category] | group_by_exp: "item", "item.date | truncate: 7, ''" -%}
+{%- assign posts_by_month = site.tags[page.tag] | group_by_exp: "item", "item.date | truncate: 7, ''" -%}
+
   {%- if posts_by_month.size > 0 -%}
     <ul class="post-list">
       {%- for month in posts_by_month -%}
@@ -26,4 +27,5 @@ layout: default
       {%- endfor -%}
     </ul>
   {%- endif -%}
+
 </div>

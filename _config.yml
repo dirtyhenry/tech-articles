@@ -10,16 +10,16 @@ description: >-
 permalink: /blog/:title/
 baseurl: /
 destination: ./_site
-hightligher: rouge
 markdown: CommonMark
 exclude:
-  - "Gemfile.lock"
   - "Gemfile"
+  - "Gemfile.lock"
   - "LICENSE"
   - "Makefile"
-  - "package.json"
   - "README.md"
-  - "yarn.lock"
+  - "package-lock.json"
+  - "package.json"
+  - "webpack.config.js"
 collections:
   - devtools_bookmarks
 header_pages:

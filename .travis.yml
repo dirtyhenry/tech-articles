@@ -1,6 +1,10 @@
+# Route build to Ubuntu 20.04 LTS
+# 📜 https://docs.travis-ci.com/user/reference/focal/
+dist: focal
 language: ruby
 rvm:
-  - 2.6.3
+  - 2.7.1
+node: 12.18.3
 cache: bundler
 
 before_install:
@@ -10,7 +14,7 @@ before_install:
   - bundle config set deployment 'true'
 
 install:
-  - make install-deploy
+  - make install
 
 script:
   - make build
