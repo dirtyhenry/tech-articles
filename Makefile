@@ -1,17 +1,21 @@
 clean:
-	git clean -dfX
+	# Run `git clean -dfX -n` to maintain
+	rm -f .DS_Store
+	rm -rf .jekyll-cache
+	rm -rf _site
+	rm -rf node_modules
 
 install-deploy:
 	bundle install
 
 install: install-deploy
-	yarn install
+	npm install
 
 update:
 	bundle update
 
 package-js:
-	yarn run webpack
+	npm run webpack
 
 build:
 	bundle exec jekyll build
@@ -25,4 +29,4 @@ lint:
 	bundle exec htmlproofer --assume-extension --http-status-ignore "999" --check_img_http ./_site
 
 lintfix:
-	yarn prettier -w _posts _javascript
+	npm run prettier
