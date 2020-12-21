@@ -10,10 +10,10 @@ layout: default
         {{ page.date | i18n_date: 'default', site.lang }}
       </time>
       {%- if page.author -%}
-      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+        <span> • </span><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
       {%- elsif page.authors -%}
-        • 
-       <ul class="authors-list">
+        <span> • </span>
+        <ul class="authors-list">
           {%- for author in page.authors -%}
             <li>
               <span itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -23,23 +23,23 @@ layout: default
             </span>
             </li>
           {%- endfor -%}
-          </ul>
+        </ul>
       {%- endif -%}
       {%- if page.categories -%}
-        • 
+        <span> • </span>
         <ul class="categories-list">
           {%- for category in page.categories -%}
             <li>
             <span>
               <span class="p-category h-card" itemprop="name">
-                <a href="{{ category | category_link | relative_url }}">
+                <a href="{{ category | slugify: 'latin' | prepend: 'category/' | relative_url }}">
                 {{ category }}
                 </a>
               </span>
               </span>
             </li>
           {%- endfor -%}
-          </ul>
+        </ul>
       {%- endif -%}
       </div>
   </div>
@@ -58,7 +58,7 @@ layout: default
     <ul class="tags-list">
       {%- for tag in page.tags -%}
         <li>
-          <a class="tag-link" href="{{ tag | tag_link | relative_url }}">
+          <a class="tag-link" href="{{ tag | slugify: 'latin' | prepend: 'tag/' | relative_url }}">
           {{ tag }}
           </a>
         </li>

@@ -7,7 +7,7 @@ ruby '2.7.1'
 
 gem 'buckygem',
     git: 'https://github.com/dirtyhenry/buckygem.git',
-    branch: 'master'
+    branch: 'main'
 gem 'html-proofer'
 gem 'jekyll'
 gem 'kids',
@@ -18,6 +18,9 @@ gem 'rouge'
 gem 'rubocop', require: false
 
 group :jekyll_plugins do
+  gem 'jekyll-archives',
+      git: 'https://github.com/jekyll/jekyll-archives.git',
+      branch: 'master'
   gem 'jekyll-assets',
       git: 'https://github.com/envygeeks/jekyll-assets',
       branch: 'master'

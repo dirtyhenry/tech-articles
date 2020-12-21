@@ -45,6 +45,14 @@ feed:
   categories:
     - ios
 
+jekyll-archives:
+  enabled: ["categories", "tags"]
+  layout: archive
+  slug_mode: latin
+  permalinks:
+    tag: "/tag/:name/"
+    category: "/category/:name/"
+
 kids:
   archives_path: "archives/"
   home_posts: 5
@@ -56,6 +64,7 @@ kids:
     - bookmarks.md
 
 plugins:
+  - jekyll-archives
   - jekyll-feed
   - jekyll-liquify
   - jekyll-sitemap
