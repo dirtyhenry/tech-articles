@@ -22,10 +22,6 @@ exclude:
   - "webpack.config.js"
 collections:
   - devtools_bookmarks
-header_pages:
-  - about.md
-footer_pages:
-  - archives.md
 
 commonmark:
   options:
@@ -57,7 +53,7 @@ kids:
   archives_path: "archives/"
   home_posts: 5
   header_pages:
-    - categories.md
+    - tags.md
     - about.md
   footer_pages:
     - archives.md
