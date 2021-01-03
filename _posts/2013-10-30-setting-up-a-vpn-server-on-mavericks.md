@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting up a VPN Server with Mac OS X Mavericks
-categories: [devops]
+tags: [devops]
 ---
 
 My company needed a way for people to access a local network server from home.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Subversion with Mac OS X
-categories: [svn]
+tags: [svn]
 ---
 
 - To create a repository:

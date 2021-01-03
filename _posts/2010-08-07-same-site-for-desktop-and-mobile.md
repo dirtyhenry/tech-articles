@@ -1,12 +1,12 @@
 ---
 layout: post
 title: A same website for desktop and mobile?
-category: blog
+tags: blog
 alert:
   level: info
   content: |
     Update 2013: This post was first published in my previous website. It is still mostly relevent but needs updates. I'll try to update it soon.
-categories: [web]
+tags: [web]
 ---
 
 Internet is turning mobile. So what should I do then? Make a desktop version and

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Top 5 des outils du développeur indépendant
-categories: [oped, bookmark]
+tags: [oped, bookmark]
 ---
 
 Réaliser des produits logiciels le plus efficacement possible en tant

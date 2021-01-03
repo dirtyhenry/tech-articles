@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Code Reviews, a Checklist
-categories: [oped]
+tags: [oped]
 ---
 
 Reviewing code from fellow developers should be considered a best practice.

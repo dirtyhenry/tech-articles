@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Premiers pas en design de l'information
-categories: [data]
+tags: [data]
 ---
 
 Le design de l'information (ou plus naturellement, même quand on est français,

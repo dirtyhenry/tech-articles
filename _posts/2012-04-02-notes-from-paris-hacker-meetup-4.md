@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notes from Paris Hacker Meetup #4"
-categories: [conf, bookmarks]
+tags: [conf, bookmarks]
 ---
 
 Here are some random notes from the [Paris Hacker Meetup #4][meetup], hosted in

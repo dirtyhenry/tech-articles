@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Grails : introduction et tuyaux"
-categories: [java, grails]
+tags: [java, grails]
 lang: fr
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Should I renew my Scrum Master certification?"
-categories: [oped]
+tags: [oped]
 ---
 
 My Scrum Master certification, delivered by the Scrum Alliance, is expiring next
