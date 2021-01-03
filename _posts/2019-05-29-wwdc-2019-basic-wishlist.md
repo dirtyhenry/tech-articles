@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WWDC 2019, A Basic Wish List
-categories: [ios]
+tags: [ios]
 ---
 
 It's [WWDC Wish List Season][1]. Here is mine. Back to basics.

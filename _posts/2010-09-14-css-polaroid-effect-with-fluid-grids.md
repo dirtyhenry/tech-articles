@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [web]
+tags: [web]
 ---
 
 After reading

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Excel: exporting a chart as a PNG image"
-categories: [windows, excel]
+tags: [windows, excel]
 ---
 
 This Excel macro will help you export a chart to a PNG file to `d:/temp`:

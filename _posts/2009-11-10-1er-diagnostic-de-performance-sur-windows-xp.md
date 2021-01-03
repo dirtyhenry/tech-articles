@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1er diagnostic de performance sur Windows XP
-categories: [windows]
+tags: [windows]
 lang: fr
 ---
 

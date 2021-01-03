@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Lessons learned from testing a React front with Cypress
-category: blog
 ---
 
 End-to-end testing is rarely the hot subject a team will fight about to tackle.

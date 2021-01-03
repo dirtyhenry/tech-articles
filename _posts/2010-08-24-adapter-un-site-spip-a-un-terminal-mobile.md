@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adapter un site SPIP à un terminal mobile
-categories: [web]
+tags: [web]
 ---
 
 Le site vient d'être mis à jour et utilise un thème et un squelette ZPIP pour

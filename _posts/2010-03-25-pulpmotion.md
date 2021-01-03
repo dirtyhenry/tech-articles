@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PulpMotion
-categories: [bookmark]
+tags: [bookmark]
 ---
 
 PulpMotion est un logiciel pour Mac qui permet de créer des animations en

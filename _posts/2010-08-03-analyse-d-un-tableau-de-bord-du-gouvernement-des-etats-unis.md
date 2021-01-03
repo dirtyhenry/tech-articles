@@ -5,7 +5,7 @@ alert:
   level: info
   content: |
     This post was updated to fix broken links and remove obsolete contents.
-categories: [data]
+tags: [data]
 ---
 
 Le gouvernement fédéral américain a un projet original et intéressant : proposer

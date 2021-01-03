@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Supprimer les répertoires SVN
-categories: [svn]
+tags: [svn]
 ---
 
 Petit tuto très pratique trouvé

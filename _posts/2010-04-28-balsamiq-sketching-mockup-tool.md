@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Balsamiq Sketching/Mockup Tool
-categories: [bookmark]
+tags: [bookmark]
 ---
 
 Un autre outil de mockup iPhone (et autres) :

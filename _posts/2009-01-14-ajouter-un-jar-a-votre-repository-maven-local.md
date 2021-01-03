@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Add a JAR to a Local Maven Repository?
-categories: [java, maven]
+tags: [java, maven]
 ---
 
 ## The command

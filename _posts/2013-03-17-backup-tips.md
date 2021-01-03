@@ -1,12 +1,11 @@
 ---
 layout: post
 title: 7 tips to create a safe and consistent backup strategy as a Mac user
-category: blog
 alert:
   level: info
   content: |
     This post is an updated version of an original post published in September 2011.
-categories: [oped]
+tags: [oped]
 ---
 
 I've recently found myself in a very uncomfortable situation: my backup external

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Expression régulière matchant les URL par John Gruber
-categories: [bookmark]
+tags: [bookmark]
 ---
 
 John Gruber a publié sur son fameux blog, Daring Fireball, un post contenant une

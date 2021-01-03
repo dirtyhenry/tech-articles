@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Debugging Symbolic Links On iOS"
-categories: [ios]
+tags: [ios]
 ---
 
 Symbolic links are one of my favorite pragmatic best practice to manage a file

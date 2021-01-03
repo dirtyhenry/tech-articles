@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Second TP d’information design… toujours sur l’équipe de France
-categories: [data]
+tags: [data]
 ---
 
 Quelques semaines après ma première tentative d'information design, les mêmes
