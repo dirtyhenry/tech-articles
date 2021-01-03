@@ -38,8 +38,7 @@ commonmark:
 theme: kids
 
 feed:
-  categories:
-    - ios
+  tags: {}
 
 jekyll-archives:
   enabled: ["categories", "tags"]
