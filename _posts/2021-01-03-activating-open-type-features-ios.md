@@ -10,7 +10,7 @@ excerpt: >-
 
 [Inter][1] is an awesome typeface. It is free, open-source, and on top of
 looking great by default, it provides [many OpenType features][2] that are
-really easy to use on a website. Its [alternate digits feature][3] is one of
+really easy to use on a website. The [alternate digits feature][3] is one of
 them. Just add the following to a CSS style and you’re done.
 
 ```css
@@ -67,7 +67,7 @@ extension UIFont {
 }
 ```
 
-It’s hard to predict how large the output of this command will be. It really
+It is hard to predict how large the output of this command will be and really
 depends on the font. For the Inter font, [the output looks pretty intense][c2].
 It is not the most pleasant prose to read for humans, but scanning for the
 features we want will be pretty straightforward.
@@ -82,20 +82,20 @@ In my context, the part I was interested in was the following:
 },
 ```
 
-ie to activate the _Open digits_ feature, I had to use the **feature type
+To activate the _Open digits_ feature, I had to use the **feature type
 identifier 35**, with the **feature selector identifier 2**.
 
 ## Enabling the font features you want
 
-So far, the code I showed was code from your app green-room. It helps you to
-prepare for the big stage moment: **actually** enabling the font features.
+So far, the code I showed was to get your app in the starting blocks. It helps
+you to prepare for the big stage moment: **actually** enabling the font
+features.
 
 So I wrapped these 35 and 2 _magic numbers_ into something more meaningful: a
 simple struct trying to make sense of Apple's documentation[^1]. It is pretty
-basic, aimed to be built on the future, and I made use of this incredible [Font
-Feature Registry][6] resource[^2] to find inspiration for an adequate naming.
-
-It can be translated into code[^1] like so:
+basic, aimed to be built on in the future, and I made use of this incredible
+[Font Feature Registry][6] resource[^2] to find inspiration for an adequate
+naming:
 
 ```swift
 sprivate enum FeatureTypeSelectorPair {
@@ -112,8 +112,8 @@ sprivate enum FeatureTypeSelectorPair {
 }
 ```
 
-Once there, I was able to instanciate the `UIFont` instance including the option
-I wanted like so:
+Once there, I was able to instanciate the `UIFont` including the option I wanted
+like so:
 
 ```swift
 func createFontWithOptions(fontName: String, size: CGFloat) -> UIFont {
