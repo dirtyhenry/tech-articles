@@ -1,6 +1,6 @@
 ---
 name: JavaScript Operator Lookup
-url: https://www.joshwcomeau.com/operator-lookup/
+target_url: https://www.joshwcomeau.com/operator-lookup/
 ---
 
 A pretty useful search tool of JavaScript operators.

@@ -1,6 +1,6 @@
 ---
 name: Which query should I use?
-url: https://testing-library.com/docs/guide-which-query/
+target_url: https://testing-library.com/docs/guide-which-query/
 ---
 
 A simple reminder of which query to use when testing a React app with React
