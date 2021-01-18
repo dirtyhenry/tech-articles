@@ -12,7 +12,7 @@ layout: default
     {% for tag in sorted_tags %} 
     <li>
       <ul>
-        <a href="/tag/{{tag[0]}}">{{ tag[0] }} ({{ tag[1] | size }})</a>
+        <a href="{{ tag[0] | slugify: 'latin' | prepend: 'tag/' | relative_url }}">{{ tag[0] }} ({{ tag[1] | size }})</a>
       </ul>
     </li>
     {% endfor %}
