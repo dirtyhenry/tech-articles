@@ -17,7 +17,7 @@ tags:
   - YAML
 ---
 
-With every static site generator, you can write your posts or pages with some
+With every static site generator, you can write your posts or pages with 
 Markdown or CommonMark files in which you can include some structured metadata
 called a _Front Matter_.
 
@@ -96,7 +96,7 @@ realizing _jekyll-feed_ was using _image_ by default so I converted.
 
 ## Categories and Tags
 
-As for the author, most plugins and theme will support singular or plural forms
+As for the author, most plugins and themes will support singular or plural forms
 of these tags.
 
 **What is the difference between the two?**
@@ -113,10 +113,10 @@ a free-form cloud.
 
 ## Revisions
 
-This section was ~stolen~ inspired by NSHipster's articles front matters (see
+This section was ~stolen~ inspired by the front matter of NSHipster's articles (see
 the [source][10] for their `XCTestCase` post for instance). When you intend to
 keep your content relevant over time, it is very useful to let your users know
-you updated your content so that feature, albeit specific, can turn super
+you updated your content so the revisions feature, albeit specific, can become super
 useful.
 
 ## Alerts
