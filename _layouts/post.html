@@ -32,7 +32,7 @@ layout: default
             <li>
             <span>
               <span class="p-category h-card" itemprop="name">
-                <a href="{{ category | slugify: 'latin' | prepend: 'category/' | relative_url }}">
+                <a href="{{ category | slugify: 'latin' | prepend: 'category/' | append: '/' | relative_url }}">
                 {{ category }}
                 </a>
               </span>
@@ -58,7 +58,7 @@ layout: default
     <ul class="tags-list">
       {%- for tag in page.tags -%}
         <li>
-          <a class="tag-link" href="{{ tag | slugify: 'latin' | prepend: 'tag/' | relative_url }}">
+          <a class="tag-link" href="{{ tag | slugify: 'latin' | prepend: 'tag/' | append: '/' | relative_url }}">
           {{ tag }}
           </a>
         </li>
