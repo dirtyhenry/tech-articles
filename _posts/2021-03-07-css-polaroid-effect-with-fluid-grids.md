@@ -4,7 +4,7 @@ id: 6DE45545-CDE9-451F-B421-A1CD36888ED1
 title: A CSS Polaroid Effect With Flexbox
 author: Mick F
 excerpt: >-
-  Revisiting how to show images as if they were polardoids, in CSS, with
+  Revisiting how to show images as if they were polaroids, in CSS, with
   technologies from 2021.
 category: Journaling
 tags:
@@ -55,12 +55,12 @@ I created 2 codepens to compare the code from 2010 to the code of 2021:
 
 ## What changed since 2010?
 
-The old code used a lot of fixed sizes and maths, with a configurable variable
-for the number of columns at compile time that became a constant at runtime. To
-mimic this behavior, we could have used a [**CSS Grid Layout**][8] since, on
-Dead Rooster, each post using this effect featured a 3 ⨉ 3 grid of images. But
-on smaller screens, the code made the images become too small so I decided
-[**CSS Flexbox Layout**][7] led to better results in terms of responsiveness.
+The old code used a lot of fixed sizes and maths, with a variable for the number
+of columns at compile time that became a constant at runtime. To mimic this
+behavior, we could have used a [**CSS Grid Layout**][8] since, on Dead Rooster,
+each post using this effect featured a 3 ⨉ 3 grid of images. But on smaller
+screens, the code made the images become too small so I decided [**CSS Flexbox
+Layout**][7] led to better results in terms of responsiveness.
 
 **Vendor prefixes** are for the most part useless nowadays. I removed all their
 occurrences from the original code and the code behaves as expected on Safari,
