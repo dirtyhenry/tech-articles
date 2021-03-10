@@ -12,7 +12,7 @@ gem 'html-proofer'
 gem 'jekyll'
 gem 'kids',
     git: 'https://github.com/dirtyhenry/kids.git',
-    branch: 'master'
+    branch: 'main'
 gem 'mdl'
 gem 'rouge'
 gem 'rubocop', require: false

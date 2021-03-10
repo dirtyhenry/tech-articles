@@ -1,0 +1,75 @@
+// The absolute value for the maximum rotation angle in degrees we want
+$max-rotation-angle: 5;
+
+// Since SCSS's random function starts at 1,
+// We want to offset by 1, and double the value to cover ± values
+$max-random: 1 + 2 * $max-rotation-angle;
+// And then we substract an offset half-value to shift to negative values.
+$max-random-offset: 1 + (($max-random - 1) / 2);
+
+.polaroids {
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  li {
+    background-color: #eee;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.25);
+    transition: 0.15s linear;
+    padding: 1rem;
+    max-width: 200px;
+
+    p {
+      width: 100%;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+
+  li:nth-child(2n) {
+    transform: rotate((random($max-random) - $max-random-offset) + deg);
+  }
+
+  li:nth-child(3n) {
+    transform: rotate((random($max-random) - $max-random-offset) + deg);
+  }
+
+  li:nth-child(4n) {
+    transform: rotate((random($max-random) - $max-random-offset) + deg);
+  }
+
+  li:nth-child(5n) {
+    transform: rotate((random($max-random) - $max-random-offset) + deg);
+  }
+
+  li:nth-child(6n) {
+    transform: rotate((random($max-random) - $max-random-offset) + deg);
+  }
+
+  li:nth-child(7n) {
+    transform: rotate((random($max-random) - $max-random-offset) + deg);
+  }
+
+  li:nth-child(8n) {
+    transform: rotate((random($max-random) - $max-random-offset) + deg);
+  }
+
+  li:nth-child(9n) {
+    transform: rotate((random($max-random) - $max-random-offset) + deg);
+  }
+
+  li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+  }
+}
