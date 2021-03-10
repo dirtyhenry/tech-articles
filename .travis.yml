@@ -27,4 +27,4 @@ deploy:
   target-branch: gh-pages
   fqdn: bootstragram.com
   on:
-    branch: master
+    branch: main
