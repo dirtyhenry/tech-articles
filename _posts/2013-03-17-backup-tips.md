@@ -55,7 +55,7 @@ my HDD. Of course, this solution has some major drawbacks:
 - you need to hope Backblaze will still be around when your HDD fails
 - it doesn't keep an history of your files
 
-But it also ha big advantages:
+But it also has big advantages:
 
 - both upfront cost and long run cost are probably cheaper than investing in an
   external HDD
