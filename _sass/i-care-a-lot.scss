@@ -1,0 +1,54 @@
+@use "sass:color";
+
+$background: black;
+$text-color: hsl(49, 64%, 18%);
+$text-border: hsl(59, 96%, 68%);
+
+@mixin layout-and-colors {
+  width: 100%;
+  text-align: center;
+
+  background-color: $background;
+  color: $text-color;
+  font-size: 6rem;
+  line-height: 100%;
+}
+
+@mixin reset-global-style {
+  text-indent: unset;
+  padding: 16px 0;
+}
+
+@mixin font-settings {
+  font-family: "Futura";
+  font-stretch: condensed;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@mixin text-styling {
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.02ch $text-border;
+  letter-spacing: -0.05ch;
+}
+
+#icarealot {
+  @include layout-and-colors();
+  @include reset-global-style();
+  @include font-settings();
+  @include text-styling();
+}
+
+.hue-animated {
+  animation: hue-full-rotation 10000ms 0ms infinite linear;
+  letter-spacing: -0.05ch;
+}
+
+@keyframes hue-full-rotation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
