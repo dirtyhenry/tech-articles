@@ -30,6 +30,7 @@ $text-border: hsl(59, 96%, 68%);
   text-transform: uppercase;
   -webkit-text-stroke: 0.02ch $text-border;
   letter-spacing: -0.05ch;
+  filter: blur(0.5px);
 }
 
 #icarealot {
