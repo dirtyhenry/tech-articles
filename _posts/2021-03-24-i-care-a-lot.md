@@ -84,4 +84,4 @@ I Care a Lot
 [4]: https://codepen.io/dirtyhenry/pen/zYoybEB
 [5]: https://cloudfour.com/thinks/hsl-a-color-format-for-humans/
 [6]:
-  https://cloudfour.com/thinks/hsl-a-color-format-for-humans/#hsl-a-color-format-for-humans
+  https://cloudfour.com/thinks/hsl-a-color-format-for-humans/#putting-it-to-the-test
