@@ -1,0 +1,78 @@
+@mixin sample-setup {
+  padding: 1rem;
+  display: block;
+  width: 100%;
+}
+
+.color-scheme-01-wrapper {
+  border: 5px solid hsl(0, 0%, 20%);
+}
+
+.color-scheme-01-header {
+  @include sample-setup();
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 6%);
+}
+
+.color-scheme-01-body {
+  @include sample-setup();
+  background-color: hsl(192, 64%, 68%);
+  color: hsl(220, 50%, 9%);
+}
+
+.color-scheme-02-wrapper {
+  background-color: hsl(223, 19%, 26%);
+}
+
+.color-scheme-02-header {
+  @include sample-setup();
+  color: hsl(210, 40%, 98%);
+}
+
+.color-scheme-02-body {
+  @include sample-setup();
+  color: hsl(55, 74%, 66%);
+}
+
+.color-scheme-03-wrapper {
+  background-color: hsl(15, 81%, 54%);
+}
+
+.color-scheme-03-header {
+  @include sample-setup();
+  color: hsl(57, 74%, 94%);
+}
+
+.color-scheme-03-body {
+  @include sample-setup();
+  color: hsl(15, 94%, 6%);
+}
+
+.color-scheme-04-wrapper {
+  background-color: hsl(44, 87%, 61%);
+}
+
+.color-scheme-04-header {
+  @include sample-setup();
+  color: hsl(0, 0%, 98%);
+}
+
+.color-scheme-04-body {
+  @include sample-setup();
+  color: hsl(47, 33%, 5%);
+  font-weight: bold;
+}
+
+.color-scheme-05-wrapper {
+  background-color: hsl(122, 36%, 50%);
+}
+
+.color-scheme-05-header {
+  @include sample-setup();
+  color: rgb(240, 252, 251);
+}
+
+.color-scheme-05-body {
+  @include sample-setup();
+  color: rgb(7, 17, 8);
+}

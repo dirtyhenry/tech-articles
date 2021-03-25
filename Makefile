@@ -21,7 +21,7 @@ build:
 	bundle exec jekyll build
 
 run: package-js
-	bundle exec jekyll serve
+	bundle exec jekyll serve --drafts
 
 lint:
 	bundle exec rubocop
