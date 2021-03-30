@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Développement iOS : ressources & tuyaux (iPhone et iPad)"
-tags: [ios]
+tags: [iOS]
 ---
 
 ## Liens utiles

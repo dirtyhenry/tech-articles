@@ -9,7 +9,7 @@ excerpt: >-
   with a smaller footprint.
 category: Journaling
 tags:
-  - ios
+  - iOS
 ---
 
 According to Matthew Butterick, the author of the excellent [_Practical

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pomodoro CLI 1.0.0 Released 🎉
-tags: [swift, product]
+tags: [Swift, product]
 ---
 
 A little more than two years after [I started working on this][3], I am happy to

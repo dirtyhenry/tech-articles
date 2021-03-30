@@ -9,7 +9,7 @@ alert:
     [adding a custom font to an app](https://developer.apple.com/documentation/uikit/text_display_and_fonts/adding_a_custom_font_to_your_app)
     has been supported since iOS 3.2, and
     [webfonts are now widely supported by browsers](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face).
-tags: [ios]
+tags: [iOS]
 ---
 
 Fonts are a major element of webdesign. And when you talk about webdesign
