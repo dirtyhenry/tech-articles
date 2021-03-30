@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Activating OpenType Features in iOS
-tags: [swift, ios, fonts]
+tags: [Swift, iOS, fonts]
 category: Journaling
 excerpt: >-
   Using OpenType features of fonts on the web is straightforward. Using them on

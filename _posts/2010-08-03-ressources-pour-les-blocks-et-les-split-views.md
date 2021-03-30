@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ressources pour les blocks et les split views
-tags: [ios]
+tags: [iOS]
 ---
 
 Voici 2 liens trouvés via le blog

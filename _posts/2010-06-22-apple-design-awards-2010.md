@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apple Design Awards 2010
-tags: [ios]
+tags: [iOS]
 ---
 
 Lors de la WWDC 2010, Apple a consacré ses [Apple Design Awards][ada] aux

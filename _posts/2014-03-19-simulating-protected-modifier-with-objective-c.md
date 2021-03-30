@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simulating protected properties and selectors in Objective-C
-tags: [ios]
+tags: [iOS]
 ---
 
 There's no `protected` modifier in Objective-C. In a sense, we should be

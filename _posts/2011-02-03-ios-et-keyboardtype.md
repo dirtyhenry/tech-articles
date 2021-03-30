@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iOS et keyboardType
-tags: [ios]
+tags: [iOS]
 ---
 
 Comme j'ai cherché une page qui ressemblerait à celle-ci et que je ne l'ai pas

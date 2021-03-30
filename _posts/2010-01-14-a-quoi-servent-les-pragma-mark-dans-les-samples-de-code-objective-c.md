@@ -1,7 +1,7 @@
 ---
 layout: post
 title: À quoi servent les "#pragma mark" dans les samples de code Objective-C ?
-tags: [ios, objective-c]
+tags: [iOS, Objective-C]
 ---
 
 Si on récupère des samples de code en Objective-C, pour Mac OS X ou iPhone OS,

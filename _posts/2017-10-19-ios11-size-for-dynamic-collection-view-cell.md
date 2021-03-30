@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dynamic resizing of a UICollectionViewCell's height
-tags: [ios, swift]
+tags: [iOS, Swift]
 ---
 
 Your cell includes dynamic text and you need to size it appropriately. I feel
