@@ -1,7 +1,7 @@
 ---
 layout: post
 id: 07A4CFB0-3F26-4593-A418-0732FB7FC316
-title: Decoding Dates from JSON APIs in Swift the Right Way
+title: How I Decode Dates from JSON APIs in Swift
 author: Mick F
 excerpt: >-
   In my experience, the default strategies to decode and encode dates of JSON
