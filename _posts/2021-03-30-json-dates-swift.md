@@ -5,7 +5,7 @@ title: Decoding Dates from JSON APIs in Swift the Right Way
 author: Mick F
 excerpt: >-
   In my experience, the default strategies to decode and encode dates of JSON
-  API never matched my needs. Here is why and how I fix it.
+  API with Swift never matched my needs. Here is why and how I fix it.
 category: Journaling
 tags:
   - iOS
@@ -16,13 +16,14 @@ revisions:
   "2021-01-18": Initial version
 ---
 
-This blog post will present how I think dates should be formatted in a JSON API,
-the Swift code to manage it, and why `JSONDecoder` and `JSONEncoder` fall short
-today[^3].
+This blog post will present why I'm frustrated with the current state of
+`JSONDecoder` and `JSONEncoder`[^3], how I think dates should be formatted in a
+JSON API, and the code I write to handle JSON date decoding and encoding in my
+applications.
 
 ## The Problem with `Codable`'s JSON Support
 
-Swift has 1st-party support for JavaScript script execution. So let's create a
+Swift has 1st-party support for JavaScript script execution. Let's create a
 simple JSON payload including a date field in Swift:
 
 ```swift
@@ -44,9 +45,9 @@ struct PayloadStruct: Codable {
 
 do {
     _ = try jsonPayload?.toString()?.data(using: .utf8).map {
-      try JSONDecoder().decode(PayloadStruct.self, from: $0)
+        try JSONDecoder().decode(PayloadStruct.self, from: $0)
     }
-} catch DecodingError.typeMismatch(let type, let context) {
+} catch let DecodingError.typeMismatch(type, context) {
     dump(type)
     dump(context) // creationDate: Expected to decode Double but found a string/data instead.
 }
@@ -59,7 +60,7 @@ This is because, by default, a `Date` type is expected to be a `Double`
 specifying the number of seconds since 00:00:00 UTC on 1 January 2001. But the
 date in our JSON string is formatted as ISO 8601.
 
-So let's use `JSONDecoder`'s built-in `.iso8601` configuration of
+Let's use `JSONDecoder`'s built-in `.iso8601` configuration of
 `DateDecodingStrategy`.
 
 ```swift
@@ -68,28 +69,28 @@ do {
     jsonDecoder.dateDecodingStrategy = .iso8601
 
     _ = try jsonPayload?.toString()?.data(using: .utf8).map {
-      try jsonDecoder.decode(PayloadStruct.self, from: $0)
+        try jsonDecoder.decode(PayloadStruct.self, from: $0)
     }
-} catch DecodingError.dataCorrupted(let context) {
+} catch let DecodingError.dataCorrupted(context) {
     dump(context)
 }
 ```
 
-Wait, what⁉︎ Another error. This time, the code throws a
-`DecodingError.dataCorrupted` error with the following description:
-`Expected date string to be ISO8601-formatted.` 🤔
+Another error? This time, the code throws a `DecodingError.dataCorrupted` error
+with the following description: `Expected date string to be ISO8601-formatted`.
+What is going on? 🤔
 
 ## There is no date in JSON, but there is in JS
 
 True, [JSON][1] does not specify a format for dates. And if projects such as
-[JSON API][3] do [recommend][4] to use ISO 8601, mostly because the [W3C][5]
-also thinks that this format makes the most sense, they stand clear of what
-exact flavor of ISO 8601 should be used.
+[JSON API][3] do [recommend][4] using ISO 8601, because the [W3C][5] also thinks
+that this format makes the most sense, they are not clear about what exact
+flavor of ISO 8601 should be used.
 
 But let's remember that JSON stands for _JavaScript Object Notation_ and that
 [JavaScript does specify how to format its date type in JSON][2].
 
-So if you want to refer to March 23rd 2012, at 6:25:43PM UTC timezone, at
+If you want to refer to March 23rd 2012, at 6:25:43PM UTC timezone, at
 millisecond 511, then, whatever your own timezone, you should use:
 
 ```
@@ -106,28 +107,29 @@ In Swift, this format is achieved by using a `ISO8601DateFormatter` — beware,
 not a `DateFormatter` — set up with the formatting options
 `.withInternetDateTime` (which is the default), and `.withFractionalSeconds`.
 
-## A Swift class and convenience extensions to manage dates in JSON API
+## A Swift class and convenient extensions to manage dates in JSON API
 
 As of today, here are the options for the enum
 [`JSONDecoder.DateDecodingStrategy`][7] that `JSONDecoder` can use:
 
-1. `deferredToDate`: the default, that is not really human-readable;
-2. `iso8601`: that's using ISO 8601 without fractional seconds, which is againt
-   the usage and JavaScript's spec;
+1. `deferredToDate`: the default using a `TimeInterval` (ie an alias to
+   `Double`) that is not human-readable;
+2. `iso8601`: this option is using ISO 8601 without fractional seconds, which is
+   against the usage and JavaScript's spec;
 3. `formatted(DateFormatter)`: never use this since you might — for instance —
    break for users with a 12-hour AM/PM time formatting, which is a lesson I
    learned the hard way[^2];
-4. `custom((Decoder) -> Date)`: this is the option we want and here is the
-   version I suggest you.
+4. `custom((Decoder) -> Date)`: 🎉 this is the option we want and here is the
+   version I suggest 👇.
 
 ```swift
 class JavaScriptISO8601DateFormatter {
     static let fractionalSecondsFormatter: ISO8601DateFormatter = {
         let res = ISO8601DateFormatter()
-         // The default format options is .withInternetDateTime.
-         // We need to add .withFractionalSeconds to parse dates with milliseconds.
-         res.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-         return res
+        // The default format options is .withInternetDateTime.
+        // We need to add .withFractionalSeconds to parse dates with milliseconds.
+        res.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        return res
     }()
 
     static let defaultFormatter = ISO8601DateFormatter()
@@ -142,8 +144,7 @@ class JavaScriptISO8601DateFormatter {
             }
         }
 
-        throw DecodingError.dataCorrupted(
-          DecodingError.Context(
+        throw DecodingError.dataCorrupted(DecodingError.Context(
             codingPath: decoder.codingPath,
             debugDescription: "Expected date string to be JavaScript-ISO8601-formatted."
         ))
@@ -154,12 +155,12 @@ class JavaScriptISO8601DateFormatter {
         try container.encode(fractionalSecondsFormatter.string(from: date))
     }
 
-    private init() { }
+    private init() {}
 }
 
 extension JSONDecoder.DateDecodingStrategy {
     static func javaScriptISO8601() -> JSONDecoder.DateDecodingStrategy {
-        return .custom(JavaScriptISO8601DateFormatter.decodedDate)
+        .custom(JavaScriptISO8601DateFormatter.decodedDate)
     }
 }
 
@@ -173,7 +174,7 @@ extension JSONDecoder {
 
 extension JSONEncoder.DateEncodingStrategy {
     static func javaScriptISO8601() -> JSONEncoder.DateEncodingStrategy {
-        return .custom(JavaScriptISO8601DateFormatter.encodeDate)
+        .custom(JavaScriptISO8601DateFormatter.encodeDate)
     }
 }
 
@@ -185,6 +186,20 @@ extension JSONEncoder {
     }
 }
 ```
+
+## Usage
+
+```swift
+let payload = try jsonPayload?.toString()?.data(using: .utf8).map {
+    try JSONDecoder.javaScriptISO8601().decode(PayloadStruct.self, from: $0)
+}
+
+let reencodedJSONPayload = (try? JSONEncoder.javaScriptISO8601().encode(payload)).flatMap {
+    String(data: $0, encoding: .utf8)
+}
+```
+
+A playground with the code from this post is available [here][10].
 
 [^1]:
     Please refer to [this StackOverflow thread][6] for a more elaborate
@@ -208,3 +223,4 @@ extension JSONEncoder {
 [8]:
   https://github.com/Ranchero-Software/NetNewsWire/commit/afbe25a26c291dc5d006dfda2eb4650bcaa9f9f7
 [9]: https://forums.swift.org/t/serialization-in-swift/46641
+[10]: https://github.com/dirtyhenry/xcode-playgrounds
