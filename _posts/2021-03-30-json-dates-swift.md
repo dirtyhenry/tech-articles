@@ -138,6 +138,7 @@ class JavaScriptISO8601DateFormatter {
         let container = try decoder.singleValueContainer()
         let dateAsString = try container.decode(String.self)
 
+        // See warning below.
         for formatter in [fractionalSecondsFormatter, defaultFormatter] {
             if let res = formatter.date(from: dateAsString) {
                 return res
@@ -187,6 +188,17 @@ extension JSONEncoder {
 }
 ```
 
+⚠️ In this code, I attempt decoding dates with 2 formatters: one that supports
+fractional seconds and one that does not. The reason is that the JSON of the API
+my app was consuming was coming from a Kotlin backend that used Java's
+[`DateTimeFormatter`][11] that stipulates:
+
+> If the nano-of-second is zero or not available then the format is complete.
+
+Statistically speaking, 99,9% of the API would be formatted with fractional
+seconds — that's why we attempt decoding dates with this formatter first —, and
+0,1% without. 🤷
+
 ## Usage
 
 ```swift
@@ -224,3 +236,5 @@ A playground with the code from this post is available [here][10].
   https://github.com/Ranchero-Software/NetNewsWire/commit/afbe25a26c291dc5d006dfda2eb4650bcaa9f9f7
 [9]: https://forums.swift.org/t/serialization-in-swift/46641
 [10]: https://github.com/dirtyhenry/xcode-playgrounds
+[11]:
+  https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
