@@ -12,28 +12,28 @@ tags:
 ---
 
 [Swift Heroes][5] went digital because of the Covid pandemic restricting public
-gathering. I am not the best at socializing during conferences so watching
-online talks from my comfy chair is actually a format that I somewhat shamefully
-enjoyed. Here are my notes from the talks I have watched.
+gatherings. I am not the best at socializing during conferences and watching
+online talks from my comfy chair is a format that I somewhat shamefully enjoyed.
+Here are my notes from the talks I have watched.
 
 Talks with 🌟 are the talks I recommend the most.
 
 ## Evolving Existing Projects With SwiftUI - [Peter Steinberger][1]
 
 This felt like a natural follow-up to Peter's talk at [FrenchKit 2019][i1] about
-[shipping a Catalyst app][2], he offered some feedback on integrating small
-doses of SwiftUI in a large codebase with quite a history since it started in
-2009 I think and is a mix of Objective-C and Swift.
+[shipping a Catalyst app][2], he offered feedback on integrating small doses of
+SwiftUI in a large codebase with a long history that is a mix of Objective-C and
+Swift.
 
 Here is what I'll take away from the talk:
 
-- SwiftUI is still unstable and change quite dramatically at each version;
-- Previews can time out frequently and can be unreliable;
+- SwiftUI is unstable and change dramatically at each version;
+- Previews can time out being _de facto_ unreliable;
 - `GeometryReader` should be used as high in the hierarchy as possible;
-- There are straightforward workarounds to SwiftUI limitations — mostly custom
-  view modifiers — but they should be considered as hacks with the risks it
-  implies in terms of maintenance;
-- Some useful projects are:
+- There are straightforward workarounds to SwiftUI limitations — via custom view
+  modifiers for instance — but they should be considered as hacks with the risks
+  it implies in terms of maintenance;
+- Mentioned projects were:
   - [SwiftUI-Introspect][3]: helps to introspect underlying UIKit components
     from SwiftUI;
   - [SwiftUIX][4]: a project that attempts to fill the gaps that SwiftUI suffers
@@ -42,29 +42,28 @@ Here is what I'll take away from the talk:
 ## Combining SwiftUI and UIKit: AppClips and Widgets - [Anna Zharkova][6]
 
 Widgets and AppClips are additions to iOS that come with significant
-restrictions compared to what you can achieve in an app. Anna presented some
-workarounds againts the lack of dynamism that she met while developing widgets
+restrictions compared to what you can achieve in an app. Anna presented
+workarounds against the lack of dynamism that she met while developing widgets
 and app clips using bike ride maps as an example.
 
-My main takeaway is thatn, since neither the keychain or local authentication
-can be used in these app-derivatives, then if any of the data you would like to
-present require some sort of authentication, they are not the way to go.
+My main takeaway is that, since neither the keychain or local authentication can
+be used in these app-derivatives, then if any of the data you would like to
+present require authentication, you are out of luck.
 
 ## Let’s Make That Label With CoreText - [Marcin Krzyzanowski][7] 🌟
 
 Marcin is working on a [Swift Studio][8] project, a Swift IDE for which he had
-to dig quite down into the Core Text framework. I was really intereted in this
-talk following [my own errands on text layout customization][i2] and I intend to
-use the content of his talk to address another use case: how to balance the
-lengths of broken lines of text, to avoid a situation where the line can be
-really short compared to its siblings.
+to dig down into the Core Text framework. I enjoyed this talk following [my own
+errands on text layout customization][i2] and I intend to use the content of his
+talk to address another use case: how to balance the lengths of broken lines of
+text, to avoid a situation where the line can be short compared to its siblings.
 
 ## Creating Machine Learning Models With Create ML - Moritz Philip Recke, Tiago Gomes Pereira & Giovanni Monaco
 
-This talks was presenting how to create machine learning models quite easily
+This talks was presenting how to create machine learning models with convenience
 using [IBM's Cloud Annotations tool][9] to create training and testing data
-sets, and feeding these into the macOS [Create ML][10] app. It did sound quite
-accessible and I intend to give it a try real soon.
+sets, and feeding these into the macOS [Create ML][10] app. It did sound
+accessible and I intend to give it a try one day.
 
 ## To be continued
 
