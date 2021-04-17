@@ -99,8 +99,8 @@ he met on the way. A good time saver for people starting learning SwiftUI.
 ## Full Stack Swift Development - [Kilo Loco][17]
 
 Kilo is a developer advocate for AWS and gave a fair overview of technologies to
-use Swift on the backend, eventhough he obviously highlighted AWS Amplify. It
-felt like investing on AWS technologies could result in a lockin so I was not
+use Swift on the backend, even though he obviously highlighted AWS Amplify. It
+felt like investing on AWS technologies could result in a lock-in so I was not
 convinced I would invest in this direction for hobby projects.
 
 [i1]: {% post_url 2019-10-10-frenchkit-2019 %}
