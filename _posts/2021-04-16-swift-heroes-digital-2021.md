@@ -4,9 +4,9 @@ id: D1EA1F5C-9AD6-4C3B-AD0D-ECB05C4651BF
 title: Notes From Swift Heroes Digital 2021
 author: Mick F
 excerpt: >-
-  Among the talks I recommend the most: digging around CoreText, the future of
-  asynchronous development in Swift with `async/await` and how Core Data is
-  still relevent when using SwiftUI.
+  Among the talks I recommend the most: digging down into Core Text, the future
+  of asynchronous development in Swift with `async/await` and how Core Data is
+  still relevant when using SwiftUI.
 category: Conference Notes
 tags:
   - Swift
@@ -20,10 +20,35 @@ Here are my notes from the talks I have watched.
 
 Talks with 🌟 are the talks I recommend the most.
 
+## Let’s Make That Label With Core Text - [Marcin Krzyzanowski][7] 🌟
+
+Marcin is working on his [Swift Studio][8] project, a Swift IDE for which he had
+to dig down deep into the Core Text framework. I enjoyed this talk following [my
+own errands on text layout customization][i2] and I intend to use the content of
+his talk to address another use case: how to balance the lengths of broken lines
+of text, to avoid a situation where the last line can be much shorter than its
+siblings.
+
+## Future of Swift: A Sneak Peek at `async/await` - [Vincent Pradeilles][11] 🌟
+
+Vincent presented the [`async/await` proposal][12] that will be part of Swift
+5.5. On the way, he explained how to install the development snapshots of Swift
+in Xcode, insisted that `async/await` would not be competing with Combine and
+mentioned exciting [upcoming features for Swift concurrency][18].
+
+## Using Core Data in a Modern SwiftUI Application - [Donny Wals][15] 🌟
+
+Until 2017, I was using Core Data on a daily basis. But since, I have not used
+it at all. I had the feeling it was becoming a dying technology but this talk
+convinced me it was still very relevant since Donny makes the case it integrates
+really well with SwiftUI since `NSManagedObject` conforms to `ObservableObject`.
+Donny wrote a book about it, [_Practical Core Data_][16] that digs further on
+the topic.
+
 ## Evolving Existing Projects With SwiftUI - [Peter Steinberger][1]
 
 This felt like a natural follow-up to Peter's talk at [FrenchKit 2019][i1] about
-[shipping a Catalyst app][2], he offered feedback on integrating small doses of
+[shipping a Catalyst app][2]. He offered feedback on integrating small doses of
 SwiftUI in a large codebase with a long history that is a mix of Objective-C and
 Swift.
 
@@ -52,27 +77,12 @@ My main takeaway is that, since neither the keychain or local authentication can
 be used in these app-derivatives, then if any of the data you would like to
 present require authentication, you are out of luck.
 
-## Let’s Make That Label With CoreText - [Marcin Krzyzanowski][7] 🌟
-
-Marcin is working on a [Swift Studio][8] project, a Swift IDE for which he had
-to dig down into the Core Text framework. I enjoyed this talk following [my own
-errands on text layout customization][i2] and I intend to use the content of his
-talk to address another use case: how to balance the lengths of broken lines of
-text, to avoid a situation where the line can be short compared to its siblings.
-
 ## Creating Machine Learning Models With Create ML - Moritz Philip Recke, Tiago Gomes Pereira & Giovanni Monaco
 
 This talk was presenting how to create machine learning models with convenience
 using [IBM's Cloud Annotations tool][9] to create training and testing data
 sets, and feeding these into the macOS [Create ML][10] app. It did sound
 accessible and I intend to give it a try one day.
-
-## Future of Swift: A Sneak Peek at `async/await` - [Vincent Pradeilles][11] 🌟
-
-Vincent presented the [`async/await` proposal][12] that will be part of Swift
-5.5. On the way, he explained how to install the development snapshots of Swift
-in Xcode, insisted that `async/await` would not be competing with Combine and
-mentioned exciting upcoming features for Swift concurrency.
 
 ## Mocka: A Mock Server for Developers by Developers - Fabrizio Brancati & Firas Safa
 
@@ -85,15 +95,6 @@ sure I will start using it today.
 
 Josh presented some view modifiers he programmed and the struggles and pitfalls
 he met on the way. A good time saver for people starting learning SwiftUI.
-
-## Using Core Data in a Modern SwiftUI Application - [Donny Wals][15] 🌟
-
-Until 2017, I was using Core Data (with Objective-C) on a daily basis but since,
-I have not used it at all. I had the feeling it was becoming a dying technology
-but this talk convinced me it was still very relevant since Donny makes the case
-it integrates really well with SwiftUI since `NSManagedObject` conforms to
-`ObservableObject`. Donny wrote a book about it, [_Practical Core Data_][16]
-that digs further on the topic.
 
 ## Full Stack Swift Development - [Kilo Loco][17]
 
@@ -124,3 +125,4 @@ convinced I would invest in this direction for hobby projects.
 [15]: https://twitter.com/donnywals
 [16]: https://gumroad.com/l/practical-core-data
 [17]: https://twitter.com/kilo_loco
+[18]: https://forums.swift.org/t/swift-concurrency-roadmap/41611
