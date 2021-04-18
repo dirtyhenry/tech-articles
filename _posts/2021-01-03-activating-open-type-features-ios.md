@@ -45,7 +45,7 @@ extension UIFont {
 
 Activating features with UIKit is described in the [_Activating Font Features_
 section of the Text Programming Guide for iOS][5]. The code that is presented
-there relies on Objective-C CoreText that you can wrap in modern Swift.
+there relies on Objective-C Core Text that you can wrap in modern Swift.
 
 To list the features that are supported by a font, you can use the following
 code:

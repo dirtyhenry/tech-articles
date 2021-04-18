@@ -5,7 +5,7 @@ tags: blog
 alert:
   level: info
   content: |
-    Update 2013: This post was first published in my previous website. It is still mostly relevent but needs updates. I'll try to update it soon.
+    Update 2013: This post was first published in my previous website. It is still mostly relevant but needs updates. I'll try to update it soon.
 tags: [web]
 ---
 
