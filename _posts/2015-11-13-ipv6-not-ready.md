@@ -88,10 +88,9 @@ de couverture IPv6 assez intéressant pour que les éditeurs passent le pas.
 On n'y est pas encore !
 
 [^1]: en se basant sur l'achat d'un pack de 2 millions de crédits chez Gandi
-[^2]: une IPv6 a cet aspect : `2001:4198:dc0:41:316:3eaf:fab8:b694`
+[^2]: une IPv6 a cet aspect : `2001:4198:dc0:41:316:3eaf:fab8:b694`
 [^3]:
+    une URL avec une IPv6 a cet aspect :
+    `http://[2001:4198:dc0:41:316:3eaf:fab8:b694]`
 
-une URL avec une IPv6 a cet aspect :
-`http://[2001:4198:dc0:41:316:3eaf:fab8:b694]`
-
-[statium-app]: https://github.com/statium-io
+[statium-app]: https://github.com/statium-app
