@@ -25,4 +25,4 @@ de stress :
 Zarb.
 
 [1]:
-  "http://www.nytimes.com/2013/02/17/opinion/sunday/why-we-love-beautiful-things.html"
+  https://www.nytimes.com/2013/02/17/opinion/sunday/why-we-love-beautiful-things.html

@@ -51,5 +51,6 @@ manque de processeur ou de mémoire. Mais dès lors, les choses se compliquent :
 entrées/sorties, problèmes réseaux, malwares, on passe à des choses nettement
 plus compliquées à identifier et à résoudre...
 
-PS:
-[Une piste pour la même chose avec Mac OS X](http://www.macgeneration.com/news/voir/171621/pourquoi-mon-mac-est-il-si-lent)
+PS: [Une piste pour la même chose avec Mac OS X][1].
+
+[1]: https://www.macg.co/news/voir/171621/pourquoi-mon-mac-est-il-si-lent

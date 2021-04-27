@@ -6,8 +6,7 @@ tags: [iOS]
 
 Lors de la WWDC 2010, Apple a consacré ses [Apple Design Awards][ada] aux
 applications iPhone et iPad uniquement, délaissant le Mac mais promettant d'y
-revenir bientôt
-([Ars se chargeant de se substituer à Apple sur ce point](http://arstechnica.com/apple/news/2010/06/2010-ars-design-award-winners-for-mac-os-x-software.ars)).
+revenir bientôt ([Ars se chargeant de se substituer à Apple sur ce point][1]).
 
 Le [palmarès][2010-awards] est le suivant :
 
@@ -33,3 +32,5 @@ ces prochains mois.
 
 [ada]: https://developer.apple.com/design/awards/
 [2010-awards]: https://en.wikipedia.org/wiki/Apple_Design_Awards#2010
+[1]:
+  https://arstechnica.com/gadgets/2010/06/2010-ars-design-award-winners-for-mac-os-x-software/

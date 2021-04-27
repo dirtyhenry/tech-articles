@@ -42,5 +42,5 @@ Commentaire de Greek Goddess:
 > Nice implementation of the Venn diagram. Maybe I’ll send this to my boss and
 > see what he thinks. Why is Gourcuff suspended???
 
-[flowingdata]: http://flowingdata.com/
-[wikipedia]: http://fr.wikipedia.org/wiki/Design_de_l%27information
+[flowingdata]: https://flowingdata.com/
+[wikipedia]: https://fr.wikipedia.org/wiki/Design_de_l'information
