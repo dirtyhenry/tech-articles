@@ -48,9 +48,9 @@ Associé à GTD, le time boxing est une excellente technique pour combattre les
 tendances à la procrastination, dont plusieurs articles de blog font l'apologie,
 parmi lesquels :
 
-- [15 Time Boxing Strategies to Get Things Done](http://litemind.com/time-boxing/);
-- [Le timeboxing, c'est super mais…](http://www.qualitystreet.fr/2007/11/14/le-timeboxing-cest-super-mais/);
-- [La puissance du time boxing](http://luc-jeanniard.blogspot.com/2009/12/la-puissance-du-time-boxing.html).
+- [15 Time Boxing Strategies to Get Things Done](https://litemind.com/time-boxing/);
+- [Le timeboxing, c'est super mais…](https://www.qualitystreet.fr/2007/11/14/le-timeboxing-cest-super-mais/);
+- [La puissance du time boxing](https://luc-jeanniard.blogspot.com/2009/12/la-puissance-du-time-boxing.html).
 
 Malgré son prix un peu élevé, TimeBoxed est un outil vraiment utile et qui aide
 à maîtriser son temps.
@@ -134,9 +134,9 @@ type Atlassian). Je n'en parle pas ici pour deux raisons :
   nomade.
 
 [bugzilla]: https://www.bugzilla.org
-[gtd]: http://fr.wikipedia.org/wiki/Getting_Things_Done
-[klok]: http://www.getklok.com/
-[svnx]: http://code.google.com/p/svnx/
-[things-dashboard]: http://culturedcode.com/status/
-[things]: http://culturedcode.com/things/
-[timeboxed]: http://www.macmation.com/TimeBoxed
+[gtd]: https://fr.wikipedia.org/wiki/Getting_Things_Done
+[klok]: https://getklok.com/
+[svnx]: https://code.google.com/archive/p/svnx/
+[things-dashboard]: https://culturedcode.com/status/
+[things]: https://culturedcode.com/things/
+[timeboxed]: https://www.macg.co/news/voir/136527/timeboxed-joue-la-montre

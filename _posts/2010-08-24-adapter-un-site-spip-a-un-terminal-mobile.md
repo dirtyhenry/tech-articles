@@ -21,9 +21,9 @@ communs à la plupart des webmasters :
 Pour améliorer le graphisme du site, j'ai aussi utilisé :
 
 - ce set de
-  [_sketched icons_](http://www.charfishdesign.com/goodies/19-free-hand-drawn-sketch-icons/);
+  [_sketched icons_](https://www.charfishdesign.com/19-free-hand-drawn-sketch-icons/);
 - cet autre set de
-  [_sketched icons_](http://www.webdesignerdepot.com/2009/04/24-free-exclusive-vector-icons-handy/);
+  [_sketched icons_](https://www.webdesignerdepot.com/2009/04/24-free-exclusive-vector-icons-handy/);
 - l'application iPhone _ShakeItPhoto_ pour donner un rendu sympa aux icônes.
 
 ## Le même site pour consultation sur iPhone
@@ -43,7 +43,7 @@ J'utilise donc le plugin ZPIP pour le CMS SPIP pour lequel j'ai créé un thème
 un squelette. Je viens de mettre à disposition ces 2 composants, pour le moment
 destinés à fonctionner ensemble. Vous pouvez donc les utiliser dès maintenant
 pour votre site ! Pour cela,
-[cliquer ici](http://code.google.com/p/mfgridformobile/) !
+[cliquer ici](https://code.google.com/archive/p/mfgridformobile/) !
 
 N'hésitez pas à me fournir vos remarques à son sujet sachant que j'ai déjà
 identifié quelques bugs que je corrigerai bientôt dans une seconde version :

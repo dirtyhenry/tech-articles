@@ -78,6 +78,6 @@ Stay tuned.
 
 [1]: ../../assets/grid.css
 [2]: ../../assets/grid-demo.html
-[3]: http://www.alistapart.com/articles/fluidgrids/
-[4]: http://www.alistapart.com/articles/responsive-web-design/
-[5]: http://unstoppablerobotninja.com/entry/fluid-images
+[3]: https://alistapart.com/article/fluidgrids/
+[4]: https://alistapart.com/article/responsive-web-design/
+[5]: https://unstoppablerobotninja.com/entry/fluid-images/

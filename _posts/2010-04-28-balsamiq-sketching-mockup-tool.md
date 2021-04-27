@@ -5,4 +5,4 @@ tags: [bookmark]
 ---
 
 Un autre outil de mockup iPhone (et autres) :
-[http://www.balsamiq.com/](http://www.balsamiq.com/)
+[https://balsamiq.com/wireframes/](https://balsamiq.com/wireframes/)

@@ -5,11 +5,15 @@ title: Pixel-Perfect Line Height With UIKit
 author: Mick F
 excerpt: >-
   In this post, I will show you my attempts to render a card component exactly
-  as it was designed, and why it might be worth negociating an approximation
+  as it was designed, and why it might be worth negotiating an approximation
   with a smaller footprint.
 category: Journaling
 tags:
   - iOS
+  - UIKit
+revisions:
+  "2021-02-04": "First publication"
+  "2021-04-18": "Added link of related article"
 ---
 
 According to Matthew Butterick, the author of the excellent [_Practical
@@ -107,7 +111,7 @@ res.attributedText = attributedString
 
 Here we create an attributed string with a paragraph style attribute. It can
 control the _line spacing_, ie the numbers of points between two lines of text
-that should be added, or substracted, to the default layout using the font
+that should be added, or subtracted, to the default layout using the font
 metrics[^2].
 
 The line spacing is the difference between the line height _of the design_ and
@@ -312,6 +316,10 @@ While this solution will give you less control to get a perfect ghost snapshot
 it is the best option for most cases, that should be negotiated with your design
 team.
 
+## Related Links
+
+- [What If Your Designers Want a Baseline Grid on iOS?][10]
+
 [^1]: I know it looks like 💩 that is not the point 😉.
 [^2]:
     Every font has a lot of metrics. Apple's [_Using Text Kit to Draw and Manage
@@ -319,8 +327,9 @@ team.
     Metrics_ figure that is a good recap of the most important ones.
 
 [^3]:
-    Since we're exploring multiplatform design — that, let's face it, is heavily
-    influenced by the web linguo —, we might as well just start using it here.
+    Since we're exploring multi-platform design — that, let's face it, is
+    heavily influenced by the web lingo —, we might as well just start using it
+    here.
 
 [^4]:
     Updating the text, for instance, will not break the layout, even if you set
@@ -342,3 +351,5 @@ team.
 [8]:
   https://developer.apple.com/documentation/uikit/uifontdescriptor/symbolictraits/1616694-traittightleading
 [9]: https://www.joshwcomeau.com/css/pixel-perfection/
+[10]:
+  https://medium.com/mobimeo-technology/what-if-your-designers-want-a-baseline-grid-on-ios-d5234c7b52c0

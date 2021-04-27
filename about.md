@@ -21,6 +21,6 @@ account][twitter].
 
 [deadrooster]: https://deadrooster.org/
 [livingstones]: https://thelivingstonesipresume.bandcamp.com
-[agile]: http://agilemanifesto.org/
+[agile]: https://agilemanifesto.org/
 [linkedin]: https://www.linkedin.com/in/mickaelflochlay/
-[twitter]: http://twitter.com/dirtyhenry
+[twitter]: https://twitter.com/dirtyhenry
