@@ -11,11 +11,12 @@ excerpt: >-
   from implementing OAuth 2.0 with the PKCE extension.
 category: Journaling
 tags:
-  - Swift
+  - CryptoKit
   - OAuth
   - PKCE
   - Spotify API
-  - CryptoKit
+  - Swift
+  - iOS
 revisions:
   "2021-05-05": "First version of the post"
 ---
