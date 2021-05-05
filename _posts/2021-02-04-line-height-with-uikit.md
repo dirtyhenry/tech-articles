@@ -102,7 +102,7 @@ let lineSpacing = 24.0 - res.font.lineHeight
 let paragraphStyle = NSMutableParagraphStyle()
 paragraphStyle.lineSpacing = lineSpacing
 attributedString.addAttribute(
-	  .paragraphStyle,
+    .paragraphStyle,
     value: paragraphStyle,
     range: NSRange(location: 0, length: attributedString.length)
 )
