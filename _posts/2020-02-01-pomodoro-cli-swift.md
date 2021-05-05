@@ -71,7 +71,9 @@ What do you think? How do you like them tomatoes? 🍅
 [pb]:
   https://francescocirillo.com/products/the-pomodoro-technique-book-us-edition
   "The Pomodoro Technique Book"
-[pw]: https://pomodorotechnique.com/ "The Pomodoro Technique Website"
+[pw]:
+  https://francescocirillo.com/pages/pomodoro-technique
+  "The Pomodoro Technique Website"
 [ghs]:
   https://github.com/search?q=pomodoro+cli
   "GitHub search results for Pomodoro and CLI"

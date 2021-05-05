@@ -145,7 +145,7 @@ A playground using all this code is available [here][c3].
 [2]: https://rsms.me/inter/#features
 [3]: https://rsms.me/inter/#features/ss01
 [4]:
-  https://developer.apple.com/documentation/uikit/text_display_and_fonts/adding_a_custom_font_to_your_apps
+  https://developer.apple.com/documentation/uikit/text_display_and_fonts/adding_a_custom_font_to_your_app/
 [5]:
   https://developer.apple.com/library/archive/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/CustomTextProcessing/CustomTextProcessing.html#//apple_ref/doc/uid/TP40009542-CH4-SW6
 [6]:
