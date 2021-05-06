@@ -139,7 +139,7 @@ the alternate digits feature enabled appears last.
 
 {% asset inter-font-with-or-without-options.png alt="A screenshot comparing the string '0123456789' with or without the option" %}
 
-A playground using all this code is available [here][c3].
+Check out [⛹️ the playground][c3] to run the code in Xcode.
 
 [1]: https://rsms.me/inter/
 [2]: https://rsms.me/inter/#features

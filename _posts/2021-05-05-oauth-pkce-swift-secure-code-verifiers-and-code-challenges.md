@@ -21,33 +21,34 @@ revisions:
   "2021-05-05": "First version of the post"
 ---
 
-I am making an app that uses the Spotify API. As for most other public API, the
-first step to successfully fetch a public API endpoint is to complete the
-authorization flow. The Spotify API uses the _Proof Key for Code Exchange_
-extension to OAuth 2.0 (_PKCE_) to do so. This post will provide tips to
-implement the code to get an access token from this API, but it should work as
-well for any other API using PKCE.
+I am making an app that uses the Spotify API. The typical first step to
+successfully fetch API endpoints is to complete the authorization flow. The
+Spotify API uses the _Proof Key for Code Exchange_ extension of OAuth 2.0
+(_PKCE_ which is pronounced “pixy”) to do so. This post presents the code I
+wrote to generate the code verifier and the code challenge required to receive
+an access token with PKCE.
 
 ## Creating a code verifier
 
 Reading [the RFC for PKCE][1], the first step is to create a _code verifier_, ie
 a random string that must meet the following requirements:
 
-- with characters in the set: [A-Z] / [a-z] / [0-9] / "-" / "." / "\_" / "~";
-- with a minimum length of 43 characters and a maximum length of 128 characters;
-- with enough _entropy_.
+- it has characters in the set: [A-Z] / [a-z] / [0-9] / "-" / "." / "\_" / "~";
+- it has a minimum length of 43 characters and a maximum length of 128
+  characters;
+- it has enough _entropy_.
 
 Entropy is a term coming from thermodynamics to quantify states of disorder,
 randomness and uncertainty. The higher the entropy, the higher the
 unpredictability of the state. Applied to PKCE, the higher the entropy, the
-harder would it be for a potential attacker to learn or guess how code verifiers
+harder it would be for a potential attacker to learn or guess how code verifiers
 are created.
 
-In Swift's [Security framework][2], the [`SecRandomCopyBytes`][3] function will
-help us comply to these requirements.
+With Swift, the [`SecRandomCopyBytes`][3] function in the [Security
+framework][2] will help us comply with this entropy requirement.
 
-We first create an array of blank 32 octets[^1], that we will feed into
-`SecRandomCopyBytes`
+We first create an array of 32 zeroed octets[^1], that we will feed into
+`SecRandomCopyBytes`:
 
 ```swift
 func generateCryptographicallySecureRandomOctets(count: Int) throws -> [UInt8] {
@@ -61,14 +62,12 @@ func generateCryptographicallySecureRandomOctets(count: Int) throws -> [UInt8] {
 }
 ```
 
-Calling `generateCryptographicallySecureRandomOctets` multiple times will return
-different results, that should be unpredictable.
+Calling this function multiple times will return different results that should
+be unpredictable.
 
 Next, we need to transform these octets into a Base64-URL encoded string.
-Beware, this is different than a Base64 encoded string. Different but quite
-close, so as recommended by the RFC's Appendix A, a convenient way to generate
-our code verifier is to use an altered version of the Base64 encoding that Swift
-knows all about. Like so:
+Beware, this is different than a Base64 encoded string. Different but close
+enough to base an implementation on it, as recommended by the RFC's Appendix A:
 
 ```swift
 func base64URLEncode(octets: [UInt8]) -> String {
@@ -94,9 +93,9 @@ let codeVerifier = try 32
 ```
 
 Wait: why did we use 32 octets to generate a string of 43 characters? Since our
-resulting string is using an alphabet of 64 letters, ie `2^6`, each character
-will code 6 bits. So since 32 octets are 256 bits, it requires 43 characters to
-be represented.
+resulting string is using an alphabet of 64 letters[^4], ie `2^6`, each
+character will code 6 bits. Since 32 octets are 256 bits, it requires 43[^3]
+characters to be represented.
 
 ## Creating the code challenge
 
@@ -108,7 +107,7 @@ func challenge(for verifier: String) throws -> String {
     let challenge = verifier
         .data(using: .ascii) // (a)
         .map { SHA256.hash(data: $0) } // (b)
-        .map { base64URLEncode(octets: $0) }
+        .map { base64URLEncode(octets: $0) } // (c)
 
     if let challenge = challenge {
         return challenge
@@ -150,8 +149,8 @@ func base64URLEncode<S>(octets: S) -> String where S : Sequence, UInt8 == S.Elem
 
 ## Testing our code
 
-The RFC provides some testing samples so let's use this provided data set to
-validate this code:
+The RFC provides testing samples so let's use this provided data set to validate
+this code:
 
 ```swift
 assertEqual(base64URLEncode(octets: [3, 236, 255, 224, 193]), "A-z_4ME")
@@ -165,8 +164,8 @@ assertEqual(verifier, "dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk")
 assertEqual(try! challenge(for: verifier), "E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM")
 ```
 
-And let's validate as well that we can create verifiers of lengthes that can
-cover the whole range:
+And let's validate that we can create verifiers of lengths that can cover the
+whole range:
 
 ```swift
 let codeVerifier43 = try 32
@@ -190,14 +189,22 @@ assertEqual(codeVerifier128.count, 128)
 ✅ 128 == 128
 ```
 
+Check out [⛹️ the playground][7] to run the code in Xcode. More on this Spotify
+API exploration should come soon.
+
 [^1]:
     Being French, I prefer using the word `octets` — the same as in French —
     than `bytes`.
 
 [^2]:
-    When digging the documentation, you will find that `SHA256.Digest` conforms
-    to `Digest` which conforms itself to a `Sequence` with an element of
-    `UInt8`.
+    When digging in the documentation, you will find that `SHA256.Digest`
+    conforms to `Digest` which conforms itself to a `Sequence` with an element
+    of `UInt8`.
+
+[^3]: 32 × 8 / 6 = 42,7 ⇒ 43 bits are required.
+[^4]:
+    Even though the RFC first mentions a set of 66 characters, the [Base64-URL
+    RFC][6] excluded `.` and `~` for their special meaning on some file systems.
 
 [1]: https://tools.ietf.org/html/rfc7636
 [2]: https://developer.apple.com/documentation/security
@@ -206,3 +213,5 @@ assertEqual(codeVerifier128.count, 128)
 [4]:
   https://apple.github.io/swift-crypto/docs/current/Crypto/Structs/SHA256.html
 [5]: https://developer.apple.com/documentation/cryptokit/sha256
+[6]: https://tools.ietf.org/html/rfc4648#section-5
+[7]: https://github.com/dirtyhenry/xcode-playgrounds/tree/main/PKCE.playground

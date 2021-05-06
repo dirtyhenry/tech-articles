@@ -316,6 +316,8 @@ While this solution will give you less control to get a perfect ghost snapshot
 it is the best option for most cases, that should be negotiated with your design
 team.
 
+Check out [⛹️ the playground][11] to run the code in Xcode.
+
 ## Related Links
 
 - [What If Your Designers Want a Baseline Grid on iOS?][10]
@@ -353,3 +355,5 @@ team.
 [9]: https://www.joshwcomeau.com/css/pixel-perfection/
 [10]:
   https://medium.com/mobimeo-technology/what-if-your-designers-want-a-baseline-grid-on-ios-d5234c7b52c0
+[11]:
+  https://github.com/dirtyhenry/xcode-playgrounds/tree/main/line-height.playground
