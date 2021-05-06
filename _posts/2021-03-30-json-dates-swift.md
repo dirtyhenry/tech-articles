@@ -211,7 +211,7 @@ let reencodedJSONPayload = (try? JSONEncoder.javaScriptISO8601().encode(payload)
 }
 ```
 
-A playground with the code from this post is available [here][10].
+Check out [⛹️ the playground][10] to run the code in Xcode.
 
 [^1]:
     Please refer to [this StackOverflow thread][6] for a more elaborate
@@ -235,6 +235,7 @@ A playground with the code from this post is available [here][10].
 [8]:
   https://github.com/Ranchero-Software/NetNewsWire/commit/afbe25a26c291dc5d006dfda2eb4650bcaa9f9f7
 [9]: https://forums.swift.org/t/serialization-in-swift/46641
-[10]: https://github.com/dirtyhenry/xcode-playgrounds
+[10]:
+  https://github.com/dirtyhenry/xcode-playgrounds/tree/main/JSON-date.playground
 [11]:
   https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
