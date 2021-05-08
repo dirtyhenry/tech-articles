@@ -23,26 +23,25 @@ revisions:
 
 I am making an app that uses the Spotify API. The typical first step to
 successfully fetch API endpoints is to complete the authorization flow. The
-Spotify API uses the _Proof Key for Code Exchange_ extension of OAuth 2.0
-(_PKCE_ which is pronounced “pixy”) to do so. This post presents the code I
-wrote to generate the code verifier and the code challenge required to receive
-an access token with PKCE.
+Spotify API uses the _Proof Key for Code Exchange_ (_PKCE_ which is pronounced
+“pixy”) extension of OAuth 2.0 to do so. This post presents the code I wrote to
+generate the code verifier and the code challenge required to receive an access
+token with PKCE.
 
 ## Creating a code verifier
 
 Reading [the RFC for PKCE][1], the first step is to create a _code verifier_, ie
 a random string that must meet the following requirements:
 
-- it has characters in the set: [A-Z] / [a-z] / [0-9] / "-" / "." / "\_" / "~";
-- it has a minimum length of 43 characters and a maximum length of 128
-  characters;
-- it has enough _entropy_.
+- contains characters in the set: [A-Z] / [a-z] / [0-9] / "-" / "." / "\_" /
+  "~";
+- minimum length of 43 characters and a maximum length of 128 characters;
+- has enough _entropy_.
 
-Entropy is a term coming from thermodynamics to quantify states of disorder,
-randomness and uncertainty. The higher the entropy, the higher the
-unpredictability of the state. Applied to PKCE, the higher the entropy, the
-harder it would be for a potential attacker to learn or guess how code verifiers
-are created.
+Entropy is a term used in thermodynamics to quantify states of disorder,
+randomness and uncertainty. The higher the entropy, the more unpredictable the
+state becomes. Applied to PKCE, the higher the entropy, the harder it would be
+for a potential attacker to learn or guess how code verifiers are created.
 
 With Swift, the [`SecRandomCopyBytes`][3] function in the [Security
 framework][2] will help us comply with this entropy requirement.
@@ -93,9 +92,9 @@ let codeVerifier = try 32
 ```
 
 Wait: why did we use 32 octets to generate a string of 43 characters? Since our
-resulting string is using an alphabet of 64 letters[^4], ie `2^6`, each
-character will code 6 bits. Since 32 octets are 256 bits, it requires 43[^3]
-characters to be represented.
+resulting string uses an alphabet of 64 letters[^4], ie `2^6`, each character
+will code 6 bits. Since 32 octets are 256 bits, it requires 43[^3] characters to
+be represented.
 
 ## Creating the code challenge
 
@@ -189,8 +188,8 @@ assertEqual(codeVerifier128.count, 128)
 ✅ 128 == 128
 ```
 
-Check out [⛹️ the playground][7] to run the code in Xcode. More on this Spotify
-API exploration should come soon.
+Check out [⛹️ the playground][7] to run the code in Xcode. More to come on this
+Spotify API exploration.
 
 [^1]:
     Being French, I prefer using the word `octets` — the same as in French —
@@ -201,7 +200,7 @@ API exploration should come soon.
     conforms to `Digest` which conforms itself to a `Sequence` with an element
     of `UInt8`.
 
-[^3]: 32 × 8 / 6 = 42,7 ⇒ 43 bits are required.
+[^3]: 32 × 8 / 6 = 42.7 ⇒ 43 bits are required.
 [^4]:
     Even though the RFC first mentions a set of 66 characters, the [Base64-URL
     RFC][6] excluded `.` and `~` for their special meaning on some file systems.

@@ -1,20 +1,20 @@
 /** TYPO AND COLORS */
 body {
-  font: normal 100%/1.375 Lucida Grande, Calibri, sans, sans-serif;	/* 22px / 16px = 1.375 */
+  font: normal 100%/1.375 Lucida Grande, Calibri, sans, sans-serif; /* 22px / 16px = 1.375 */
 }
 
 h1 {
   font-size: 1.5em;
-  line-height: 0.91667em;	/* 22px / 24px = 0.91667em */
+  line-height: 0.91667em; /* 22px / 24px = 0.91667em */
 }
 
 ul {
-  font-size: 0.875em;		/* 14px / 16px = 0.875em */
-  line-height: 1.28571;	/* 18px / 14px = 1.28571 */
+  font-size: 0.875em; /* 14px / 16px = 0.875em */
+  line-height: 1.28571; /* 18px / 14px = 1.28571 */
 }
 
 li {
-  margin-bottom: 0.42857em;	/* 6px / 14px = 0.42857em */
+  margin-bottom: 0.42857em; /* 6px / 14px = 0.42857em */
 }
 
 /** GRID AND LAYOUT */
@@ -28,7 +28,7 @@ li {
 h1 {
   width: 49%; /* 490px / 1000px = 0.49 */
   margin-top: 40px;
-  margin-left: 20.40%; /* 204 / 1000px = 20,4% */ 
+  margin-left: 20.4%; /* 204 / 1000px = 20,4% */
   border: thin solid #ddddff;
 }
 
@@ -58,7 +58,7 @@ h1 {
 
 .entry .main img,
 .entry .main object {
-  max-width: 100%;  
+  max-width: 100%;
 }
 
 .nettoyeur {
@@ -80,7 +80,7 @@ h1 {
     width: 100%;
     text-align: center;
   }
-  
+
   .entry .content,
   .entry .navigation {
     float: none;
