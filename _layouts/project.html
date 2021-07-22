@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="post-meta">
+      {{ page.year }}
+      {%- if page.categories.length > 0 -%}
+        <span> • </span>
+        <ul class="categories-list">
+          {%- for category in page.categories -%}
+            <li>
+            <span>
+              <span class="p-category h-card" itemprop="name">
+                <a href="{{ category | slugify: 'latin' | prepend: 'category/' | append: '/' | relative_url }}">
+                {{ category }}
+                </a>
+              </span>
+              </span>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+      </div>
+  </div>
+
+  {%- if page.cover -%}
+  {% asset '{{ page.cover }}' title='{{ page.cover_alt }}' %}
+  {%- endif -%}
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  {%- if page.tags -%}
+    <ul class="tags-list">
+      {%- for tag in page.tags -%}
+        <li>
+          <a class="tag-link" href="{{ tag | slugify: 'latin' | prepend: 'tag/' | append: '/' | relative_url }}">
+          {{ tag }}
+          </a>
+        </li>
+      {%- endfor -%}
+      </ul>
+  {%- endif -%}
+
+  {%- include related-pages.html -%}
+</article>
+<script type="text/javascript" src="{{ 'assets/js/main.js' | relative_url }}"></script>

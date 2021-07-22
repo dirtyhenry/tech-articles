@@ -6,16 +6,13 @@ author: Mick F
 excerpt: >-
   An experiment to build a scaffold for a responsive website that works well on
   both desktop and mobile.
-category: Journaling
+category: Web Publishing
 tags:
   - CSS
 revisions:
-  "2010-08-07": "First version of the post"
-alert:
-  level: info
-  content: >-
-    This post was first published in my previous website. It is still mostly
-    relevant but needs updates. I'll try to update it soon.
+  "2010-08-07": First version of the post
+  "2013-09-06": Deprecation notive
+  "2021-07-21": Remove obsolete mentions of 'what's next'
 ---
 
 Internet is turning mobile. So what should I do then? Make a desktop version and
