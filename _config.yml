@@ -21,7 +21,10 @@ exclude:
   - "package.json"
   - "webpack.config.js"
 collections:
-  - devtools_bookmarks
+  devtools_bookmarks:
+    output: false
+  projects:
+    output: true
 
 commonmark:
   options:
