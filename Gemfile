@@ -24,7 +24,12 @@ group :jekyll_plugins do
   gem 'jekyll-assets',
       git: 'https://github.com/envygeeks/jekyll-assets',
       branch: 'master'
-  gem 'jekyll-commonmark'
+  # jekyll-commonmark has a dependency bug:
+  # https://github.com/jekyll/jekyll-commonmark/pull/44
+  # We can fetch the 'normal' version once it's ok
+  gem 'jekyll-commonmark', 
+      git: 'https://github.com/jekyll/jekyll-commonmark',
+      branch: 'master'
   gem 'jekyll-feed',
       git: 'https://github.com/dirtyhenry/jekyll-feed',
       branch: 'master'
