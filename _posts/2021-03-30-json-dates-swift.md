@@ -12,8 +12,6 @@ tags:
   - Swift
   - JSON
   - JavaScript
-revisions:
-  "2021-01-18": Initial version
 ---
 
 This blog post will present why I'm frustrated with the current state of
