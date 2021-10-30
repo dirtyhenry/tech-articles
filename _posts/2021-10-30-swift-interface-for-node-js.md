@@ -125,7 +125,7 @@ var ffi = require("ffi-napi");
 var myLib = ffi.Library(
   "../MyLibrary/.build/x86_64-apple-macosx/debug/libMyDynamicLibrary.dylib",
   {
-    greet: ["bool", ["string", "long", "char *"]],
+    greet: ["bool", ["string", "int", "string"]],
   }
 );
 
