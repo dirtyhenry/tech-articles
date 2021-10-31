@@ -14,11 +14,11 @@ tags:
   - TypeScript
 ---
 
-For the last 4 years, on a daily basis, I write either JavaScript/TypeScript
-code (mostly React for the web) or Swift code (mostly for iOS). I sometimes feel
-like Megan at the beginning of [_Daddy’s Home 2_][1] when she goes on stage to
-reveal that she wants a normal Christmas instead of having to celebrate two
-Christmases in two families[^1].
+For the last 4 years, on a daily basis, I’ve been writing either
+JavaScript/TypeScript code (mostly React for the web) or Swift code (mostly for
+iOS). I sometimes feel like Megan at the beginning of [_Daddy’s Home 2_][1] when
+she goes on stage to reveal that she wants a normal Christmas instead of having
+to celebrate two Christmases in two families[^1].
 
 Yes, I sometimes want my 2 co-languages to live under the same roof.
 
@@ -28,7 +28,7 @@ JavaScript and Swift can interact in many different ways. A non-exhaustive list:
 
 - **Running JavaScript from Swift code**. Thanks to [JavaScriptCore][6], this
   option is straightforward. I gave [a talk about it][8] during a Paris
-  CocoaHeads session.[^2];
+  CocoaHeads session[^2];
 - **Running Swift code from JavaScript inside the browser**. Thanks to the
   [Swift WASM project][9], this option is pretty easy as well. But I couldn’t
   find a good use case for it. And during my POC, a simple Hello World being
@@ -41,7 +41,7 @@ JavaScript and Swift can interact in many different ways. A non-exhaustive list:
   interaction is what this post is about! A use case could be to write a command
   line interface that would use [oclif][7] for user interactions while running
   Swift code under the hood. Sweet. I am sure there are other possible
-  Javascript/Swift interactions. If you can think of one, pull requests are
+  Javascript/Swift interactions. If you can think of one, [pull requests][2] are
   welcome.
 
 A classic way for 2 languages to run hand-in-hand is to run hand-in-hand-in-hand
@@ -168,6 +168,7 @@ Please watch [_Daddy’s Home 2_][1].
     to repost its content online soon.
 
 [1]: https://www.themoviedb.org/movie/419680 "Daddy’s Home 2 on The Movie DB"
+[2]: https://github.com/Bootstragram/bootstragram-blog/pulls
 [3]: https://www.npmjs.com/package/ffi
 [4]: https://www.npmjs.com/package/ffi-napi
 [5]: https://en.wikipedia.org/wiki/Foreign_function_interface
