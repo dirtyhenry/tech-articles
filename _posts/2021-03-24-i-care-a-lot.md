@@ -21,7 +21,7 @@ attempt to reproduce it in CSS.
 
 Here is what a still from the trailer looks like:
 
-{% asset i-care-a-lot-trailer-snapshot.png %}
+{% asset i-care-a-lot-trailer-snapshot.png alt="A still from the movie I Care a Lot" %}
 
 And here is the result of my CSS reproduction (works best on a desktop layout):
 

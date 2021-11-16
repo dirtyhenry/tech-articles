@@ -17,7 +17,7 @@ tags:
   - YAML
 ---
 
-With every static site generator, you can write your posts or pages with 
+With every static site generator, you can write your posts or pages with
 Markdown or CommonMark files in which you can include some structured metadata
 called a _Front Matter_.
 
@@ -113,11 +113,11 @@ a free-form cloud.
 
 ## Revisions
 
-This section was ~stolen~ inspired by the front matter of NSHipster's articles (see
-the [source][10] for their `XCTestCase` post for instance). When you intend to
-keep your content relevant over time, it is very useful to let your users know
-you updated your content so the revisions feature, albeit specific, can become super
-useful.
+This section was ~stolen~ inspired by the front matter of NSHipster's articles
+(see the [source][10] for their `XCTestCase` post for instance). When you intend
+to keep your content relevant over time, it is very useful to let your users
+know you updated your content so the revisions feature, albeit specific, can
+become super useful.
 
 ## Alerts
 

@@ -2,8 +2,8 @@
 
 source 'https://rubygems.org'
 
-# Please keep in sync with the one in .travis.yml and .ruby-version.
-ruby '2.7.1'
+# Please keep in sync with .ruby-version.
+ruby '2.7.4'
 
 gem 'buckygem',
     git: 'https://github.com/dirtyhenry/buckygem.git',
@@ -27,7 +27,7 @@ group :jekyll_plugins do
   # jekyll-commonmark has a dependency bug:
   # https://github.com/jekyll/jekyll-commonmark/pull/44
   # We can fetch the 'normal' version once it's ok
-  gem 'jekyll-commonmark', 
+  gem 'jekyll-commonmark',
       git: 'https://github.com/jekyll/jekyll-commonmark',
       branch: 'master'
   gem 'jekyll-feed',
