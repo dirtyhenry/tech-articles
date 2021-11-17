@@ -45,14 +45,13 @@ This is what was rendered on the iPad:
 And this is what I finally got after replacing Myriad Pro by Google Fonts's
 Kreon:
 
-![Screenshot with Google Chrome and iPad after changing the font to the Kreon webfont](/assets/images/ios-font-rendered.jpg)
+![Screenshot with Google Chrome and iPad after changing the font to the Kreon webfont](/assets/images/ios-font-fixed.jpg)
 
 ## CSS3 and Images can help too
 
 Other solutions include:
 
-- [`font-face`](http://www.css3.info/preview/web-fonts-with-font-face/) that
-  CSS3 will help to promote;
+- [`font-face`][2] that CSS3 will help to promote;
 - using images for design:
   - Either the straightforward use: create your design with Photoshop and export
     them as images;
@@ -60,3 +59,4 @@ Other solutions include:
     JavaScript your design to use them for custom texts.
 
 [1]: https://mickaelflochlay.com/cv.html
+[2]: https://developer.mozilla.org/fr/docs/Web/CSS/@font-face
