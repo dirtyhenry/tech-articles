@@ -1,7 +1,5 @@
 ![Bootstragram Logo](vendor/assets/images/logo-pixels-1.png)
 
-[![Build Status](https://travis-ci.org/Bootstragram/bootstragram-blog.svg?style=flat-square)](https://travis-ci.org/Bootstragram/bootstragram-blog)
-
 # bootstragram.com
 
 Hi, I'm Mick. I'm a developer from Paris. Bootstragram is the home to my
@@ -24,7 +22,7 @@ make install
 make run
 ```
 
-The website is deployed to GitHub pages, by Travis CI's GitHub pages support.
+The website is deployed to GitHub pages, by Netlify.
 
 ## Contributing
 

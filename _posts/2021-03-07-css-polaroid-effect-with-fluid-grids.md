@@ -41,7 +41,7 @@ We will use [Jekyll's Sass/SCSS support][6] today.
 <ul class="polaroids">
 {% for item in site.data.playlist %}
   <li class="polaroid" href="{{ item.link | default: "#" }}" title="{{ item.artist }}">
-    <img src="https://picsum.photos/seed/{{ item.artist }}/200" />
+    <img src="https://picsum.photos/seed/{{ item.artist }}/200" alt="A random squared photo to illustrate the Polaroid effect."/>
   </li>
 {% endfor %}
 </ul>

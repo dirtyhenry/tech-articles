@@ -6,7 +6,7 @@ tags: [conf, bookmarks]
 ---
 
 Here are some random notes from the [Paris Hacker Meetup #4][meetup], hosted in
-[Joshfire][joshfire]'s great hall, a couple of weeks ago.
+Joshfire’s great hall, a couple of weeks ago.
 
 The first talk was from [Tristan Nitot][nitot], about the relevance of Mozilla
 in the web today. Mozilla's point of view is pretty straightforward: the web
@@ -47,10 +47,9 @@ Random list of things mentioned during the event :
 - [_Machine Learning for Hackers_](http://shop.oreilly.com/product/0636920018483.do)
 - [The Tau Manifesto][tau]
 
-[meetup]: http://www.meetup.com/ParisHackers/events/53314342/
-[joshfire]: http://joshfire.com/
-[nitot]: http://twitter.com/#!/nitot
-[b2g]: http://www.mozilla.org/en-US/b2g/
-[bartz]: https://twitter.com/#!/michelbartz
+[meetup]: https://www.meetup.com/datachaindc/events/53314342/
+[nitot]: https://twitter.com/nitot
+[b2g]: https://wiki.mozilla.org/B2G
+[bartz]: https://twitter.com/michelbartz
 [ebook]: https://sachagreif.com
 [tau]: https://tauday.com

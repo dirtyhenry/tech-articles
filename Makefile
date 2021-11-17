@@ -30,3 +30,4 @@ lint:
 
 lintfix:
 	npm run prettier
+	bundle exec rubocop --auto-correct

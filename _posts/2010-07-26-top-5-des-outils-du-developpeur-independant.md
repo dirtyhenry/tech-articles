@@ -15,7 +15,7 @@ qui repose sur la méthodologie [_GTD_][gtd] (_Getting Things Done_). Auparavant
 j'utilisais le logiciel gratuit iGTD, mais son développeur, Bartek, a ensuite
 cessé de maintenir le logiciel pour rejoindre l'équipe de... Things.
 
-{% asset things-screenshot.png %}
+{% asset things-screenshot.png alt="A screenshot of Things" %}
 
 Sommairement, le GTD repose sur les principes suivants :
 
@@ -42,7 +42,7 @@ TimeBoxed est une application extrêmement simple : c'est un minuteur pour Mac 
 X, idéal pour le time boxing, c'est-à-dire définir un intervalle de temps pour
 travailler sur une tâche donnée.
 
-{% asset timeboxed-screenshot.png %}
+{% asset timeboxed-screenshot.png alt="A screenshot of TimeBoxed" %}
 
 Associé à GTD, le time boxing est une excellente technique pour combattre les
 tendances à la procrastination, dont plusieurs articles de blog font l'apologie,
@@ -62,7 +62,7 @@ Malgré son prix un peu élevé, TimeBoxed est un outil vraiment utile et qui ai
 Klok est une application de time tracking, qui aide à tracer ses activités de la
 semaine et, si besoin, à en faire le reporting.
 
-{% asset klok-screenshot.png %}
+{% asset klok-screenshot.png alt="A screenshot of the Klok software" %}
 
 Bien que son usage soit particulièrement utile dans les grosses sociétés où des
 relevés d'activité sont régulièrement demandés aux collaborateurs, c'est aussi
@@ -81,7 +81,7 @@ concurrents open source offrent les mêmes services que Bugzilla, notamment
 Mantis, et j'ai d'ailleurs choisi ce logiciel de manière un peu triviale : je
 tenais juste une occasion de l'essayer.
 
-{% asset bugzilla-screenshot.png %}
+{% asset bugzilla-screenshot.png alt="A screenshot of the Bugzilla software" %}
 
 Le bug tracking est indispensable à n'importe quelle activité de développement
 d'un produit, qu'il soit logiciel ou autre, même lorsque cette activité est
