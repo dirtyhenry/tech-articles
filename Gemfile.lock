@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: https://github.com/dirtyhenry/kids.git
-  revision: 13c13f61bbb5cfa1c795dc2fa7116fa625f3ca8a
+  revision: 063b48903f1a627348f14e5930aa68dde3b7d2e3
   branch: main
   specs:
     kids (0.2.0)
