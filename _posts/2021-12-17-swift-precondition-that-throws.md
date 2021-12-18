@@ -24,7 +24,7 @@ Yes. Sorry I couldn’t think of a better name[^1].
 ///
 /// The difference with `precondition` is that if an error is _thrown_ when the condition is executed, the error will
 /// be _rethrown_ so that it can be recovered. But this recoverability does not apply if the condition executes
-/// properly and that its conditions fails.
+/// properly and its condition fails.
 ///
 /// In other words, this function is a wrapper around `precondition` so that it can be fed a condition closure that can
 /// throw.
@@ -77,15 +77,16 @@ precondition((try? aLittleTenderness()) ?? false)
 So I created a _recoverable precondition_, which means:
 
 - if the code throws, then try to recover from it;
-- if the code does not throw, treat it a precondition.
+- if the code does not throw, treat it as a precondition.
 
 Don’t hate me. [Listen to soul music instead][1].
 
 ## Lessons Learned
 
-Look at this signature! It is ripped off [`precondition`’s][3] and it features
-some keywords you don’t use everyday. Each on its own could deserve its own
-extensive explanation. But wait, other people already wrote about them.
+Look at this badass signature! Of course I started from the signature of
+[`precondition`][3] and I adapted it to my needs. It features some keywords I
+don’t use everyday. Each keyword deserves its own extensive explanation. But
+wait, other people have already written about them:
 
 - [`@autoclosure`][4];
 - [`rethrows`][5];
@@ -97,8 +98,7 @@ extensive explanation. But wait, other people already wrote about them.
 
 [1]:
   https://youtu.be/IQ9n2_5mbig
-  "Otis Redding - Try A Little Tenderness - Live
-1967 (Reelin' In The Years Archives)"
+  "Otis Redding - Try A Little Tenderness - Live 1967 (Reelin' In The Years Archives)"
 [2]:
   https://www.swiftbysundell.com/articles/picking-the-right-way-of-failing-in-swift/
   "Picking the right way of failing in Swift, by John Sundell"
