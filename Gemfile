@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 # Please keep in sync with .ruby-version.
-ruby '2.7.4'
+ruby '~> 2.7.4'
 
 gem 'buckygem',
     git: 'https://github.com/dirtyhenry/buckygem.git',
