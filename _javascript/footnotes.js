@@ -90,9 +90,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       }
     };
 
-    const toggleEvents = ["touchstart", "click"];
-
-    toggleEvents.forEach((event) => {
+    ["click"].forEach((event) => {
       button.addEventListener(event, toggle);
     });
   });
