@@ -1,23 +1,20 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
-$background-color: #f9f5f1;
-$text-color: #333;
+// Light scheme
+$background-color: hsl(40, 100%, 99%);
+$text-color: hsl(0, 0%, 20%);
+$text-color-subdued: hsl(0, 0%, 40%);
+$accent-color: hsl(9, 56%, 50%);
+$accent-inverted: hsl(0, 0%, 100%);
+$accent-inverted-active: hsl(0, 4%, 14%);
 
-$background-color-dark: #333;
-$text-color-dark: #fff;
-
-$text-color-subdued: #666;
-$text-color-subdued-dark: #aaa;
-
-$accent-color: #d64;
-$accent-color-dark: #e86;
-
-$accent-inverted: #fff;
-$accent-inverted-dark: #333;
-
-$accent-inverted-active: #ccc;
-$accent-inverted-active-dark: #666;
+// Dark scheme
+$background-color-dark: hsl(0, 0%, 20%);
+$text-color-dark: hsl(0, 0%, 100%);
+$text-color-subdued-dark: hsl(0, 0%, 67%);
+$accent-color-dark: hsl(16, 100%, 78%);
+$accent-inverted-dark: hsl(0, 0%, 20%);
+$accent-inverted-active-dark: hsl(0, 0%, 40%);
 
 // Import partials.
 @import "kids/base", "kids/images", "kids/index", "kids/layout", "kids/links",
