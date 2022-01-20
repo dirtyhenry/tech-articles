@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: https://github.com/dirtyhenry/kids.git
-  revision: 0bd6489f536ef5e53976db2e273dcf95f960fe43
+  revision: 7effe34b61dc4232aaa216f35a6df76912aa35b3
   branch: main
   specs:
     kids (0.2.0)
@@ -59,7 +59,7 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll-commonmark
-  revision: 37e262a5635e74f2a2a4b1233f91cf49ac29ee7f
+  revision: ba12585e3157e405151ae7f4719f58a00ca827a2
   branch: master
   specs:
     jekyll-commonmark (1.3.1)
@@ -77,7 +77,7 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.2)
-    chef-utils (17.8.25)
+    chef-utils (17.9.26)
       concurrent-ruby
     colorator (1.1.0)
     commonmarker (0.23.2)
@@ -92,7 +92,7 @@ GEM
     extras (0.3.0)
       forwardable-extended (~> 2.5)
     fastimage (2.2.6)
-    ffi (1.15.4)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     html-proofer (3.19.3)
       addressable (~> 2.3)
@@ -142,7 +142,7 @@ GEM
     liquid-tag-parser (2.0.2)
       extras (~> 0.3)
       liquid (>= 3.0, < 5.0)
-    listen (3.7.0)
+    listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mdl (0.11.0)
@@ -153,25 +153,25 @@ GEM
       mixlib-shellout
     mercenary (0.4.0)
     mini_magick (4.11.0)
-    mini_portile2 (2.6.1)
+    mini_portile2 (2.7.1)
     minitest (5.15.0)
     mixlib-cli (2.1.8)
     mixlib-config (3.0.9)
       tomlrb
     mixlib-shellout (3.2.5)
       chef-utils
-    nokogiri (1.12.5)
-      mini_portile2 (~> 2.6.1)
+    nokogiri (1.13.1)
+      mini_portile2 (~> 2.7.0)
       racc (~> 1.4)
     parallel (1.21.0)
-    parser (3.0.3.2)
+    parser (3.1.0.0)
       ast (~> 2.4.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.6.0)
     rack (2.2.3)
-    rainbow (3.0.0)
+    rainbow (3.1.1)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -179,16 +179,16 @@ GEM
     regexp_parser (2.2.0)
     rexml (3.2.5)
     rouge (3.27.0)
-    rubocop (1.23.0)
+    rubocop (1.25.0)
       parallel (~> 1.10)
-      parser (>= 3.0.0.0)
+      parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml
-      rubocop-ast (>= 1.12.0, < 2.0)
+      rubocop-ast (>= 1.15.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
-    rubocop-ast (1.15.0)
+    rubocop-ast (1.15.1)
       parser (>= 3.0.1.1)
     ruby-progressbar (1.11.0)
     safe_yaml (1.0.5)
@@ -206,7 +206,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     yell (2.2.2)
-    zeitwerk (2.5.1)
+    zeitwerk (2.5.3)
 
 PLATFORMS
   ruby
