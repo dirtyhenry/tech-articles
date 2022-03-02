@@ -195,10 +195,10 @@ using it for a hobby project — a soccer newsletter — and it works great. If 
 can read French and soccer is your thing, you can [sign up for the
 newsletter][2].
 
-## Addendum — macOS's Time Zones
+## Addendum — iOS & macOS Time Zones
 
-Here is a table of all the known time zones' identifiers and abbreviations as of
-macOS 12.2.1 & Swift 5.5.
+Here is a table of all the known time zones' identifiers and abbreviations as
+run on iOS 15.2 and macOS 12.2.1.
 
 For some reason, `UTC` is an abbreviation to the `UTC` identifier, but `UTC` is
 missing in the list of known identifiers. 🤷‍♂️ I initalized a time zone using
