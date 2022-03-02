@@ -60,7 +60,7 @@ public struct DateString {
     /// - Parameters:
     ///   - dateAsString: The ISO 8601 representation of the date. For instance, `2022-03-02`for March 2nd of 2022.
     ///   - calendar: The calendar — including the time zone — to use. The default is the current calendar.
-    /// - Returns:A date string, or `nil` if a valid date could not be created from `dateAsString`.
+    /// - Returns: A date string, or `nil` if a valid date could not be created from `dateAsString`.
     public init?(from dateAsString: String, calendar: Calendar = .current) {
         let formatter = Self.createFormatter(timeZone: calendar.timeZone)
         guard let date = formatter.date(from: dateAsString) else {
@@ -104,7 +104,6 @@ extension DateString: ExpressibleByStringLiteral {
     }
 }
 
-@available(macOS 10.15, *)
 extension DateString: Strideable {
     public func distance(to other: DateString) -> Int {
         let timeInterval = date.distance(to: other.date)
@@ -661,6 +660,5 @@ for identifier in TimeZone.knownTimeZoneIdentifiers.sorted() {
 }
 ```
 
-[1]:
-  https://stackoverflow.com/questions/71312009/why-do-swifts-date-time-intervals-ignore-leap-seconds#comment126054052_71312009
+[1]: https://stackoverflow.com/a/71312395/455016
 [2]: https://www.statium.app/newsletter
