@@ -24,7 +24,9 @@ collections:
   devtools_bookmarks:
     output: false
   projects:
-    output: true
+    output: false
+  demos:
+    output: false
 
 commonmark:
   options:
