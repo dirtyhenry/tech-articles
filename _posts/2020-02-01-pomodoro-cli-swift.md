@@ -16,11 +16,10 @@ repository][2].
 
 ## What on Earth Is Pomodoro?
 
-It is a time management technique that was created by Francesco Cirillo. He
-wrote [a book][pb] and [a website][pw] about it. To summarize, it's all about
-splitting up your work into 25-minutes chunks of time that are each full-focused
-on 1 objective. Pretty damn efficient when you can afford to stick to it I must
-say.
+It is a time management technique that was created by [Francesco Cirillo][pw].
+To summarize, it's all about splitting up your work into 25-minutes chunks of
+time that are each full-focused on 1 objective. Pretty damn efficient when you
+can afford to stick to it I must say.
 
 ## Why the Hell Did You Do That?
 
@@ -68,12 +67,7 @@ What do you think? How do you like them tomatoes? 🍅
 [2]:
   https://github.com/dirtyhenry/pomodoro-cli
   "GitHub repository for Pomodoro CLI"
-[pb]:
-  https://francescocirillo.com/products/the-pomodoro-technique-book-us-edition
-  "The Pomodoro Technique Book"
-[pw]:
-  https://francescocirillo.com/pages/pomodoro-technique
-  "The Pomodoro Technique Website"
+[pw]: https://francescocirillo.com "Francesco Cirillo’s Website"
 [ghs]:
   https://github.com/search?q=pomodoro+cli
   "GitHub search results for Pomodoro and CLI"
