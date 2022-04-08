@@ -21,7 +21,7 @@ Here are my notes from the talks I have watched.
 
 Talks with 🌟 are the talks I recommend the most.
 
-## Let’s Make That Label With Core Text - [Marcin Krzyzanowski][7] 🌟
+## Let’s Make That Label With Core Text - [Marcin Krzyżanowski][7] 🌟
 
 Marcin is working on his [Swift Studio][8] project, a Swift IDE for which he had
 to dig down deep into the Core Text framework. I enjoyed this talk following [my
