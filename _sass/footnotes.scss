@@ -1,11 +1,17 @@
 .tooltip {
-  background: #333;
-  color: white;
+  background-color: $background-color-dark;
+  color: $text-color-dark;
   padding: 4px 8px;
-  font-size: 13px;
+  font-size: 80%;
   border-radius: 4px;
+  max-width: 40ch;
 
   display: none;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $background-color;
+    color: $text-color;
+  }
 }
 
 .tooltip[data-show] {
@@ -31,19 +37,19 @@
 }
 
 .tooltip[data-popper-placement^="top"] > .arrow {
-  bottom: -16px;
+  bottom: -4px;
 }
 
 .tooltip[data-popper-placement^="bottom"] > .arrow {
-  top: -16px;
+  top: -4px;
 }
 
 .tooltip[data-popper-placement^="left"] > .arrow {
-  right: -16px;
+  right: -4px;
 }
 
 .tooltip[data-popper-placement^="right"] > .arrow {
-  left: -16px;
+  left: -4px;
 }
 
 button.tooltip-btn {
@@ -61,5 +67,15 @@ button.tooltip-btn {
     padding: 0.2rem 0.5rem;
     font-weight: bold;
     color: white;
+  }
+}
+
+main {
+  .post-content {
+    .tooltip {
+      p {
+        margin: 0;
+      }
+    }
   }
 }
