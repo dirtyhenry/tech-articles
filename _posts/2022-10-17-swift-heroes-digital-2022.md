@@ -82,6 +82,8 @@ recommended.
 I will for sure give WWDC’s [_Protect mutable state with Swift actors_][4] a
 rewatch.
 
+— [📺 Watch](https://youtu.be/uWqy5KZXSlA)
+
 ## TextKit 2 Is About to Make Text Easier - [Marcin Krzyżanowski][5]
 
 Marcin built upon [his talk from last year][i1] to give a live coding demo of
@@ -92,7 +94,7 @@ ongoing.
 He wrote [`STTextView`][8], as an attempt to code a `NSTextView` replacement
 component utilizing TextKit 2.
 
-## MODERN COLLECTION VIEWS BY EXAMPLE - [Gaetano Matonti][9]
+## Modern Collection Views by Example - [Gaetano Matonti][9]
 
 I haven't used table or collection views in a while and for sure they changed
 quite a bit. Gaetano walks through all recent modifications, showcasing how
@@ -101,7 +103,7 @@ or **Music**.
 
 Also bookmarked: [_Advances in UI Data Sources_][10] from WWDC’ 19.
 
-## THE EVER INCREASING CONVERGENCE OF NATIVE IOS AND ANDROID MOBILE DEVELOPMENT - [John O'Reilly][11]
+## The Ever Increasing Convergence of Native iOS and Android Mobile Development - [John O'Reilly][11]
 
 Kotlin and Swift grew similar and seem to be ever-converging. John made the case
 that, if UI should be coded in the primary language for each platform, [Kotlin
@@ -110,21 +112,29 @@ engine parts of an app. Definitely worth trying or giving a look.
 
 ## Swift Mobile DevOps - [Atanas Chanev][13]
 
-Atanas offered a good reminder that Swift can be used to write scripts in ther
+Atanas offered a good reminder that Swift can be used to write scripts in the
 terminal, and an overivew of the features of [Bitrise][14].
 
-## TELL ME QUANDO - IMPLEMENTING FEATURE FLAGS - [Jorge D. Ortiz Fuentes][15]
+## Tell Me Quando - Implementing Feature Flags - [Jorge D. Ortiz Fuentes][15]
 
 Great live-coding talk on practical tips to embed feature flags within an iOS
 app. Funnily enough, many people asked him about his tooling for live coding. It
 is called [lazycoder][16] and it is based on [espanso][17], a text expander that
 I have been using quite intensively in the recent past and strongly recommend.
 
-## BUILDING SWIFT PACKAGES IN VSCODE - [Tim Condon][x]
+## Building Swift Packages in VScode - [Tim Condon][x]
 
 TO COMPLETE. I AM HERE!
 
-## IMPROVING DEVELOPER EXPERIENCE THROUGH TOOLS AND TECHNIQUES - [Krzysztof Zabłocki][x]
+## Property Wrappers to the Rescue! - [Davide Repetto][x]
+
+TO COMPLETE
+
+## Remove Your Xcode Workspace From Git - [Firas Safa][x]
+
+TO COMPLETE
+
+## Improving Developer Experience Through Tools and Techniques - [Krzysztof Zabłocki][x]
 
 Krzysztof is making the case that any opportunity to accelerate a process, or
 automate steps, or any architecture decision that can help saving time can be
@@ -136,21 +146,21 @@ Krzysztof did help the NYTimes to rewrite their iOS app.
 
 https://github.com/krzysztofzablocki/Inject
 
-## Title - [Author][x]
+## Bluetooth + Swift: It's a Match! - Samuele Perricone, Alessia Botta, Pietro Santececca
 
 Bluetooth: mouais. Le mec hyper émotif. Quelques idées sur les tests
 "impossible" Source d'inspiration pour faire une app de webcam ?
 
-## Title - [Author][x]
+## 🍏 + 🔥 = ❤️ (Firebase for Apple developers) - Peter Friese, Charlotte Liang
 
 Firebase. Mouais. Firebase c'est super pour commencer vite. Mais ça rend trop de
 service. C'est un peu un lock-in au final.
 
-## Title - [Author][x]
+## Secondary Skills as a Developer - Jeroen Leenarts, Amos Gyamfi
 
 TO COMPLETE
 
-## UI/UX BASICS FOR IOS DEVELOPERS - [Jane Bondar][x]
+## UI/UX Basics for iOS Developers - Jane Bondar
 
 [NIX](https://www.nixsolutions.com/services/mobile-development-services/)
 Ukraine: i like how emotions could be felt during the conference.
@@ -161,25 +171,21 @@ Doherty threshold <- joke
 
 The 44pt rule: out of Apple's documentation.
 
-## OBSCURE SWIFT - NON OBVIOUS ASPECTS OF SWIFT AND MAGIC BEHIND THEM - [Paweł Łopusiński][x] (https://twitter.com/Losiowaty)
+## Obscure Swift - Non Obvious Aspects of Swift and Magic Behind Them - [Paweł Łopusiński][x] (https://twitter.com/Losiowaty)
 
 TO COMPLETE
 
 SIL : Swift Intermediary Laguage ou truc du genre I'm not fmailiar how Swift
 related to C++, C, Objective-C, etc.
 
-## REFACTORING RESWIFT APPLICATIONS IN ORDER TO MAKE THEM MODULAR - [Giovanni Catania][x]
+## Refactoring ReSwift Applications in Order to Make Them Modular - [Giovanni Catania][x]
 
 https://www.pointfree.co/collections/composable-architecture
 
 I feel sick of Redux though I'd like to have a change to take a look at
 PointFree.
 
-## Title - [Author][x]
-
-TO COMPLETE
-
-## Title - [Author][x]
+## Embrace the Evolution of a Product, Mindset and Tools for a Domain/Test Driven Development Approach - Alessandro Chiarotto, Aleksandar Gotev
 
 TO COMPLETE
 
