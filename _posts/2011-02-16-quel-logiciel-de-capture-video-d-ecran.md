@@ -2,6 +2,7 @@
 layout: post
 title: Quel logiciel de capture vidéo d'écran ?
 tags: [bookmark]
+published: false
 ---
 
 Je suis actuellement à la recherche de logiciels de capture vidéo pour réaliser
