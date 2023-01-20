@@ -287,10 +287,10 @@ quite better, without any design cost.
 
 Apple is very thoughtful about system font sizes and line heights, as
 demonstrated in the [Typography section of their Human Interfaces
-Guidelines][6]. If your designer still wants to make adjustments on point sizes
-and line spacings, a sturdier alternative to using `lineSpacing` might be to
-leverage font descriptors to slightly alter the font metrics so that they better
-match your designs. You could use either [`traitLooseLeading`][7] or
+Guidelines][6]. If the designer in your team still wants to make adjustments on
+point sizes and line spacings, a sturdier alternative to using `lineSpacing`
+might be to leverage font descriptors to slightly alter the font metrics so that
+they better match your designs. You could use either [`traitLooseLeading`][7] or
 [`traitTightLeading`][8] to slightly modify the line spacing of fonts.
 
 For our specific line height situation, we want `traitLooseLeading`:
