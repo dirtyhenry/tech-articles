@@ -138,9 +138,9 @@ my problem, I found out that the actual implementation was pretty
 straightforward and easier to implement than I expected.
 
 Nevertheless, I'm still curious of feedbacks you might have about this code and
-I invite you to get in touch via [GitHub][github] or [Twitter][twitter] if you
-want to engage a discussion about this page (in particular if you know a better
-way to do a Service to UI communication).
+I invite you to get in touch via [GitHub][github] if you want to engage a
+discussion about this page (in particular if you know a better way to do a
+Service to UI communication).
 
 [asynctask]:
   https://developer.android.com/reference/android/os/AsyncTask.html
@@ -168,6 +168,4 @@ way to do a Service to UI communication).
   "My RandomEventsService source code"
 [poc]: https://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept"
 [github]: https://github.com/dirtyhenry/bootstragram-blog/issues "Issues"
-[twitter]: https://twitter.com/dirtyhenry
 [kvo]: https://nshipster.com/key-value-observing/
-[tweet]: https://twitter.com/dirtyhenry/statuses/426382723377553408

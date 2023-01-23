@@ -5,22 +5,21 @@ title: About
 
 ## About
 
-My name is Mickaël Floc’hlay.
+My name is Mick F.
 
-- I do a lot of coding in multiple languages (Swift, JS, Rails, etc.);
-- I try to convince people that they should listen to the same music as me on
+- 🏦 I am a frontend and mobile developer for [Memo Bank][memo];
+- 👨‍💻 I code mostly in Swift and TypeScript;
+- ⚽️ I run [Statium][statium], a newsletter in French about football;
+- 🎧 I try to convince people that they should listen to the same music as me on
   [Dead Rooster][deadrooster];
-- [I compose and play music][livingstones].
-
-I try to be as [agile][agile] as can be (though this word now sucks).
+- 🎸 [I compose and play music][livingstones].
 
 I’m French and currently based in Paris.
 
-To find out more about me, [my LinkedIn profile page][linkedin] or [my Twitter
-account][twitter].
+To find out more about me, [my LinkedIn profile page][linkedin].
 
-[deadrooster]: https://deadrooster.org/
+[deadrooster]: https://www.deadrooster.org/
 [livingstones]: https://thelivingstonesipresume.bandcamp.com
-[agile]: https://agilemanifesto.org/
 [linkedin]: https://www.linkedin.com/in/mickaelflochlay/
-[twitter]: https://twitter.com/dirtyhenry
+[memo]: https://memo.bank/
+[statium]: https://www.statium.app/

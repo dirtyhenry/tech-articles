@@ -22,12 +22,11 @@ Le HTML est selon moi ok pour du web sémantique. Lors du dernier exercice,
 > Ce n'est pas vraiment du web sémantique [...] Plutôt de la visu
 > d'informations.
 
-Ce sur quoi
-[je ne suis pas d'accord à 100%](https://twitter.com/dirtyhenry/status/36452618351935488).
-Je pense que le HTML sépare clairement mise en forme et contenu, et que le
-contenu est structuré de façon interprétable. Par contre, il est peut-être vrai
-que je n'utilise pas toutes les balises les plus précises, notamment celles
-introduites dans HTML5, mais toute aide sur ce point sera la bienvenue.
+Ce sur quoi je ne suis pas d'accord à 100%. Je pense que le HTML sépare
+clairement mise en forme et contenu, et que le contenu est structuré de façon
+interprétable. Par contre, il est peut-être vrai que je n'utilise pas toutes les
+balises les plus précises, notamment celles introduites dans HTML5, mais toute
+aide sur ce point sera la bienvenue.
 
 ## La feuille de style
 

@@ -1,6 +1,6 @@
 ---
 name: React TypeScript Cheatsheet
-target_url: https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events
+target_url: https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events/
 ---
 
 A collection of reminders and snippets on how to type things in React using
