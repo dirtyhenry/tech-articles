@@ -48,7 +48,7 @@ part of them) so we might have to find a new name for it.
 
 Hopefully, the app will end up on the App Store but in the meantime, if you want
 to try this app, have some feedback to share, or a name suggestion, feel free to
-[contact me][7].
+contact me.
 
 ### More links about the event
 
@@ -61,6 +61,5 @@ to try this app, have some feedback to share, or a name suggestion, feel free to
 [4]: https://twitter.com/saleandro
 [5]: http://bandcamp.com/developer
 [6]: http://en.wikipedia.org/wiki/Green_room
-[7]: http://twitter.com/dirtyhenry
 [9]:
   https://www.facebook.com/media/set/?set=a.272239499489444.63625.151603081553087&type=1

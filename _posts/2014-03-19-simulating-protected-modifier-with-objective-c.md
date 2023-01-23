@@ -167,8 +167,7 @@ You can find the full source code of this example on [my iOS Demo
 code][demo-ios] on GitHub.
 
 And again, if you want to address me some feedback or comments, it's via
-[Twitter][twitter] or [GitHub][github].
+[GitHub][github].
 
 [github]: https://github.com/Bootstragram/bootstragram-blog/issues "Issues"
-[twitter]: http://twitter.com/dirtyhenry
 [demo-ios]: https://github.com/Bootstragram/bootstragram-ios
