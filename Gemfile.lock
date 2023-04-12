@@ -80,7 +80,7 @@ GEM
     chef-utils (18.0.185)
       concurrent-ruby
     colorator (1.1.0)
-    commonmarker (0.23.7)
+    commonmarker (0.23.9)
     concurrent-ruby (1.2.2)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
