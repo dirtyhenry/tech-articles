@@ -22,21 +22,17 @@ will recap my journey to activate the alternate digits feature on an iOS app.
 
 ## Adding a custom font and using it
 
-[Adding a custom font to your app][4] is now pretty easy, compared to [the old
-days][i1]. From there, the most obvious next step is to run [a piece of
-code][c1] that I include in every project that use custom fonts. It simply
-prints a list of the font names that are available from your app.
+[Adding a custom font to your app][4] is now pretty easy, compared to the old
+days. From there, the most obvious next step is to run [a piece of code][c1]
+that I include in every project that use custom fonts. It simply prints a list
+of the font names that are available from your app.
 
 ```swift
-extension UIFont {
-    static func printAllFontNames() {
-        print("# All Font Names\n")
-        for familyName in UIFont.familyNames {
-            print("- \(familyName)")
-            for font in UIFont.fontNames(forFamilyName: familyName) {
-                print("  - \(font)")
-            }
-        }
+public extension UIFont {
+    static func allFontNames() -> [String] {
+        familyNames.sorted()
+            .map { UIFont.fontNames(forFamilyName: $0).sorted() }
+            .flatMap { $0 }
     }
 }
 ```
@@ -98,7 +94,7 @@ basic, aimed to be built on in the future, and I made use of this incredible
 naming:
 
 ```swift
-sprivate enum FeatureTypeSelectorPair {
+private enum FeatureTypeSelectorPair {
     typealias PairDescriptor = (Int, Int)
 
     static let stylisticAlternativesStylisticAltOne: PairDescriptor = (35, 2)
@@ -150,10 +146,8 @@ Check out [⛹️ the playground][c3] to run the code in Xcode.
   https://developer.apple.com/library/archive/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/CustomTextProcessing/CustomTextProcessing.html#//apple_ref/doc/uid/TP40009542-CH4-SW6
 [6]:
   https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html
-
-[i1]: {% post_url 2011-02-23-what-fonts-for-ios %}
-
-[c1]: https://gist.github.com/dirtyhenry/c9fb50745491624fa75768d3149376f6
+[c1]:
+  https://github.com/dirtyhenry/swift-blocks/blob/main/Sources/Blocks/Extensions/UIFont.swift
 [c2]: https://gist.github.com/dirtyhenry/875ebeac13882c5dad710f22f17be5c5
 [c3]:
   https://github.com/dirtyhenry/xcode-playgrounds/tree/master/activating-opentype-features.playground
