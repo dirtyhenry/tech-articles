@@ -138,7 +138,7 @@ right.
 
 There are many options to support future values of the enum:
 
-- A [failble initializer][1], as in the example,
+- A [failable initializer][1], as in the example,
 - A throwing initializer,
 - A prop that can be optional,
 - Adding an `.unknown` rolling stone in the enum,
