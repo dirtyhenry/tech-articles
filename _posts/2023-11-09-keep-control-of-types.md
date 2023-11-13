@@ -2,8 +2,8 @@
 layout: post
 id: b2dfab02-229e-49b1-a023-36ae372f21cd
 title:
-  "Get rid of types you don't control early: a lesson (re)learned, Rolling
-  Stones Edition"
+  "From the start, get rid of types you don't control: a lesson (re)learned,
+  Rolling Stones Edition"
 author: Mick F
 excerpt: >-
   With my special sauce to future-proof your API and boost testability!
@@ -16,11 +16,11 @@ tags:
 In recent weeks, I've been reminded of a crucial lesson: “Do not use the objects
 that are used by an API[^1] outside of the network layer of your application.”
 
-While this might seem like common sense in a technical interview, the real-world
-scenario brings its own challenges, especially when dealing with (a) an in-house
-designed API[^2], (b) budget constraints, and (c) the task of writing
-boilerplate to convert DTO into model objects. It's surprisingly easy to give in
-to the temptation.
+While this might seem like common sense in a technical job interview, the
+real-world scenario brings its own challenges, especially when dealing with (a)
+an in-house designed API[^2], (b) budget constraints, and (c) the task of
+writing boilerplate to convert DTO into model objects. It's surprisingly easy to
+give in to the temptation.
 
 I'm writing this post to emphasize that the effort is always worth it. To drive
 this point home, I'll provide real-life examples to illustrate why.
