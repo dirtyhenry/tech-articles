@@ -1,7 +1,13 @@
 ---
 layout: post
-title: How to log and delete keychain items from your iOS app
-tags: [iOS, Swift]
+title: Troubleshooting Keychain Items on iOS
+excerpt: >-
+  Learn how to debug your app's Keychain items on iOS by listing them and/or
+  deleting them.
+tags:
+  - iOS
+  - Swift
+category: Journaling
 ---
 
 ## How Keychain Items Can Slow Down Debugging

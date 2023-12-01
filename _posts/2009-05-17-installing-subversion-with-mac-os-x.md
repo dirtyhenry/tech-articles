@@ -1,10 +1,17 @@
 ---
 layout: post
 title: Using Subversion with Mac OS X
-tags: [svn]
+excerpt: >-
+  Configure a SVN repository on a Mac: create, edit config files. A cheat sheet
+  for svnadmin and svnserve.
+category: Journaling
+tags:
+  - svn
 ---
 
-- To create a repository:
+**💡 Update:** You should probably use Git rather than Subversion nowadays.
+
+To create a repository:
 
 ```bash
 svnadmin create ~/Documents/MySVN
