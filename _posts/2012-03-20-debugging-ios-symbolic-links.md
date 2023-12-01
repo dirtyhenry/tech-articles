@@ -1,7 +1,14 @@
 ---
 layout: post
-title: "Debugging Symbolic Links On iOS"
-tags: [iOS]
+id: 04893f10-b042-406f-9451-8be93d30592f
+title: "Debugging Symbolic Links on iOS"
+author: Mick F
+excerpt: >-
+  Introducing a tool that will visually inspect the state of an iOS app
+  filesystem.
+category: Journaling
+tags:
+  - iOS
 ---
 
 Symbolic links are one of my favorite pragmatic best practice to manage a file
@@ -11,33 +18,31 @@ poor support of symbolic links and it's not very helpful when you want to check
 symbolic links targets on a full app file system.
 
 I had to develop some file system inspector code to help me debug the app and
-this is what I want to share here. However, as I fixed the bug as well, I'll
-just issue this statement :
+this is what I want to share here. Before diving into the details, however, I
+must emphasize a crucial lesson learned during the bug-fixing process:
 
-⚠️ Never use absolute target paths for your symbolic links as your app's file
-system will move it to another home directory every time you update your app on
-the App Store.
+⚠️ Avoid Absolute Target Paths for Symbolic Links:
 
-(and now that i think of it, the simple fact that you can use absolute paths and
-not only paths relative to your home directory in an iOS app sounds like a
-sandboxing bug from Apple's SDK to me).
+In the intricate dance of app updates on the App Store, relying on absolute
+target paths for symbolic links can lead to unexpected consequences. Your app's
+file system might waltz into a different home directory with each update,
+causing potential chaos. As a precautionary measure, opt for relative paths to
+ensure a smoother transition during updates.
 
-Anyway, I've created the `BSGFileSystemExplorer` class in [my work-in-progress
-_BSGUtilities_ Pod][bsgutilities], that will help you generate the following
-kind of output when you run it inside your app.
+Anyway, I've created [a `FileSystemExplorer` tool][1], that will help you
+generate the following kind of output when you run it inside your app.
 
-Download `BSGFileSystemExplorer` here :
+Download `FileSystemExplorer` here:
 
-- [`BSGFileSystemExplorer.h`][doth]
-- [`BSGFileSystemExplorer.m`][dotm]
+- [`FileSystemExplorer.h`][doth]
+- [`FileSystemExplorer.m`][dotm]
 
-Notice the ---&gt; and -x-&gt; arrows which help you determine if items are
+Notice the `--->` and `-x->` arrows which might help you determine if items are
 symbolic links and whether the file they target still exist or not. Please leave
 a message if you found this bit of code helpful!
 
-Typical use case would probably to run
-`[BSGFileSystemExplorer exploreFileSystem];` from your app's delegate's
-`application:didFinishLaunchingWithOptions:`.
+Typical use case would probably to run `[FileSystemExplorer exploreFileSystem];`
+from your app's delegate's `application:didFinishLaunchingWithOptions:`.
 
 ```
 |- Documents
@@ -67,8 +72,8 @@ Typical use case would probably to run
 |- tmp
 ```
 
-[bsgutilities]: https://github.com/Bootstragram/BSGUtilities/
+[1]: https://github.com/dirtyhenry/swift-blocks
 [doth]:
-  https://github.com/Bootstragram/BSGUtilities/blob/master/Pod/Classes/FileSystemUtils/BSGFileSystemExplorer.h
+  https://github.com/dirtyhenry/swift-blocks/blob/main/Sources/ObjectiveBlocks/public/FileSystemExplorer.h
 [dotm]:
-  https://github.com/Bootstragram/BSGUtilities/blob/master/Pod/Classes/FileSystemUtils/BSGFileSystemExplorer.m
+  https://github.com/dirtyhenry/swift-blocks/blob/main/Sources/ObjectiveBlocks/FileSystemExplorer.m
