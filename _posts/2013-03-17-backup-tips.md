@@ -117,10 +117,11 @@ Now I think you can feel safe about your data.
 - [Marco Ament's comments][6] are also very valuable.
 
 [1]: https://daringfireball.net/2010/03/ode_to_diskwarrior_superduper_dropbox
-[2]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
+[2]: https://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
 [4]:
-  http://www.theinstructional.com/guides/encrypt-an-external-disk-or-usb-stick-with-a-password
-[5]: http://www.emptyage.com/post/28679875595/yes-i-was-hacked-hard
-[6]: http://www.marco.org/2012/08/04/mat-hacked
-[8]: http://www.backblaze.com/
-[9]: http://www.macgeneration.com/unes/voir/130252/un-guide-de-la-sauvegarde
+  https://www.theinstructional.com/guides/encrypt-an-external-disk-or-usb-stick-with-a-password
+[5]:
+  https://web.archive.org/web/20130104061728/http://www.emptyage.com/post/28679875595/yes-i-was-hacked-hard
+[6]: https://marco.org/2012/08/04/mat-hacked
+[8]: https://www.backblaze.com/
+[9]: https://www.macgeneration.com/unes/voir/130252/un-guide-de-la-sauvegarde
