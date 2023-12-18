@@ -167,7 +167,9 @@ Please watch [_Daddy’s Home 2_][1].
     I just realized the talks is not available on YouTube anymore so I will have
     to repost its content online soon.
 
-[1]: https://www.themoviedb.org/movie/419680 "Daddy’s Home 2 on The Movie DB"
+[1]:
+  https://www.themoviedb.org/movie/419680-daddy-s-home-2
+  "Daddy’s Home 2 on The Movie DB"
 [2]: https://github.com/Bootstragram/bootstragram-blog/pulls
 [3]: https://www.npmjs.com/package/ffi
 [4]: https://www.npmjs.com/package/ffi-napi
