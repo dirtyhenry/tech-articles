@@ -41,19 +41,19 @@ import Foundation
 
 /// A string that represents dates using their ISO 8601 representations.
 ///
-/// `DateString` is a way to handle dates with no time — such as `2022-03-02` for March 2nd of 2022 — to
+/// `PlainDate` is a way to handle dates with no time — such as `2022-03-02` for March 2nd of 2022 — to
 /// perform operations with convenience including adding days, dealing with ranges, etc.
 ///
 /// ## Usage Overview
 ///
-/// A date string can be initiated from a string literal, and can be used to create ranges.
+/// A plain date can be initiated from a string literal, and can be used to create ranges.
 ///
-///     let dateString: DateString = "2022-03-01"
-///     let aWeekLater = dateString.advanced(by: 7)
+///     let plainDate: PlainDate = "2022-03-01"
+///     let aWeekLater = plainDate.advanced(by: 7)
 ///     for day in march1st ..< aWeekLater {
 ///       print(day)
 ///     }
-public struct DateString {
+public struct PlainDate {
     // MARK: - Creating an instance
 
     /// Returns a date string initialized using their ISO 8601 representation.
@@ -98,29 +98,31 @@ public struct DateString {
     }
 }
 
-extension DateString: ExpressibleByStringLiteral {
+extension PlainDate: ExpressibleByStringLiteral {
     public init(stringLiteral value: String) {
         self.init(from: value)!
     }
 }
 
-extension DateString: Strideable {
-    public func distance(to other: DateString) -> Int {
+extension PlainDate: Strideable {
+    public func distance(to other: PlainDate) -> Int {
         let timeInterval = date.distance(to: other.date)
         return Int(round(timeInterval / 86400.0))
     }
 
-    public func advanced(by value: Int) -> DateString {
+    public func advanced(by value: Int) -> PlainDate {
         let newDate = calendar.date(byAdding: .day, value: value, to: date)!
-        return DateString(date: newDate, calendar: calendar, formatter: formatter)
+        return PlainDate(date: newDate, calendar: calendar, formatter: formatter)
     }
 }
 ```
 
-### Just how bad is DateString for a name?
+### Just how bad is ~~DateString~~ for a name?
 
-I struggled to find a good name. I gave it a lot of thought and nothing better
-came out. So I think it’s not that bad.
+Edit: the first name for this class was `PlainDate`. I know. Since, I found out
+about [the `Temporal` proposal for JavaScript][3] that introduces something very
+similar to what I am trying to achieve here as `PlainDate`. So I renamed this
+accordingly.
 
 ### Why are time zones involved in this code?
 
@@ -139,7 +141,7 @@ It’s the result of logical decisions I made from the tools I had at hand:
 
 ### Implementing ExpressibleByStringLiteral is so easy and convenient!
 
-Yes, it is. Expressing a `DateString` just as `"1987-08-31"` is indeed pretty
+Yes, it is. Expressing a `PlainDate` just as `"1987-08-31"` is indeed pretty
 awesome.
 
 ### Wow, and what about implementing Strideable?
@@ -148,7 +150,7 @@ I know, right? On top of answering our original question
 (`date.advanced(by: offset)`), `Strideable` helps doing things like:
 
 ```swift
-let startDate: DateString = "2022-03-01"
+let startDate: PlainDate = "2022-03-01"
 let aWeekLater = startDate.advanced(by: 7)
 for date in  startDate ..< aWeekLater {
   // do something.
@@ -190,7 +192,7 @@ return end - start
 
 ## Conclusion
 
-Mission accomplished. Feel free to use this `DateString` class as is. I've been
+Mission accomplished. Feel free to use this `PlainDate` class as is. I've been
 using it for a hobby project — a soccer newsletter — and it works great. If you
 can read French and soccer is your thing, you can [sign up for the
 newsletter][2].
