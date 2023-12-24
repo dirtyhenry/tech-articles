@@ -16,21 +16,20 @@ tags:
 Last year, I wrote about [the joy sparked by side projects][4]. This year, I
 wanted to write another small recap of what I have accomplished in 2023. I kept
 iterating on my projects but, more importantly, I kept consolidating the
-packages that I use to share code between projects:
-[`swift-blocks`](https://github.com/dirtyhenry/swift-blocks) and
-[`swift-hoods`](https://github.com/dirtyhenry/swift-hoods). They are
-open-sourced and I wanted to formally introduce them to the world. Here we are.
+packages that I use to share code between projects: [`swift-blocks`][5] and
+[`swift-hoods`][6]. They are open-sourced and I wanted to formally introduce
+them to the world. Here we are.
 
 ## 🧱 Welcome to my blocks
 
 For the last 2 years, I have been building `swift-blocks`, a **dependency-free**
 library of tools and patterns I use repeatedly on all my Swift projects.
 
-It is not my first attempt to build a such library but it is the first time I
+It is not my first attempt to build such a library but it is the first time I
 feel really satisfied about its usefulness. What was different this time? Two
-things:
+factors:
 
-1. For once, Swift Package Manager provides a much more convenient way to share
+1. For one, Swift Package Manager provides a much more convenient way to share
    code between projects than anything else in the past (Cocoapods, static
    libraries, etc.);
 2. And then, I had a much better discipline to be consistent about
@@ -60,23 +59,24 @@ Help yourself.
 The [documentation for this package][0] is now hosted on the Swift Package
 Index.
 
-## 🏘️ Welcome in my ’hood
+## 🏘️ Welcome to my ’hood
 
 In 2023 though, I have been using
 [The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture)
 a lot. And I built things that were depending on it. So in addition to
 `swift-blocks`, I started building another library, `swift-hoods`[^1], which has
-a slighly bigger footprint in a project but is starting to turn out very useful
+a slightly bigger footprint in a project but is starting to turn out very useful
 as well.
 
-Today, it is still very small, but it already provides two useful items:
+Today, it is still in the early stages, but it already provides two useful
+items:
 
 - A keychain TCA dependency for easy testing of code that uses keychain items;
 - A processor for markdown files that include YAML front-matters.
 
 I will detail how these work in the future.
 
-🎄 Have a happy holiday and happy new dear 🥂.
+🎄 Have a happy holiday and happy new year 🥂.
 
 [^1]:
     Hood standing for neighborhood… ie a larger version of a block. Get it?
@@ -89,3 +89,5 @@ I will detail how these work in the future.
   https://swiftpackageindex.com/dirtyhenry/swift-blocks/0.2.0/documentation/blocks/calendar
 [3]: https://github.com/dirtyhenry/swift-blocks/releases/tag/0.2.0
 [4]: https://bootstragram.com/blog/side-projects-2022/
+[5]: https://github.com/dirtyhenry/swift-blocks
+[6]: https://github.com/dirtyhenry/swift-hoods
