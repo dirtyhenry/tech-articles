@@ -1,0 +1,4 @@
+# 📜 https://docs.netlify.com/routing/redirects/redirect-options/
+
+http://blog.bootstragram.com/_ https://bootstragram.com/:splat 301!
+https://blog.bootstragram.com/_ https://bootstragram.com/:splat 301!
