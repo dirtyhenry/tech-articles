@@ -21,6 +21,8 @@ exclude:
   - "package-lock.json"
   - "package.json"
   - "webpack.config.js"
+include:
+  - _redirects
 collections:
   devtools_bookmarks:
     output: false

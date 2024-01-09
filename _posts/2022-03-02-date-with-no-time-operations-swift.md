@@ -119,7 +119,7 @@ extension PlainDate: Strideable {
 
 ### Just how bad is ~~DateString~~ for a name?
 
-Edit: the first name for this class was `PlainDate`. I know. Since, I found out
+Edit: the first name for this class was `DateString`. I know. Since, I found out
 about [the `Temporal` proposal for JavaScript][3] that introduces something very
 similar to what I am trying to achieve here as `PlainDate`. So I renamed this
 accordingly.
