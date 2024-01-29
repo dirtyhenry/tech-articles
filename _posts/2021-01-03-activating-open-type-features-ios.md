@@ -147,7 +147,7 @@ Check out [⛹️ the playground][c3] to run the code in Xcode.
 [6]:
   https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html
 [c1]:
-  https://github.com/dirtyhenry/swift-blocks/blob/main/Sources/Blocks/Extensions/UIFont.swift
+  https://github.com/dirtyhenry/swift-blocks/blob/main/Sources/Blocks/Extensions/Font.swift
 [c2]: https://gist.github.com/dirtyhenry/875ebeac13882c5dad710f22f17be5c5
 [c3]:
   https://github.com/dirtyhenry/xcode-playgrounds/tree/master/activating-opentype-features.playground
