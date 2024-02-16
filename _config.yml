@@ -69,5 +69,4 @@ kids:
 plugins:
   - jekyll-archives
   - jekyll-feed
-  - jekyll-liquify
   - jekyll-sitemap

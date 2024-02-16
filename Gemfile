@@ -39,6 +39,5 @@ group :jekyll_plugins do
       git: 'https://github.com/dirtyhenry/jekyll-feed',
       branch: 'master'
 
-  gem 'jekyll-liquify'
   gem 'jekyll-sitemap'
 end
