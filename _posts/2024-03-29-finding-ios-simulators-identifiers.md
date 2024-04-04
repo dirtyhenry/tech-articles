@@ -29,6 +29,15 @@ Cannot test target “FooTests” on “Any iOS Device”: Tests must be run on 
 The challenge then arose: how to identify the simulator identifiers suitable for
 the intended device?
 
+Of course, Apple provides a command for this:
+
+```sh
+xcrun simctl list devices available
+```
+
+But then CI requires parsing and filtering on this command's output. Here are 3
+solutions to do so.
+
 ## Fastlane era
 
 Fastlane provides a `FastlaneCore::DeviceManager` that greatly assists in
