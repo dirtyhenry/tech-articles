@@ -96,7 +96,7 @@ curl -sSL https://raw.githubusercontent.com/dirtyhenry/swift-blocks/main/Scripts
 chmod +x findDevice
 
 # Find the device identifier
-DEVICE_ID=$(./findDevice $TEST_IOS_VERSION $TEST_IOS_SIMULATOR_MODEL)
+DEVICE_ID=$(./findDevice "$TEST_IOS_VERSION" "$TEST_IOS_SIMULATOR_MODEL")
 
 # Run the test
 set -o pipefail && xcodebuild test \
