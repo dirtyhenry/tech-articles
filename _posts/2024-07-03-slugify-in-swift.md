@@ -67,8 +67,7 @@ Here are some examples of what `.slugify()` does:
 
 ## The code
 
-You can check out
-[an up-to-date version of slugify on GitHub](https://github.com/dirtyhenry/swift-blocks/blob/b15fc683f5a0fc91b0ee360f555d7c92c8187af8/Sources/Blocks/Extensions/StringProtocol.swift).
+You can check out [an up-to-date version of slugify on GitHub][3].
 
 Here's the current implementation:
 
@@ -98,3 +97,5 @@ public extension StringProtocol {
 [1]:
   https://developer.apple.com/documentation/swift/stringprotocol/applyingtransform(_:reverse:)/
 [2]: https://github.com/dirtyhenry/swift-blocks
+[3]:
+  https://github.com/dirtyhenry/swift-blocks/blob/main/Sources/Blocks/Extensions/StringProtocol.swift
