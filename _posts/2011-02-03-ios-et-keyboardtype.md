@@ -1,12 +1,13 @@
 ---
 layout: post
 title: iOS et keyboardType
+category: Documentation
 tags: [iOS]
 ---
 
 Comme j'ai cherché une page qui ressemblerait à celle-ci et que je ne l'ai pas
 trouvée, voici ma compilation "à quoi ressemble tel type de clavier d'iOS selon
-la valeur de UIKeyboardType ?".
+la valeur de `UIKeyboardType` ?".
 
 Bien sûr, ce travail est très limité :
 
