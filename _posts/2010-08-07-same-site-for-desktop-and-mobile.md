@@ -71,7 +71,7 @@ This demo page renders as follow on the iPhone, portrait and landscape:
 {% asset grid-landscape.jpg alt="Grid page rendering on an iPhone with landscape orientation" %}
 
 [1]: ../../assets/grid.css
-[2]: ../../assets/grid-demo.html
+[2]: ../../assets/grid-demo/
 [3]: https://alistapart.com/article/fluidgrids/
 [4]: https://alistapart.com/article/responsive-web-design/
 [5]: https://unstoppablerobotninja.com/entry/fluid-images/
