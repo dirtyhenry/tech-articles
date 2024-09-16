@@ -1,13 +1,15 @@
 ---
 layout: post
-title: Premiers pas en design de l'information
-tags: [data]
+title: Foot et information design, vol. 1
+category: Data
 ---
+
+Volume 1 | [Volume 2][tp2] | [Volume 3][tp3] | [Volume 4][tp4]
 
 Le design de l'information (ou plus naturellement, même quand on est français,
 _information design_) est « l’art et la science de la préparation de
 l’information afin qu'elle puisse être utilisée par les êtres humains avec
-efficience et efficacité » (citation de [Wikipedia][wikipedia]).
+efficience et efficacité » (citation de [Wikipedia][1]).
 
 Plus concrètement, c'est l'habileté à présenter des informations de façon
 graphique et le plus immédiatement lisible possible. Les enseignants
@@ -34,13 +36,12 @@ finalement assez honorable :
 {% asset fff-venn-diagram.png alt="Diagramme de Venn de la 1ère sélection post-mondial 2010" %}
 
 N'hésitez pas à me faire part de vos commentaires et si l'information design
-vous intéresse, je vous recommande le site suivant :
-[flowingdata.com][flowingdata]
+vous intéresse, je vous recommande le site suivant : [flowingdata.com][2].
 
-Commentaire de Greek Goddess:
+[→ Volume 2][tp2]
 
-> Nice implementation of the Venn diagram. Maybe I’ll send this to my boss and
-> see what he thinks. Why is Gourcuff suspended???
-
-[flowingdata]: https://flowingdata.com/
-[wikipedia]: https://fr.wikipedia.org/wiki/Design_de_l'information
+[tp1]: https://bootstragram.com/blog/premiers-pas-en-design-de-l-information/
+[tp2]:
+  https://bootstragram.com/blog/second-tp-d-information-design-toujours-sur-l-equipe-de-france/
+[tp3]: https://bootstragram.com/blog/troisieme-tp-d-information-design/
+[tp4]: https://bootstragram.com/blog/quatrieme-tp-d-information-design/

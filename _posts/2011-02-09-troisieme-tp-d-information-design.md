@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Troisième TP d'Information Design
-tags: [data]
+title: Foot et information design, vol. 3
+category: Data
 ---
+
+[Volume 1][tp1] | [Volume 2][tp2] | Volume 3 | [Volume 4][tp4]
 
 Quelques mois après mon dernier exercice, je profite du match France-Brésil pour
 un nouveau TP.
@@ -35,11 +37,9 @@ web sémantique que j'y ai introduit (là aussi, il peut être largement amélio
 
 ![Preview du HTML](../../assets/images/fff-selection-by-mick-html-preview.png)
 
-Pour rappel de l'historique de la chose :
+[→ Volume 4][tp4]
 
-- [1er TP : tentative ratée d'information design][tp1]
-- [2nd TP : rendre lisible de l'information, résultat plus convaincant][tp2]
-
+[tp1]: https://bootstragram.com/blog/premiers-pas-en-design-de-l-information/
 [tp2]:
-{% post_url 2010-10-04-second-tp-d-information-design-toujours-sur-l-equipe-de-france %}
-[tp1]: {% post_url 2010-08-27-premiers-pas-en-design-de-l-information %}
+  https://bootstragram.com/blog/second-tp-d-information-design-toujours-sur-l-equipe-de-france/
+[tp4]: https://bootstragram.com/blog/quatrieme-tp-d-information-design/

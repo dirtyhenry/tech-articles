@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Quatrième TP d’Information Design
-tags: [data]
+title: Foot et information design, vol. 4
+category: Data
 ---
+
+[Volume 1][tp1] | [Volume 2][tp2] | [Volume 3][tp3] | Volume 4
 
 Les matches de l'équipe de France sont toujours l'occasion de m'entraîner à
 l'information design. Je pense en être arrivé à une étape décisive.
@@ -75,3 +77,8 @@ web. Stay tuned et n'hésitez pas à partager vos impressions dans les
 commentaires !
 
 [tp3]: {% post_url 2011-02-09-troisieme-tp-d-information-design %}
+
+[tp1]: https://bootstragram.com/blog/premiers-pas-en-design-de-l-information/
+[tp2]:
+  https://bootstragram.com/blog/second-tp-d-information-design-toujours-sur-l-equipe-de-france/
+[tp3]: https://bootstragram.com/blog/troisieme-tp-d-information-design/
