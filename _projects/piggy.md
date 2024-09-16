@@ -12,7 +12,7 @@ For special events like holidays, week-ends or gifts in common, use the events
 and you'll keep track of who gave what.
 
 For more details about Piggy, please visit
-[this page](https://github.com/Bootstragram/piggy).
+[this page](https://github.com/dirtyhenry/piggy).
 
 ## Release Notes
 

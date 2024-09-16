@@ -167,5 +167,5 @@ Service to UI communication).
   https://github.com/dirtyhenry/bootstragram-android/blob/master/src/com/bootstragram/demo/services/RandomEventsService.java
   "My RandomEventsService source code"
 [poc]: https://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept"
-[github]: https://github.com/dirtyhenry/bootstragram-blog/issues "Issues"
+[github]: https://github.com/dirtyhenry/tech-articles/issues "Issues"
 [kvo]: https://nshipster.com/key-value-observing/

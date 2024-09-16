@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "@dirtyhenry/tech-articles",
   "scripts": {
     "webpack": "webpack",
     "prettier": "prettier -w _posts _javascript *.json *.js"

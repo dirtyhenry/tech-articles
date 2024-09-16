@@ -1,12 +1,10 @@
-![Bootstragram Logo](vendor/assets/images/logo-pixels-1.png)
+# My Technical Articles
 
-# bootstragram.com
-
-Hi, I'm Mick. I'm a developer from Paris. Bootstragram is the home to my
-professional and hobbyist software engineering adventures.
+Hi, I'm Mick. I'm a developer from Paris. This is the home to my professional
+and hobbyist software engineering adventures.
 
 I sometimes share it with [zertyuio](https://github.com/zertyuio), who was my
-associate when Bootstragram was turned into a company, from 2014 to 2017.
+associate when we ran a company together, from 2014 to 2017.
 
 This repository contains [bootstragram.com][bootstragram]'s code.
 
@@ -22,7 +20,7 @@ make install
 make run
 ```
 
-The website is deployed to GitHub pages, by Netlify.
+The website is deployed via Netlify.
 
 ## Contributing
 

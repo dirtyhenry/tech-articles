@@ -5,8 +5,8 @@ tags: [devops]
 ---
 
 L'infrastructure réseau est-elle **prête pour l'IPv6 ?** La question s'est posée
-très simplement pour nous à _Bootstragram_ au moment de chercher un hébergement
-pour nos serveurs. La réponse est simplement **non** !
+très simplement pour nous au moment de chercher un hébergement pour nos
+serveurs. La réponse est simplement **non** !
 
 ## IPv6 et Gandi VPS
 

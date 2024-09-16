@@ -169,5 +169,5 @@ code][demo-ios] on GitHub.
 And again, if you want to address me some feedback or comments, it's via
 [GitHub][github].
 
-[github]: https://github.com/Bootstragram/bootstragram-blog/issues "Issues"
-[demo-ios]: https://github.com/Bootstragram/bootstragram-ios
+[github]: https://github.com/dirtyhenry/tech-articles/issues "Issues"
+[demo-ios]: https://github.com/dirtyhenry/bootstragram-ios
