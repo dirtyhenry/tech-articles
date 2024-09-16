@@ -1,8 +1,8 @@
-title: Bootstragram
+title: Mick F’s Technical Blog
 lang: en
 repository:
-  url: https://github.com/bootstragram/bootstragram-blog
-  name: bootstragram/bootstragram-blog
+  url: https://github.com/dirtyhenry/tech-articles
+  name: dirtyhenry/tech-articles
 url: https://bootstragram.com
 description: >-
   Notes for myself and fellow programmers, 

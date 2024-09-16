@@ -170,7 +170,7 @@ Please watch [_Daddy’s Home 2_][1].
 [1]:
   https://www.themoviedb.org/movie/419680-daddy-s-home-2
   "Daddy’s Home 2 on The Movie DB"
-[2]: https://github.com/Bootstragram/bootstragram-blog/pulls
+[2]: https://github.com/dirtyhenry/tech-articles/pulls
 [3]: https://www.npmjs.com/package/ffi
 [4]: https://www.npmjs.com/package/ffi-napi
 [5]: https://en.wikipedia.org/wiki/Foreign_function_interface

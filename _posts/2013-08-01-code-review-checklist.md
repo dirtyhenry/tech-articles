@@ -91,7 +91,7 @@ welcome. I'll review them with a great pleasure.
 [4]: https://github.com/nvie/gitflow
 [5]: http://www.kaleidoscopeapp.com/
 [6]:
-  https://github.com/dirtyhenry/bootstragram-blog/blob/master/_posts/2013-08-01-code-review-checklist.md
-[7]: https://github.com/dirtyhenry/bootstragram-blog
+  https://github.com/dirtyhenry/tech-articles/blob/master/_posts/2013-08-01-code-review-checklist.md
+[7]: https://github.com/dirtyhenry/tech-articles
 [11]:
   http://lifehacker.com/all-code-is-bad-so-dont-stress-if-yours-sucks-1569821801

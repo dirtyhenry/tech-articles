@@ -152,6 +152,6 @@ Any thoughts? [Let me know.][11]
 [8]: https://github.com/jekyll/jekyll-feed#author-information
 [9]: https://bulma.io/documentation/components/breadcrumb/
 [10]: https://github.com/NSHipster/articles/blob/master/2014-07-21-xctestcase.md
-[11]: https://github.com/Bootstragram/bootstragram-blog/issues
+[11]: https://github.com/dirtyhenry/tech-articles/issues
 
 [^1]: It seems to come from the [printed book design][5] industry.

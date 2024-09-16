@@ -103,4 +103,4 @@ Feel free to submit any addition/correction/remark on this post [here][github].
 [vpn-screencast]: http://www.youtube.com/watch?v=gG8HcsQuyjI
 [gandyn]: https://github.com/Chralu/gandyn
 [gandi]: http://www.gandi.net
-[github]: https://github.com/dirtyhenry/bootstragram-blog/issues
+[github]: https://github.com/dirtyhenry/tech-articles/issues
