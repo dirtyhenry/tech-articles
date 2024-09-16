@@ -111,12 +111,12 @@ also contributes positively to the future.
 [7]: https://bootstragram.com/blog/side-projects-2022/
 [8]: https://indieweb.org/POSSE
 [9]: https://buttondown.email/
-[10]: https://dirtyhenry.micro.blog/
+[10]: https://micro.blog/
 [11]: https://www.themoviedb.org/about
 [12]: https://www.discogs.com/about
 [13]: https://www.sports-reference.com/
 [14]: https://www.mickf.net/default-apps
-[15]: https://dirtyhenry.micro.blog/2023/10/31/144426.html
-[16]: https://dirtyhenry.micro.blog/2023/03/08/every-month-or.html
-[17]: https://dirtyhenry.micro.blog/2023/12/26/good-old-fashioned.html
+[15]: https://micro.mickf.net/2023/10/31/144426.html
+[16]: https://micro.mickf.net/2023/03/08/every-month-or.html
+[17]: https://micro.mickf.net/2023/12/26/good-old-fashioned.html
 [18]: https://memo.bank/
