@@ -116,7 +116,7 @@ convinced I would invest in this direction for hobby projects.
 [6]: https://twitter.com/anioutkajarkova
 [7]: https://twitter.com/krzyzanowskim
 [8]: https://swiftstudio.app/
-[9]: https://cloud.annotations.ai/
+[9]: https://github.com/cloud-annotations/cloud-annotations
 [10]: https://developer.apple.com/machine-learning/create-ml/
 [11]: https://twitter.com/v_pradeilles
 [12]:

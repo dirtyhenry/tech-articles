@@ -1,7 +1,6 @@
 ---
 layout: post
-title:
-  "Troubleshooting a Dedibox Upgrade From Maverick to Natty (Ubuntu Server)"
+title: Troubleshooting upgrading Ubuntu Server from Maverick to Natty
 javascript: tooltip.js
 category: Journaling
 tags:

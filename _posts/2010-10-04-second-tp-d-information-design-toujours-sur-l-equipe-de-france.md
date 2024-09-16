@@ -1,14 +1,16 @@
 ---
 layout: post
-title: Second TP d’information design… toujours sur l’équipe de France
-tags: [data]
+title: Foot et information design, vol. 2
+category: Data
 ---
 
-Quelques semaines après ma première tentative d'information design, les mêmes
-causes impliquent les mêmes conséquences : la nouvelle sélection de Laurent
-Blanc me redonne de l'inspiration pour un nouveau TP !
+[Volume 1][tp1] | Volume 2 | [Volume 3][tp3] | [Volume 4][tp4]
 
-Cette fois, la lecture de l'Équipe et, plus particulièrement, celle du tableau
+Quelques semaines après [ma première tentative d'information design][tp1], les
+mêmes causes impliquent les mêmes conséquences : la nouvelle sélection de
+Laurent Blanc me redonne de l’inspiration pour un nouveau TP !
+
+Cette fois, la lecture de l’Équipe et, plus particulièrement, celle du tableau
 ci-dessous m'a donné l'idée de chercher un moyen plus adapté de présenter la
 sélection.
 
@@ -70,4 +72,9 @@ manquantes du tableau lors du clic ou du survol d'un nom de joueur.
 N'hésitez pas à me faire part de vos remarques, bonnes ou mauvaises, dans les
 commentaires.
 
+[→ Volume 3][tp3]
+
 [1]: ../../assets/images/fff-selection-by-mick.png
+[tp1]: https://bootstragram.com/blog/premiers-pas-en-design-de-l-information/
+[tp3]: https://bootstragram.com/blog/troisieme-tp-d-information-design/
+[tp4]: https://bootstragram.com/blog/quatrieme-tp-d-information-design/
