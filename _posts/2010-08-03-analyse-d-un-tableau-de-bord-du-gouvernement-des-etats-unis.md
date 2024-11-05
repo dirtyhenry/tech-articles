@@ -20,5 +20,5 @@ intéressante et propose même une proposition de tableau de bord amélioré.
 Dashboards People Love to Use_][whitepaper].
 
 [itdashboard]: https://itdashboard.gov/
-[analysis]: https://www.juiceanalytics.com/writing/better-federal-it-dashboard/
-[whitepaper]: https://www.juiceanalytics.com/white-papers-guides-and-more
+[analysis]: https://web.archive.org/web/20100905152901/https://www.juiceanalytics.com/writing/better-federal-it-dashboard/
+[whitepaper]: https://web.archive.org/web/20110131162438/http://www.juiceanalytics.com/white-papers-guides-and-more/
