@@ -80,7 +80,7 @@ I Care a Lot
 
 [1]: https://www.themoviedb.org/movie/601666-i-care-a-lot
 [2]: https://youtu.be/D40uHmTSPew
-[3]: https://www.marksimonson.com/notebook/view/fake-vs-true-italics/
+[3]: https://www.marksimonson.com/notebook/view/FakevsTrueItalics/
 [4]: https://codepen.io/dirtyhenry/pen/zYoybEB
 [5]: https://cloudfour.com/thinks/hsl-a-color-format-for-humans/
 [6]:
