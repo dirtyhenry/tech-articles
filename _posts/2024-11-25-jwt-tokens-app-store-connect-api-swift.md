@@ -4,10 +4,10 @@ id: 255F92E8-F939-4461-8A09-03605296F8F3
 title: Generating JWT Tokens in Swift for the App Store Connect API
 author: Mick F
 excerpt: >-
-  Learn how to generate JWT tokens in Swift to authenticate with the App Store
-  Connect API. This guide covers creating payloads, signing tokens with JWTKit,
-  managing secrets securely, and integrating the process into your macOS and iOS
-  apps.
+  Learn how to generate JWT tokens in Swift to authorize requests to the App
+  Store Connect API. This guide covers creating payloads, signing tokens with
+  JWTKit, managing secrets securely, and integrating the process into your macOS
+  and iOS apps.
 cover: jwt-tokens.webp
 category: Open Sourcing
 tags:
@@ -84,7 +84,7 @@ let token = try await keys.sign(
 
 You now have a JWT token! 🎉
 
---
+---
 
 ## Using the Code as a Dependency
 
