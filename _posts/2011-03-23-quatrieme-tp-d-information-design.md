@@ -65,8 +65,8 @@ par la souris :
 Le terme consacré pour ce genre de fenêtre volante est _popover_ ou _tooltip_ et
 voici les ressources qui m'ont aidé à le réaliser :
 
-- [_Popover_ tooltips in HTML/CSS](http://kitgrose.tumblr.com/post/524802936/popover-tooltips-in-html-css)
-- [Forum d'Alsacréations](http://forum.alsacreations.com/topic-4-37258-1.html)
+- [_Popover_ tooltips in HTML/CSS](https://kitgrose.tumblr.com/post/524802936/popover-tooltips-in-html-css)
+- [Forum d'Alsacréations](https://forum.alsacreations.com/topic-4-37258-1.html)
 
 ## Bilan
 

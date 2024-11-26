@@ -24,5 +24,5 @@ Edit : Deux autres références : Screenflow (99\$), avec un tutorial [ici][1],
 [Snagit][2] (gratuit, une version Pro existe).
 
 [1]:
-  http://telestreamblog.telestream.net/2011/01/tutorial-how-to-create-a-video-trailer-by-matthieu-blanco-2/
+  https://telestreamblog.telestream.net/2011/01/tutorial-how-to-create-a-video-trailer-by-matthieu-blanco-2/
 [2]: https://www.techsmith.com/screen-capture.html

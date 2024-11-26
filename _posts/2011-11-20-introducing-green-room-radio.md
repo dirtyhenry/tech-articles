@@ -4,9 +4,9 @@ title: "First Hackathon Experience: Introducing Green Room Radio"
 tags: [product]
 ---
 
-Yesterday, I went to my first Hackathon: the [AT&T Mobile App Hackathon in
-Boston][1]. It was a very fun event (thanks to the organizers) that I recommend
-to every people interested in new technologies, being a developer or not.
+Yesterday, I went to my first Hackathon: the AT&T Mobile App Hackathon in
+Boston. It was a very fun event (thanks to the organizers) that I recommend to
+every people interested in new technologies, being a developer or not.
 
 My team was composed of Alki (from [wattnow][2]), Ming and Charles. Here was our
 idea. Living in big cities, many gigs happen every night, mostly with local
@@ -22,8 +22,8 @@ iPod Touch executing the following tasks:
 
 - geolocation of the user
 - fetching of JSON data of all concerts near the user position from the
-  [Songkick API][3] (thanks to [Sabrina][4] for providing us an API key so
-  quickly on a saturday)
+  [Songkick API][3] (thanks to Sabrina for providing us an API key so quickly on
+  a saturday)
 - fetching of JSON data from the artists playing from the [Bandcamp API][5]
 - highlighting artists know from Bandcamp for which a track was available to be
   streamed
@@ -55,11 +55,9 @@ contact me.
 - ~~Recap post from Alex Donn~~ (edit: 💀 link)
 - [Facebook photo bucket][9]
 
-[1]: http://mobileappbos.eventbrite.com/
-[2]: http://wattnow.org/
-[3]: http://www.songkick.com/developer
-[4]: https://twitter.com/saleandro
-[5]: http://bandcamp.com/developer
-[6]: http://en.wikipedia.org/wiki/Green_room
+[2]: https://wattnow.org/
+[3]: https://www.songkick.com/developer
+[5]: https://bandcamp.com/developer
+[6]: https://en.wikipedia.org/wiki/Green_room
 [9]:
   https://www.facebook.com/media/set/?set=a.272239499489444.63625.151603081553087&type=1
