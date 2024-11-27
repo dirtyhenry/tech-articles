@@ -23,8 +23,8 @@ au choix :
   sais-je encore
 
 Chez les web-designers, la même chose existe pour la police Comic Sans. L'un
-d'entre eux a réalisé ce site web, tout simplement génial :
-[http://www.comicsanscriminal.com/](http://www.comicsanscriminal.com/)
+d'entre eux a réalisé le site
+[Comic Sans Criminal](https://comicsanscriminal.com/), tout simplement génial.
 
 Daring Fireball parle aussi cette semaine de
 [la bonne manière de renseigner les balises &lt;title&gt; des sites web](https://daringfireball.net/2010/12/title_junk).
@@ -39,19 +39,19 @@ hyper évoluées : [une animation de 1 minute et 29 secondes faite de 450 slides
 Google Docs][1].
 
 (via
-[flowingdata](http://flowingdata.com/2010/12/22/epic-animation-in-google-docs/))
+[flowingdata](https://flowingdata.com/2010/12/22/epic-animation-in-google-docs/))
 
 ## Mes nouveaux flux RSS
 
 Encore une fois, la visite de Daring Fireball m'a fait découvrir un nouveau site
-qui va enrichir mon morning coffee : [Olly Moss](http://www.moss.fm/),
+qui va enrichir mon morning coffee : [Olly Moss](https://www.moss.fm/),
 responsable de ce
-[très beau diagramme de Venn](https://www.threadless.com/product/3052/hell_maybe/tab,walls/style,vertical-print).
+[très beau diagramme de Venn](https://www.threadless.com/shop/@threadless/design/hell-maybe/home/fine-art-print).
 
 ## Set d'icônes gratuit
 
 Se rendre
-[ici](http://www.smashingmagazine.com/2010/12/23/free-icon-set-for-web-developers-coded/).
+[ici](https://www.smashingmagazine.com/2010/12/free-icon-set-for-web-developers-coded/).
 
 (via Webdesigner Depot)
 

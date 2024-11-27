@@ -19,7 +19,7 @@ TP était : puis-je faire la même chose en HTML ?
 Le HTML présente de nombreux avantages :
 
 - on peut y insérer du
-  [web sémantique](http://fr.wikipedia.org/wiki/Web_s%C3%A9mantique)
+  [web sémantique](https://fr.wikipedia.org/wiki/Web_s%C3%A9mantique)
 - on peut y ajouter de l'interactivité
 
 Aujourd'hui, je me suis principalement intéressé au web sémantique. Le résultat
