@@ -3,4 +3,5 @@
 http://blog.bootstragram.com/* https://bootstragram.com/:splat 301!
 https://blog.bootstragram.com/* https://bootstragram.com/:splat 301!
 
+https://bootstragram.com/blog/* https://mickf.net/tech/:splat 301!
 https://bootstragram.com/* https://mickf.net/tech/:splat 301!
