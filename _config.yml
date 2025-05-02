@@ -4,7 +4,6 @@ repository:
   url: https://github.com/dirtyhenry/tech-articles
   name: dirtyhenry/tech-articles
 url: https://mickf.net
-baseurl: /tech
 description: >-
   Notes for myself and fellow programmers, 
   with a focus on iOS, Swift and web frontend development. 
