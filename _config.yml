@@ -3,13 +3,13 @@ lang: en
 repository:
   url: https://github.com/dirtyhenry/tech-articles
   name: dirtyhenry/tech-articles
-url: https://bootstragram.com
+url: https://mickf.net
+baseurl: /tech
 description: >-
   Notes for myself and fellow programmers, 
   with a focus on iOS, Swift and web frontend development. 
   Since 2009.
-permalink: /blog/:title/
-baseurl: /
+permalink: /:title/
 destination: ./_site
 markdown: CommonMark
 exclude:

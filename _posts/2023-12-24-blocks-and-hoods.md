@@ -88,6 +88,6 @@ I will detail how these work in the future.
 [2]:
   https://swiftpackageindex.com/dirtyhenry/swift-blocks/0.2.0/documentation/blocks/calendar
 [3]: https://github.com/dirtyhenry/swift-blocks/releases/tag/0.2.0
-[4]: https://bootstragram.com/blog/side-projects-2022/
+[4]: https://mickf.net/tech/side-projects-2022/
 [5]: https://github.com/dirtyhenry/swift-blocks
 [6]: https://github.com/dirtyhenry/swift-hoods

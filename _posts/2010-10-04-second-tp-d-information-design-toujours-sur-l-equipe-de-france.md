@@ -75,6 +75,6 @@ commentaires.
 [→ Volume 3][tp3]
 
 [1]: ../../assets/images/fff-selection-by-mick.png
-[tp1]: https://bootstragram.com/blog/premiers-pas-en-design-de-l-information/
-[tp3]: https://bootstragram.com/blog/troisieme-tp-d-information-design/
-[tp4]: https://bootstragram.com/blog/quatrieme-tp-d-information-design/
+[tp1]: https://mickf.net/tech/premiers-pas-en-design-de-l-information/
+[tp3]: https://mickf.net/tech/troisieme-tp-d-information-design/
+[tp4]: https://mickf.net/tech/quatrieme-tp-d-information-design/

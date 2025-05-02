@@ -39,7 +39,7 @@ web sémantique que j'y ai introduit (là aussi, il peut être largement amélio
 
 [→ Volume 4][tp4]
 
-[tp1]: https://bootstragram.com/blog/premiers-pas-en-design-de-l-information/
+[tp1]: https://mickf.net/tech/premiers-pas-en-design-de-l-information/
 [tp2]:
-  https://bootstragram.com/blog/second-tp-d-information-design-toujours-sur-l-equipe-de-france/
-[tp4]: https://bootstragram.com/blog/quatrieme-tp-d-information-design/
+  https://mickf.net/tech/second-tp-d-information-design-toujours-sur-l-equipe-de-france/
+[tp4]: https://mickf.net/tech/quatrieme-tp-d-information-design/

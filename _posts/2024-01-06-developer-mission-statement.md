@@ -108,7 +108,7 @@ also contributes positively to the future.
 [4]: https://www.statium.app/newsletter
 [5]: https://www.statium.app/newsletter/posts/newsletter-222
 [6]: https://www.statium.app/
-[7]: https://bootstragram.com/blog/side-projects-2022/
+[7]: https://mickf.net/tech/side-projects-2022/
 [8]: https://indieweb.org/POSSE
 [9]: https://buttondown.email/
 [10]: https://micro.blog/

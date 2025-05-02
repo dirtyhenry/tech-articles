@@ -40,8 +40,8 @@ vous intéresse, je vous recommande le site suivant : [flowingdata.com][2].
 
 [→ Volume 2][tp2]
 
-[tp1]: https://bootstragram.com/blog/premiers-pas-en-design-de-l-information/
+[tp1]: https://mickf.net/tech/premiers-pas-en-design-de-l-information/
 [tp2]:
-  https://bootstragram.com/blog/second-tp-d-information-design-toujours-sur-l-equipe-de-france/
-[tp3]: https://bootstragram.com/blog/troisieme-tp-d-information-design/
-[tp4]: https://bootstragram.com/blog/quatrieme-tp-d-information-design/
+  https://mickf.net/tech/second-tp-d-information-design-toujours-sur-l-equipe-de-france/
+[tp3]: https://mickf.net/tech/troisieme-tp-d-information-design/
+[tp4]: https://mickf.net/tech/quatrieme-tp-d-information-design/
