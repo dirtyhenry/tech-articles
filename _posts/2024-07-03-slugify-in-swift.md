@@ -6,7 +6,6 @@ author: Mick F
 excerpt: >-
   Foundation's `applyingTransform` function can help create slugs in Swift
   without external dependencies. Here's how.
-image: cover.webp
 category: Open Sourcing
 tags:
   - iOS
