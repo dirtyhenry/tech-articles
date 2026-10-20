@@ -1,36 +1,14 @@
-# My Technical Articles
+# My Technical Articles — archived
 
-Hi, I'm Mick. I'm a developer from Paris. This is the home to my professional
-and hobbyist software engineering adventures.
+This repository is archived. The Tech Blog is still published at
+[mickf.net/tech][1], but its sources moved to a private repository; new Posts
+and fixes happen there.
 
-I sometimes share it with [zertyuio](https://github.com/zertyuio), who was my
-associate when we ran a company together, from 2014 to 2017.
-
-This repository contains [mickf.net/tech][1]'s code.
-
-It is about side-projects, iOS, Rails, JS, and whatever technical subject you
-can meet when you're a developer.
-
-## Installation
-
-This website is built with [Jekyll][jekyll]. To install and run it, just run
-
-```bash
-make install
-make run
-```
-
-The website is deployed via Netlify.
-
-## Contributing
-
-The website does not support comments, but pull requests & issues are welcome.
+The Jekyll sources here are kept for history only; nothing is deployed from
+this repository anymore.
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 [1]: https://mickf.net/tech/
-[jekyll]:
-  https://jekyllrb.com
-  "Transform your plain text into static websites and blogs."
